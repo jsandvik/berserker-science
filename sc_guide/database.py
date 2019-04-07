@@ -15,7 +15,6 @@ def uses_db(func):
     @wraps(func)
     def context(*args, **kwargs):
         with db() as new_session:
-            print(new_session)
             session = kwargs.get('session', None)
 
             if session is None:
