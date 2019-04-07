@@ -1,6 +1,7 @@
 from __future__ import with_statement
 
 from logging.config import fileConfig
+from sqlalchemy.engine import create_engine
 from sqlalchemy import engine_from_config
 from sqlalchemy import pool
 from alembic import context
@@ -25,6 +26,8 @@ fileConfig(config.config_file_name)
 # target_metadata = mymodel.Base.metadata
 from sc_guide import models
 target_metadata = models.Base.metadata
+
+# set DATABASE_URL to be 
 
 # other values from the config, defined by the needs of env.py,
 # can be acquired:
@@ -60,11 +63,7 @@ def run_migrations_online():
     and associate a connection with the context.
 
     """
-    connectable = engine_from_config(
-        config.get_section(config.config_ini_section),
-        prefix="sqlalchemy.",
-        poolclass=pool.NullPool,
-    )
+    connectable = create_engine(os.getenv('DATABASE_URL'))
 
     with connectable.connect() as connection:
         context.configure(
