@@ -1,1 +1,1 @@
-web: gunicorn app:app
+web: gunicorn sc_guide.app:app
