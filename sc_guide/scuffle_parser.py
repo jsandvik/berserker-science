@@ -1,5 +1,4 @@
 def parse_scuffle_string(scuffle_string):
-    print(scuffle_string)
     split_string = [s.strip() for s in scuffle_string.split("|")]
 
     # scuffle prints blank for counter hit frames when they equal natural hit frames
@@ -8,6 +7,15 @@ def parse_scuffle_string(scuffle_string):
     counter_frames = split_string[6]
     if counter_frames == '':
         counter_frames = hit_frames
+    
+    # remove possible non-numbers from frame data
+    # add these in elsewhere as properties later
+    hit_frames = hit_frames.replace("LNC", "")
+    counter_frames = counter_frames.replace("LNC", "")
+    hit_frames = hit_frames.replace("KND", "")
+    counter_frames = counter_frames.replace("KND", "")
+    hit_frames = hit_frames.replace("STN", "")
+    counter_frames = counter_frames.replace("STN", "")
 
     return {
         "command": split_string[1],

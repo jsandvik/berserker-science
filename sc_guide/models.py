@@ -7,6 +7,7 @@ Base = declarative_base()
 class Character(Base):
     __tablename__ = "characters"
     character_id = Column(Integer, primary_key=True, autoincrement=True)
+    name = Column(String, nullable=False)
 
     moves = relationship("Move", back_populates="character")
 

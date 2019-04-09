@@ -14,7 +14,15 @@ def hello_world():
 def moves(session=None):
     moves = [{
         "moveId": move.move_id,
-        "notation": move.notation,
-        "impactFrames": move.impact_frames
+        "character": {
+            "characterId": move.character.character_id,
+            "characterName": move.character.name
+        },
+        "command": move.command,
+        "impactFrames": move.impact_frames,
+        "blockFrames": move.block_frames,
+        "hitFrames": move.hit_frames,
+        "counterFrames": move.counter_frames,
+        "damage": move.damage
     } for move in session.query(Move)]
     return jsonify(moves)
