@@ -1,4 +1,6 @@
-def parse_scuffle_string(scuffle_string):
+from collections import defaultdict
+
+def parse_scuffle_move(scuffle_string):
     split_string = [s.strip() for s in scuffle_string.split("|")]
 
     # scuffle prints blank for counter hit frames when they equal natural hit frames
@@ -26,10 +28,24 @@ def parse_scuffle_string(scuffle_string):
         "damage": split_string[7],
     }
 
+def parse_scuffle_category(scuffle_string):
+    start_index = scuffle_string.find('[') + 1
+    end_index = scuffle_string.find(']')
+
+    return scuffle_string[start_index:end_index]
+
 def parse_scuffle_output(path):
-    results = []
+    results = defaultdict(list)
+    category_name = "Undefined"
     with open(path, "r") as f:
         for line in f.read().split("\n"):
-            results.append(parse_scuffle_string(line))
+            stripped_line = line.strip()
+
+            if stripped_line == "":
+                continue
+            elif stripped_line.startswith("["):
+                category_name = parse_scuffle_category(stripped_line)
+            else:
+                results[category_name].append(parse_scuffle_move(stripped_line))
     
     return results
