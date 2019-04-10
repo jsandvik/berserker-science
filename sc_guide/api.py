@@ -22,7 +22,9 @@ def moves(session=None):
         "impactFrames": move.impact_frames,
         "blockFrames": move.block_frames,
         "hitFrames": move.hit_frames,
+        "hitProperty": move.hit_property,
         "counterFrames": move.counter_frames,
+        "counterProperty": move.counter_property,
         "damage": move.damage
     } for move in session.query(Move)]
     return jsonify(moves)

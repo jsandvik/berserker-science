@@ -29,8 +29,8 @@ def upgrade():
     sa.Column('command', sa.String(), nullable=False),
     sa.Column('impact_frames', sa.Integer(), nullable=False),
     sa.Column('block_frames', sa.Integer(), nullable=False),
-    sa.Column('hit_frames', sa.Integer(), nullable=False),
-    sa.Column('counter_frames', sa.Integer(), nullable=False),
+    sa.Column('hit_frames', sa.Integer(), nullable=True),
+    sa.Column('counter_frames', sa.Integer(), nullable=True),
     sa.Column('damage', sa.Integer(), nullable=False),
     sa.ForeignKeyConstraint(['character_id'], ['characters.character_id'], ),
     sa.PrimaryKeyConstraint('move_id')

@@ -40,7 +40,9 @@ def main(session=None):
                     impact_frames=move_data["impactFrames"],
                     block_frames=move_data["blockFrames"],
                     hit_frames=move_data["hitFrames"],
+                    hit_property=move_data["hitProperty"],
                     counter_frames=move_data["counterFrames"],
+                    counter_property=move_data["counterProperty"],
                     damage=move_data["damage"]
                 )
                 session.add(move)

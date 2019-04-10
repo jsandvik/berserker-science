@@ -27,8 +27,10 @@ class Move(Base):
     command = Column(String, nullable=False)
     impact_frames = Column(Integer, nullable=False)
     block_frames = Column(Integer, nullable=False)
-    hit_frames = Column(Integer, nullable=False)
-    counter_frames = Column(Integer, nullable=False)
+    hit_frames = Column(Integer)
+    counter_frames = Column(Integer)
+    hit_property = Column(String)
+    counter_property = Column(String)
     damage = Column(Integer, nullable=False)
 
     character = relationship("Character", back_populates="moves")
