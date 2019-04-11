@@ -1,4 +1,5 @@
 from collections import defaultdict
+from sc_guide.constants import AttackTypes
 
 def parse_scuffle_move(scuffle_string):
     split_string = [s.strip() for s in scuffle_string.split("|")]
@@ -31,8 +32,23 @@ def parse_scuffle_move(scuffle_string):
     else:
         counter_frames = None
 
+    # determine move's attack type
+    attack_type = None
+    attack_type_string = split_string[3]
+    if "low" in attack_type_string and not "slow" in attack_type_string:
+        attack_type = AttackTypes.low
+    elif "mid" in attack_type_string and not "smid" in attack_type_string:
+        attack_type = AttackTypes.middle
+    elif "high" in attack_type_string:
+        attack_type = AttackTypes.high
+    elif "sl" in attack_type_string or "slow" in attack_type_string:
+        attack_type = AttackTypes.special_low
+    elif "sm" in attack_type_string or "smid" in attack_type_string:
+        attack_type = AttackTypes.special_middle
+
     return {
         "command": split_string[1],
+        "attackType": attack_type,
         "impactFrames": split_string[2],
         "blockFrames": split_string[4],
         "hitFrames": hit_frames,

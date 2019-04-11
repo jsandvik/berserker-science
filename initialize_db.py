@@ -1,9 +1,9 @@
-from create_app import create_app
-from database import uses_db
+from sc_guide.create_app import create_app
+from sc_guide.database import uses_db
 from os import listdir
 from os.path import isfile, join, splitext, basename
-from scuffle_parser import parse_scuffle_output
-from models import Move, Character, Category
+from sc_guide.scuffle_parser import parse_scuffle_output
+from sc_guide.models import Move, Character, Category
 
 @uses_db
 def main(session=None):
@@ -37,6 +37,7 @@ def main(session=None):
                     character_id=character.character_id,
                     category_id=category.category_id,
                     command=move_data["command"],
+                    attack_type=move_data["attackType"],
                     impact_frames=move_data["impactFrames"],
                     block_frames=move_data["blockFrames"],
                     hit_frames=move_data["hitFrames"],

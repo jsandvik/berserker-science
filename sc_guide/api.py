@@ -19,6 +19,7 @@ def moves(session=None):
             "characterName": move.character.name
         },
         "command": move.command,
+        "attackType": move.attack_type.value if move.attack_type is not None else None,
         "impactFrames": move.impact_frames,
         "blockFrames": move.block_frames,
         "hitFrames": move.hit_frames,

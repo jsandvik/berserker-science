@@ -1,6 +1,7 @@
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
-from sqlalchemy import Column, Integer, String, ForeignKey
+from sqlalchemy import Column, Integer, String, ForeignKey, Enum
+from sc_guide.constants import AttackTypes
 
 Base = declarative_base()
 
@@ -25,6 +26,7 @@ class Move(Base):
     character_id = Column(Integer, ForeignKey('characters.character_id'))
     category_id = Column(Integer, ForeignKey('categories.category_id'))
     command = Column(String, nullable=False)
+    attack_type = Column(Enum(AttackTypes))
     impact_frames = Column(Integer, nullable=False)
     block_frames = Column(Integer, nullable=False)
     hit_frames = Column(Integer)
