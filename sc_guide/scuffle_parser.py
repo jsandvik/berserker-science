@@ -23,39 +23,59 @@ def parse_scuffle_move(scuffle_string):
     
     # if property is set, then null out number of frames
     if hit_property is None:
-        hit_frames = int(hit_frames)
+        try:
+            hit_frames = int(hit_frames)
+        except ValueError:
+            hit_frames = None
     else:
         hit_frames = None
 
     if counter_property is None:
-        counter_frames = int(counter_frames)
+        try:
+            counter_frames = int(counter_frames)
+        except ValueError:
+            counter_frames = None
     else:
         counter_frames = None
 
     # determine move's attack type
-    attack_type = None
+    attack_types = []
     attack_type_string = split_string[3]
-    if "low" in attack_type_string and not "slow" in attack_type_string:
-        attack_type = AttackTypes.low
-    elif "mid" in attack_type_string and not "smid" in attack_type_string:
-        attack_type = AttackTypes.middle
-    elif "high" in attack_type_string:
-        attack_type = AttackTypes.high
-    elif "sl" in attack_type_string or "slow" in attack_type_string:
-        attack_type = AttackTypes.special_low
-    elif "sm" in attack_type_string or "smid" in attack_type_string:
-        attack_type = AttackTypes.special_middle
+    for attack_type in attack_type_string.split(","):
+        if "low" in attack_type and not "slow" in attack_type:
+            attack_types.append(AttackTypes.low.value)
+        elif "mid" in attack_type and not "smid" in attack_type:
+            attack_types.append(AttackTypes.middle.value)
+        elif "high" in attack_type:
+            attack_types.append(AttackTypes.high.value)
+        elif "sl" in attack_type or "slow" in attack_type:
+            attack_types.append(AttackTypes.special_low.value)
+        elif "sm" in attack_type or "smid" in attack_type:
+            attack_types.append(AttackTypes.special_middle.value)
+
+    damage_nums = split_string[7].split(",")
+
+    try:
+        impact_frames = int(split_string[2])
+    except ValueError:
+        impact_frames = None
+
+    try:
+        block_frames = int(split_string[4])
+    except ValueError:
+        block_frames = None
 
     return {
         "command": split_string[1],
-        "attackType": attack_type,
-        "impactFrames": split_string[2],
-        "blockFrames": split_string[4],
+        "attackTypes": attack_types,
+        "impactFrames": impact_frames,
+        "blockFrames": block_frames,
         "hitFrames": hit_frames,
         "hitProperty": hit_property,
         "counterFrames": counter_frames,
         "counterProperty": counter_property,
-        "damage": split_string[7],
+        "damage": damage_nums,
+        "gapFramge": []
     }
 
 def parse_scuffle_category(scuffle_string):
@@ -65,8 +85,8 @@ def parse_scuffle_category(scuffle_string):
     return scuffle_string[start_index:end_index]
 
 def parse_scuffle_output(path):
-    results = defaultdict(list)
-    category_name = "Undefined"
+    results = []
+    category_name = None
     with open(path, "r") as f:
         for line in f.read().split("\n"):
             stripped_line = line.strip()
@@ -76,6 +96,8 @@ def parse_scuffle_output(path):
             elif stripped_line.startswith("["):
                 category_name = parse_scuffle_category(stripped_line)
             else:
-                results[category_name].append(parse_scuffle_move(stripped_line))
+                move = parse_scuffle_move(stripped_line)
+                move["category"] = category_name
+                results.append(move)
     
     return results

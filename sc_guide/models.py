@@ -1,39 +1,19 @@
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import relationship
-from sqlalchemy import Column, Integer, String, ForeignKey, Enum
 from sc_guide.constants import AttackTypes
+from mongoengine import connect, Document, StringField, IntField, ListField
+import os
 
-Base = declarative_base()
+connect('berserker-science', host=os.getenv("MONGODB_URI"))
 
-class Character(Base):
-    __tablename__ = "characters"
-    character_id = Column(Integer, primary_key=True, autoincrement=True)
-    name = Column(String, nullable=False)
-
-    moves = relationship("Move", back_populates="character")
-
-class Category(Base):
-    __tablename__ = "categories"
-    category_id = Column(Integer, primary_key=True, autoincrement=True)
-    name = Column(String, nullable=False)
-
-    moves = relationship("Move", back_populates="category")
-
-class Move(Base):
-    __tablename__ = "moves"
-
-    move_id = Column(Integer, primary_key=True, autoincrement=True)
-    character_id = Column(Integer, ForeignKey('characters.character_id'))
-    category_id = Column(Integer, ForeignKey('categories.category_id'))
-    command = Column(String, nullable=False)
-    attack_type = Column(Enum(AttackTypes))
-    impact_frames = Column(Integer, nullable=False)
-    block_frames = Column(Integer, nullable=False)
-    hit_frames = Column(Integer)
-    counter_frames = Column(Integer)
-    hit_property = Column(String)
-    counter_property = Column(String)
-    damage = Column(Integer, nullable=False)
-
-    character = relationship("Character", back_populates="moves")
-    category = relationship("Category", back_populates="moves")
+class Move(Document):
+    command = StringField(required=True)
+    character = StringField(required=True)
+    category = StringField()
+    attack_types = ListField(StringField(choices=[e.value for e in AttackTypes]))
+    impact_frames = IntField()
+    block_frames = IntField()
+    hit_frames = IntField()
+    counter_frames = IntField()
+    hit_property = StringField()
+    counter_property = StringField()
+    damage = ListField(IntField())
+    gap_frames = ListField(IntField())

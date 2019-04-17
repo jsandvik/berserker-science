@@ -1,12 +1,14 @@
 from sc_guide.create_app import create_app
-from sc_guide.database import uses_db
 from os import listdir
 from os.path import isfile, join, splitext, basename
 from sc_guide.scuffle_parser import parse_scuffle_output
-from sc_guide.models import Move, Character, Category
+from sc_guide.models import Move
 
-@uses_db
-def main(session=None):
+def main():
+    # drop collections before rebuilding it
+    print("Dropping collection")
+    Move.drop_collection()
+
     path = join(app.root_path, "frame_data/")
 
     files = []
@@ -14,39 +16,28 @@ def main(session=None):
         filepath = join(path, f)
         if isfile(filepath):
             files.append(filepath)
-
+    
+    print("Rebuilding collections")
     for f in files:
         print("Parsing: ", f)
         character_name = basename(splitext(f)[0])
 
-        character = Character(name=character_name)
-        session.add(character)
-        session.flush()
-
-        output = parse_scuffle_output(f)
-        for category_name, moves in output.items():
-            # add category if doesn't exist yet
-            category = session.query(Category).filter_by(name=category_name).one_or_none()
-            if category is None:
-                category = Category(name=category_name)
-                session.add(category)
-                session.flush()
-
-            for move_data in moves:
-                move = Move(
-                    character_id=character.character_id,
-                    category_id=category.category_id,
-                    command=move_data["command"],
-                    attack_type=move_data["attackType"],
-                    impact_frames=move_data["impactFrames"],
-                    block_frames=move_data["blockFrames"],
-                    hit_frames=move_data["hitFrames"],
-                    hit_property=move_data["hitProperty"],
-                    counter_frames=move_data["counterFrames"],
-                    counter_property=move_data["counterProperty"],
-                    damage=move_data["damage"]
-                )
-                session.add(move)
+        for move_data in parse_scuffle_output(f):
+            print(move_data)
+            move = Move(
+                character=character_name,
+                category=move_data["category"],
+                command=move_data["command"],
+                attack_types=move_data["attackTypes"],
+                impact_frames=move_data["impactFrames"],
+                block_frames=move_data["blockFrames"],
+                hit_frames=move_data["hitFrames"],
+                hit_property=move_data["hitProperty"],
+                counter_frames=move_data["counterFrames"],
+                counter_property=move_data["counterProperty"],
+                damage=move_data["damage"]
+            )
+            move.save()
 
 if __name__ == "__main__":
     app = create_app()
