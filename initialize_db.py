@@ -23,7 +23,6 @@ def main():
         character_name = basename(splitext(f)[0])
 
         for move_data in parse_scuffle_output(f):
-            print(move_data)
             move = Move(
                 character=character_name,
                 category=move_data["category"],
