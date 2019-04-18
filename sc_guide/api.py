@@ -21,6 +21,7 @@ def moves(session=None):
         "hitProperty": move.hit_property,
         "counterFrames": move.counter_frames,
         "counterProperty": move.counter_property,
-        "damage": move.damage
+        "damage": move.damage,
+        "gapFrames": move.gap_frames
     } for move in Move.objects]
     return jsonify(moves)

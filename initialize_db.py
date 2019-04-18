@@ -34,7 +34,8 @@ def main():
                 hit_property=move_data["hitProperty"],
                 counter_frames=move_data["counterFrames"],
                 counter_property=move_data["counterProperty"],
-                damage=move_data["damage"]
+                damage=move_data["damage"],
+                gap_frames=move_data["gapFrames"]
             )
             move.save()
 
