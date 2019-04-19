@@ -1,6 +1,7 @@
 from flask import jsonify, request
 from sc_guide.create_app import create_app
 from sc_guide.models import Move
+import math
 
 app = create_app()
 
@@ -25,7 +26,7 @@ def moves(session=None):
     if size is not None and page is not None:
         # get total pages for frontend to know how many pages exist
         count = query.count()
-        num_pages = count // size
+        num_pages = math.ceil(count / size)
 
         # slice current page results
         offset = page * size
