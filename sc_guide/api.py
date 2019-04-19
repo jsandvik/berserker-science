@@ -21,7 +21,13 @@ def moves(session=None):
 
     query = Move.objects(**filter_args)
 
+    count = None
     if size is not None and page is not None:
+        # get total pages for frontend to know how many pages exist
+        count = query.count()
+        num_pages = count // size
+
+        # slice current page results
         offset = page * size
         query = query.skip(offset).limit(size)
 
@@ -39,4 +45,12 @@ def moves(session=None):
         "damage": move.damage,
         "gapFrames": move.gap_frames
     } for move in query]
-    return jsonify(moves)
+
+    results = {
+        "moves": moves
+    }
+
+    if count is not None:
+        results["numPages"] = num_pages
+
+    return jsonify(results)
