@@ -12,8 +12,15 @@ def hello_world():
 def moves(session=None):
     size = request.args.get("size", None, int)
     page = request.args.get("page", None, int)
+    character = request.args.get("character", None, str)
 
-    query = Move.objects
+    filter_args = {}
+
+    if character is not None:
+        filter_args["character"] = character
+
+    query = Move.objects(**filter_args)
+
     if size is not None and page is not None:
         offset = page * size
         query = query.skip(offset).limit(size)
