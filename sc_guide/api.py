@@ -1,4 +1,4 @@
-from flask import jsonify
+from flask import jsonify, request
 from sc_guide.create_app import create_app
 from sc_guide.models import Move
 
@@ -10,6 +10,14 @@ def hello_world():
 
 @app.route('/moves/')
 def moves(session=None):
+    size = request.args.get("size", None, int)
+    page = request.args.get("page", None, int)
+
+    query = Move.objects
+    if size is not None and page is not None:
+        offset = page * size
+        query = query.skip(offset).limit(size)
+
     moves = [{
         "character": move.character,
         "category": move.category,
@@ -23,5 +31,5 @@ def moves(session=None):
         "counterProperty": move.counter_property,
         "damage": move.damage,
         "gapFrames": move.gap_frames
-    } for move in Move.objects]
+    } for move in query]
     return jsonify(moves)
