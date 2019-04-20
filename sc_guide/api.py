@@ -14,6 +14,7 @@ def moves(session=None):
     size = request.args.get("size", None, int)
     page = request.args.get("page", None, int)
     character = request.args.get("character", None, str)
+    order_by = request.args.getlist("order_by", str)
 
     filter_args = {}
 
@@ -21,6 +22,10 @@ def moves(session=None):
         filter_args["character"] = character
 
     query = Move.objects(**filter_args)
+
+    # optional: handle sorting
+    if order_by:
+        query = query.order_by(*order_by)
 
     count = None
     if size is not None and page is not None:
