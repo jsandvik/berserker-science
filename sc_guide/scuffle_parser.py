@@ -53,9 +53,16 @@ def parse_scuffle_move(scuffle_string):
         elif "sm" in attack_type or "smid" in attack_type:
             attack_types.append(AttackTypes.special_middle.value)
 
-    damage_nums = [int(num) for num in split_string[7].split(",")]
-    gap_frames = [int(num) for num in split_string[12].split(",")]
+    try:
+        damage_nums = [int(num) for num in split_string[7].split(",")]
+    except ValueError:
+        damage_nums = []
     
+    try:
+        gap_frames = [int(num) for num in split_string[12].split(",")]
+    except ValueError:
+        gap_frames = []
+
     # edge case... if list is just one 0 just remove it
     # try to clean up scuffle files to remove 0 when no gap frames exist
     if len(gap_frames) == 1 and gap_frames[0] == 0:
