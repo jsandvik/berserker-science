@@ -1,5 +1,5 @@
 from collections import defaultdict
-from sc_guide.constants import AttackTypes
+from sc_guide.constants import AttackTypes, MoveProperty
 
 def parse_scuffle_move(scuffle_string):
     split_string = [s.strip() for s in scuffle_string.split("|")]
@@ -52,6 +52,16 @@ def parse_scuffle_move(scuffle_string):
             attack_types.append(AttackTypes.special_low.value)
         elif "sm" in attack_type or "smid" in attack_type:
             attack_types.append(AttackTypes.special_middle.value)
+    
+    # determine a move's property
+    move_properties = []
+    if len(split_string) > 14:
+        move_property_string = split_string[14]
+        for move_property in move_property_string.split(","):
+            try:
+                move_properties.append(MoveProperty[move_property.strip()].value)
+            except KeyError:
+                pass
 
     try:
         damage_nums = [int(num) for num in split_string[7].split(",")]
@@ -81,6 +91,7 @@ def parse_scuffle_move(scuffle_string):
     return {
         "command": split_string[1],
         "attackTypes": attack_types,
+        "moveProperties": move_properties,
         "impactFrames": impact_frames,
         "blockFrames": block_frames,
         "hitFrames": hit_frames,

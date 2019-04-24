@@ -42,6 +42,7 @@ def moves(session=None):
         "category": move.category,
         "command": move.command,
         "attackTypes": move.attack_types,
+        "moveProperties": move.move_properties,
         "impactFrames": move.impact_frames,
         "blockFrames": move.block_frames,
         "hitFrames": move.hit_frames,

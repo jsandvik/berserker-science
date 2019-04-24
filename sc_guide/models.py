@@ -1,4 +1,4 @@
-from sc_guide.constants import AttackTypes
+from sc_guide.constants import AttackTypes, MoveProperty
 from mongoengine import connect, Document, StringField, IntField, ListField
 import os
 
@@ -9,6 +9,7 @@ class Move(Document):
     character = StringField(required=True)
     category = StringField()
     attack_types = ListField(StringField(choices=[e.value for e in AttackTypes]))
+    move_properties = ListField(StringField(choices=[e.value for e in MoveProperty]))
     impact_frames = IntField()
     block_frames = IntField()
     hit_frames = IntField()

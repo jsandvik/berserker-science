@@ -27,6 +27,7 @@ def main():
                 character=character_name,
                 category=move_data["category"],
                 command=move_data["command"],
+                move_properties=move_data["moveProperties"],
                 attack_types=move_data["attackTypes"],
                 impact_frames=move_data["impactFrames"],
                 block_frames=move_data["blockFrames"],

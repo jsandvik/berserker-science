@@ -1,8 +1,19 @@
 import enum
 
 class AttackTypes(enum.Enum):
-    low = "low"
-    middle = "middle"
-    high = "high"
-    special_middle = "special middle"
-    special_low = "special low"
+    low = "L"
+    middle = "M"
+    high = "H"
+    special_middle = "SM"
+    special_low = "SL"
+
+class MoveProperty(enum.Enum):
+    BA = "BA"
+    RE = "RE"
+    SS = "SS"
+    TH = "TH"
+    LH = "LH"
+    SG = "SG"
+    SC = "SC"
+    GI = "GI"
+    UA = "UA"
