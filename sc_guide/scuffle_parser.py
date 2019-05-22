@@ -4,6 +4,9 @@ from sc_guide.constants import AttackTypes, MoveProperty
 def parse_scuffle_move(scuffle_string):
     split_string = [s.strip() for s in scuffle_string.split("|")]
 
+    if len(split_string) < 2:
+        return None
+
     # scuffle prints blank for counter hit frames when they equal natural hit frames
     # so just copy natural hit frames in that case
     hit_frames = split_string[5]
@@ -121,7 +124,8 @@ def parse_scuffle_output(path):
                 category_name = parse_scuffle_category(stripped_line)
             else:
                 move = parse_scuffle_move(stripped_line)
-                move["category"] = category_name
-                results.append(move)
+                if move is not None:
+                    move["category"] = category_name
+                    results.append(move)
     
     return results
