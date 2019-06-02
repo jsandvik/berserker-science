@@ -43,6 +43,15 @@ def moves(session=None):
         offset = page * size
         query = query.skip(offset).limit(size)
 
+    # im tired and just want this to work. this is bad. replace later
+    def temp(combos):
+        return [{
+            "commands": combo.commands,
+            "damage": combo.damage,
+            "condition": combo.condition,
+            "notes": combo.notes,
+        } for combo in combos]
+
     moves = [{
         "character": move.character,
         "category": move.category,
@@ -56,7 +65,8 @@ def moves(session=None):
         "counterFrames": move.counter_frames,
         "counterProperty": move.counter_property,
         "damage": move.damage,
-        "gapFrames": move.gap_frames
+        "gapFrames": move.gap_frames,
+        "combos": temp(move.combos),
     } for move in query]
 
     results = {

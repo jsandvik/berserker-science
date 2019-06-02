@@ -111,6 +111,28 @@ def parse_scuffle_category(scuffle_string):
 
     return scuffle_string[start_index:end_index]
 
+def parse_combo(combo_string):
+    split_string = [s.strip() for s in combo_string.split("|")]
+
+    commands = split_string[0]
+    try:
+        damage = int(split_string[1])
+    except ValueError:
+        damage = None
+
+    condition = split_string[2]
+
+    notes = ""
+    if len(split_string) > 3:
+        notes = split_string[3]
+
+    return {
+        "commands": commands,
+        "damage": damage,
+        "condition": condition,
+        "notes": notes
+    }
+
 def parse_scuffle_output(path):
     results = []
     category_name = None
@@ -128,4 +150,25 @@ def parse_scuffle_output(path):
                     move["category"] = category_name
                     results.append(move)
     
+    return results
+
+def parse_combo_file(path):
+    results = defaultdict(list)
+
+    starting_move = None
+    with open(path, "r") as f:
+        for line in f.read().split("\n"):
+            stripped_line = line.strip()
+
+            if stripped_line == "":
+                continue
+            elif stripped_line.startswith("//"):
+                continue
+            elif stripped_line.startswith("#"):
+                starting_move = stripped_line[1:]
+            else:
+                combo = parse_combo(stripped_line)
+                if combo is not None:
+                    results[starting_move].append(combo)
+
     return results

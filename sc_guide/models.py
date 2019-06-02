@@ -1,8 +1,14 @@
 from sc_guide.constants import AttackTypes, MoveProperty
-from mongoengine import connect, Document, StringField, IntField, ListField
+from mongoengine import connect, Document, StringField, IntField, ListField, EmbeddedDocumentField, EmbeddedDocument
 import os
 
 connect('berserker-science', host=os.getenv("MONGODB_URI"))
+
+class Combo(EmbeddedDocument):
+    commands = StringField(required=True)
+    damage = IntField()
+    condition = StringField(choices=["NC", "NCC", "LH"])
+    notes = StringField()
 
 class Move(Document):
     command = StringField(required=True)
@@ -18,3 +24,4 @@ class Move(Document):
     counter_property = StringField()
     damage = ListField(IntField())
     gap_frames = ListField(IntField())
+    combos = ListField(EmbeddedDocumentField(Combo))

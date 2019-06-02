@@ -1,24 +1,47 @@
 from sc_guide.create_app import create_app
 from os import listdir
 from os.path import isfile, join, splitext, basename
-from sc_guide.scuffle_parser import parse_scuffle_output
-from sc_guide.models import Move
+from sc_guide.scuffle_parser import parse_scuffle_output, parse_combo_file
+from sc_guide.models import Move, Combo
 
 def main():
     # drop collections before rebuilding it
-    print("Dropping collection")
+    print("Clearing database")
     Move.drop_collection()
 
-    path = join(app.root_path, "frame_data/")
-
-    files = []
-    for f in listdir(path):
-        filepath = join(path, f)
+    frame_data_path = join(app.root_path, "frame_data/")
+    frame_data_files = []
+    for f in listdir(frame_data_path):
+        filepath = join(frame_data_path, f)
         if isfile(filepath):
-            files.append(filepath)
+            frame_data_files.append(filepath)
     
-    print("Rebuilding collections")
-    for f in files:
+    combos_path = join(app.root_path, "combos/")
+    combo_files = []
+    for f in listdir(combos_path):
+        filepath = join(combos_path, f)
+        if isfile(filepath):
+            combo_files.append(filepath)
+
+    print("Parsing Combos")
+    combos = {}
+    for f in combo_files:
+        print("Parsing: ", f)
+        character_name = basename(splitext(f)[0])
+
+        for starting_move, combo_data in parse_combo_file(f).items():
+            combo_list = []
+            for combo in combo_data:
+                combo_list.append(Combo(
+                    commands=combo["commands"],
+                    damage=combo["damage"],
+                    condition=combo["condition"],
+                    notes=combo["notes"]
+                ))
+            combos[(character_name, starting_move)] = combo_list
+
+    print("Parsing Frame Data")
+    for f in frame_data_files:
         print("Parsing: ", f)
         character_name = basename(splitext(f)[0])
 
@@ -36,7 +59,8 @@ def main():
                 counter_frames=move_data["counterFrames"],
                 counter_property=move_data["counterProperty"],
                 damage=move_data["damage"],
-                gap_frames=move_data["gapFrames"]
+                gap_frames=move_data["gapFrames"],
+                combos=combos.get((character_name, move_data["command"]), [])
             )
             move.save()
 
