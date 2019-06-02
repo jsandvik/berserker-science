@@ -1,0 +1,27 @@
+[A]
+AA | 22 | NC
+
+[6A]
+6AA | 38 | NCC
+
+[B]
+BB | 28 | NC
+
+[6B]
+6BB  | 32 | NC
+6BB6 | 32 | NC
+
+[3B]
+3B 44B+K  | | NC
+3B 66B+K  | | NC
+3B 66B+K6 | | NC
+3B 6BB    | | NC
+3B 6BB6   | | NC
+3B A+B+K  | | NC
+
+[1B]
+1BB | 44 | NCC
+
+[WR B6]
+WR B6 AVG BB |  | NCC
+
