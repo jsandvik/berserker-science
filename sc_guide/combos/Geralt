@@ -1,0 +1,66 @@
+#A
+AA | 24 | NC
+
+#6A
+6A B | 34 | NC
+
+#1A
+1AB | 43 | NCC
+1AA | 41 | NCC
+
+#4A
+4AAA | 43 | NCC | (requires JF)
+4AA | 28 | NCC
+
+#B
+BB | 28 | NC
+
+#6B
+6BB | 34 | NC
+6B[B] 66BB | 64 | NC | (requires ~1/4 meter and gives back ~1/8)
+
+#3B
+3B 6AB | 51 | NC
+3B 6B+KB 44BB | 79 | NC | (only works when opponent is in SC.  Rings out over small walls)
+
+#4K
+4KK A | 44 | NC
+4KK A+B | 60 | NCC
+
+#6K
+6K 2B | 29 | NCC
+// guessing on this one
+
+#6B+K
+6B+KB | 27 | NC
+
+#BT B+K
+B+KB | 51 | NC
+
+#33_66_99A
+33_66_99AK | 34 | NC
+33_66_99AA | 30 | NC
+
+#66B
+66BA | 44 | NC
+66BA | 34 | NC
+
+#33_99B
+33_99BB 6B[B] 66BB | 67 | NC | (requires ~1/8 meter. ends with marginally less meter than before combo)
+33_99BB 6B | 50 | NC
+33_99B 1K | 40 | NC | (can ring out at some angles)
+33_99B 6B[B] 1K | 64 | NC | (can ring out at some angles.  requires ~1/8 meter. ends with ~1/8 less than before combo)
+
+#22B
+//not listed for some reason.  but some moves do seem to combo?
+22B 3B | 55 | NC
+
+#44B
+44BB | 32 | NC
+
+#44K
+44K A | 44 | NC
+44K A+B | 60 | NCC
+
+#66B+K
+//Can't find any info.
