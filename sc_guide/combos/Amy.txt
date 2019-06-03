@@ -1,0 +1,70 @@
+#A
+AK | 22 | NC
+AB | 18 | NC
+AA | 16 | NC
+AAA | 33 | NCC
+
+#6A
+6AA | 20 | NC
+6AAA | 37 | NCC
+
+#WC3A
+WC3AA | 24 | NC
+
+#B
+BA | 28 | NC
+BB | 24 | NC
+
+#6B
+6BB | 14 | NC
+6BBB | 31 | NCC
+
+#3B
+3BB | 40 | NC
+
+#666B
+666BA | 35 | NC
+666BB | 21 | NC | (Gives Red Rose, Requires JF for max damage)
+
+#WRB
+WRBB | 22 | NC
+
+#4K
+4KK | 23 | NCC
+
+#WRK
+WRKA | 26 | NCC
+
+#6A+B
+6A+BA | 41 | NCC
+
+#6A+BA
+6A+BA | 29 | NC
+
+#8A+B
+// no idea
+
+#BTB+K
+// no idea
+
+#44A
+44ABA | 50 | NC
+
+#22_88B
+// no idea
+
+#44B
+//
+
+#44K
+//
+
+#66A+B
+66A+B BTB+K | | NC
+
+#33_66_99B+K
+//
+
+#22_88B+K
+//
+
