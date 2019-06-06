@@ -22,6 +22,9 @@ BB | 24 | NC
 #3B
 3BB | 40 | NC
 
+#1B
+1B - 6[B+K] | NC | Gives red rose
+
 #666B
 666BA | 35 | NC
 666BB | 21 | NC | (Gives Red Rose, Requires JF for max damage)
@@ -34,6 +37,11 @@ WRBB | 22 | NC
 
 #WRK
 WRKA | 26 | NCC
+
+#A+B
+A+B - 8B+K - HP A - BT B+K6 - AS RRP A+B | 93 | LH | Max damage, requires max RRP
+A+B - 8B+K - HP A - BT B+K6 - AS A+B | 79 | LH | Gives red rose
+A+B - 8B+K - HP A - BT B+K6 - AS KB | 74 | LH | Gives white rose
 
 #6A+B
 6A+BA | 41 | NCC
@@ -51,7 +59,9 @@ WRKA | 26 | NCC
 44ABA | 50 | NC
 
 #22_88B
-// no idea
+22_88B - 66B+K6 - AS A+B | 68 | NC | Max damage, requires max RRP
+22_88B - 66B+K6 - AS A+B | 45 | NC | Gives red rose
+22_88B - 66B+K6 - AS KB | 37 | NC | Gives white rose
 
 #44B
 //
