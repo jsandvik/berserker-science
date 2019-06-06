@@ -23,7 +23,7 @@ BB | 24 | NC
 3BB | 40 | NC
 
 #1B
-1B - 6[B+K] | NC | Gives red rose
+1B - 6[B+K] |  | NC | Gives red rose
 
 #666B
 666BA | 35 | NC
