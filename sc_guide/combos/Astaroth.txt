@@ -87,3 +87,55 @@ WRB 2B+K4A+G | 74 | NC
 
 #WRK[A]
 4K[A] 44B | 63 | NCC
+
+#A+B
+A+B 4B | 55 | NC
+
+#2B+K
+2B+K 4A+G | 58 | NC
+2B+K 6A+G | 58 | NC
+2B+K A+G | 58 | NC
+2B+K 4B | 51 | NC
+2B+K 3A+G | 46 | NC
+
+#4B+K
+4B+K B A+B | 76 | NC | (Requires close range for B to become attack throw)
+4B+K B 4A+G | 67 | NC | (Requires close range for B to become attack throw)
+
+#7_8_9[B+K]
+7_8_9[B+K] 2A+G | | (block) // ??
+7_8_9[B+K] 1A+G | | (block) // ??
+
+#236B+K
+236B+K 28A+G | | NC | (Requires JF for max damage)
+
+#BT B+K
+BT B+K A+B | | NC
+
+#66A
+66AB | 58 | NC
+66A[B] | 86 | NCC
+
+#22_88A
+22_88AA | 37 | NC
+
+#66B
+66B 2A | 51 | NCC
+
+#11B
+11BK BT B+K A+B | 78 | NC
+
+#44[B]
+44[B] 4B | 80 | NC
+
+#66K
+66K 4A | 36 | NC
+
+#66[K]
+//will do later
+
+#22K
+22K 4B | 35 | NC
+
+#666K
+666K 3A+G | 36 | NC
