@@ -1,0 +1,48 @@
+
+#3A
+3AA | 52 | NC
+
+#6A
+6AA | 54 | NCC
+
+#WRA
+WRAA | 55 | NCC
+
+#B
+BB | 56 | NC
+Bb4 NBS A | 51 | NC
+
+#6B
+6BB | 38 | NC
+
+#FC3B
+FC3B 1A | 65 | NC
+FC3B 2A+B | 72 | NC | (Step forward after 2A+B)
+FC3B 66B | 65 | NC
+
+#4K
+4KB | 37 | NC
+4KK | 46 | NCC | (Triggers Terror Charge)
+
+#22A
+22AA | 52 | NCC
+
+#66A
+66AB | 67 | NC
+
+#44A
+44A 66B |  | NC
+
+#66[B]
+66[B] NBS B | 51 | NC
+
+#44B
+44BB | 55 | NC
+
+#NLS B
+NLS B KK 2A+B | | 
+
+GS B
+GS B iagA | |
+
+

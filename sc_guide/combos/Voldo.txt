@@ -1,0 +1,37 @@
+#A
+ABA | 40 | NCC
+AA | 36 | NCC
+
+#AB
+ABA | 26 | NC
+
+#6A
+6AA | 47 | NCC
+
+#BTA
+BTAA | 22 | NC
+
+#BT6A
+BT6AA | 36 | NC
+BT6AA | 62 | NCC
+
+#BT6AA
+BT6AA | 48 | NC
+
+#B
+BB | 34 | NC
+
+#6B
+6BB | 36 | NCC
+6B[B]666 | 48 | NCC //don't know the notation for this
+6[B]? |  | NCC
+
+#3B
+3B 666B 6BB | 60 | NC
+3B 666B 1BBB | | NC
+3B 666B 1A+B | 55 | NC| (Pressing BS)
+3B[B] 3A+B | | NC
+3B[B] 44B | | NC | (Pressing BS)
+3B[B] 6BB | | NC | (Possible MC, possible cancel CR)
+3B[B] 66K | | NC
+
