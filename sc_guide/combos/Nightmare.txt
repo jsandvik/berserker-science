@@ -42,7 +42,7 @@ FC3B 66B | 65 | NC
 #NLS B
 NLS B KK 2A+B | | 
 
-GS B
+#GS B
 GS B iagA | |
 
 
