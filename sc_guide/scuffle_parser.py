@@ -121,6 +121,8 @@ def parse_combo(combo_string):
         damage = None
 
     condition = split_string[2]
+    if condition not in ['NC', 'NCC', 'LH']:
+        condition = None
 
     notes = ""
     if len(split_string) > 3:
