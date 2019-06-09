@@ -1,0 +1,94 @@
+#A
+AA | 16 | NC
+AAB | 36 | NCC
+AAK | 34 | NCC
+
+#6A
+6ABBB | 39 | NCC
+
+#6AB
+6ABBB | 30 | NC
+
+#FC3A
+FC3AK | 36 | NCC
+
+#WRA
+WRAA | 26 | NC
+WRAAA | 59 | NCC
+
+#WJA
+WJA FC 2A+G 1B | | NC
+WJA FC 2A+G 6KK | | NC
+
+#B
+BA | 22 | NC
+BK | 38 | NC
+BAK | 56 | NCC
+
+#BB
+BBBB | 24 | NC
+
+#6B
+6BB | 30 | NCC
+
+#2B
+2BA | 24 | NC
+
+#3B //Check doc for notes on these combos.  I think a few are fake
+3B AAA | | NC
+3B A:6 Windroll 4 PO 6~ | | NCC
+3B A:6 3B B+K K | | NCC
+3B A:6 Windroll B | | NCC
+3B 66K | | NCC
+3B B+K A+G | | NCC
+3B B+K KA K2 | | NCC
+3B B+K KA A:6 Windroll 4 PO 6~ | | NCC
+3B B+K KA A:6 3B B+K K | | NCC
+3B B+K KA A:6 Windroll B | | NCC
+
+#4B
+4BA | 20 | NC
+
+#WRB
+WRBB | 32 | NC
+
+#WJB
+WJBB | 32 | NC
+
+#BTB
+BTBA | 26 | NC
+
+#K
+KK | 20 | NC
+KKK | 35 | NCC
+KK2K | 30 | NC
+
+#6K
+6KA | 25 | NC
+
+#3K
+3kK | 20 | NC
+
+#4K
+4KK | 37 | NCC
+
+#WRK  //Check doc for notes on these combos.  I think one or two are fake
+WRK 3B B+K KA K2 | | NCC
+WRK 3B B+K KA A:6 Windroll 4 PO 6~ | | NCC
+WRK 3B B+K KA A:6 3B B+K K | | NCC
+WRK 3B B+K KA A:6 Windroll B | | NCC
+
+#FC3K
+FC3KK | 29 | NCC
+
+#BTK
+//look at doc
+
+#WJK
+WJKKK | 40 | NCC
+
+#WJKK
+WJKKK | 24 | NC
+
+
+
