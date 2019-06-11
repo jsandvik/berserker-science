@@ -3,6 +3,10 @@ AA | 22 | NC
 
 #6A
 6AA | 38 | NCC
+SC 6AA6 - SoN K | 69 | NCC | Requires soul charge
+
+#1A
+SC 1AK | 78 | NC | Requires soul charge 
 
 #B
 BB | 28 | NC
@@ -12,15 +16,49 @@ BB | 28 | NC
 6BB6 | 32 | NC
 
 #3B
-3B 44B+K  | | NC
-3B 66B+K  | | NC
-3B 66B+K6 | | NC
-3B 6BB    | | NC
-3B 6BB6   | | NC
-3B A+B+K  | | NC
+3B 44B+K  | 49 | NC | Ringouts in front
+3B 66B+K6 | 46 | NC | Enters Avenger
+SC 3BB | 80 | NC | Requires soul charge
+3B A+B+K  | 84 | NC | Uses 1 meter
+3B SC A+B+K | 114 | NC | Requires soul charge, uses 1 meter
 
 #1B
 1BB | 44 | NCC
+SC 1BB6 - SoN K | 88 | NCC | Requires soul charge
+
+#4B
+4B - 8A+B6 | 68 | LH | Only on close hit
+4B - 66K - 8B+K - 66B+K | 72 | LH | 
+4B - A+B+K | 81 | LH | Uses 1 meter
+4B - SC A+B+K | 104 | LH | Requires soul charge, uses 1 meter
 
 #WR B6
-WR B6 AVG BB |  | NCC
+WR B6 AVG BB | 51 | NCC
+
+#A+B
+A+B - 8A+B6 | 83 | LH |
+A+B - A+B+K | 102 | LH | Uses 1 meter
+A+B - SC A+B+K | 128 | LH | Requires soul charge, uses 1 meter
+
+#A+B6
+A+B6 - AVG BB | 62 | NC | Ringouts in front
+A+B6 - AVG B+K - 44B | 88 | LH
+
+#6A+B
+6A+B - 6B+K - AVG B+K - 44B | 78 | LH
+
+#4A+B
+4A+B - 44B+K | 56 | NC | Ringouts in front
+4A+B - 66B+K6 | 53 | NC | Enters Avenger
+4A+B - A+B+K | 83 | NC | Uses 1 meter
+4A+B - SC A+B+K | 112 | NC | Requires soul charge, uses 1 meter
+
+#6B+K
+6B+K - AVG A+B - 66B+K | 65 | NC |
+
+#4B+K
+4B+K - 8A+B6 | 66 | LH
+4B+K - 66K - 8B+K - 66B+K | 70 | LH | Slightly higher damage but inconsistent
+
+#BT B+K
+BT B+K - 6B+K - AVG B+K - 44B | 74 | NC
