@@ -2,7 +2,13 @@
 AA | 20 | NC
 
 #6A
- | | 
+6AA BT K BT BB | 66 | NCC
+6AA BT K BT B+K | 61 | NCC
+6AA JF 4BB BT B+K | 73 | NCC (?????)
+6AB 6K | 43 | NCC (gives one curse)
+
+#6AA
+6AA BT K BT B+K | 50 | NC
 
 #3A
 3AB | 37 | NC
@@ -16,19 +22,49 @@ BB | 28 | NC
 6BK | 32 | NC
 
 #3B
- | |
+3B/22B - 46B - 8B+K	56	[Vortex]
+3B/22B - B:K - 46B/:B - 66B	60	Forward RO
+3B/22B - B:K - 8B+K	54	Vortex
+3B/22B - 46BB TS2 - 2A+B - 66A+B / 8B+K	91	/Vortex
+3B - 46BB TS2 - 2A+B - 22A [TT] - 8A+B - 66A+B / 8B+K	125	Tech Trap
  
  #4B
- 4BB | 40 | NCC ? | (needs JF for full combo)
+4B:B BT K BT BB |  | NCC ? | (needs JF for full combo)
+4B:B BT K BT B+K |  | NCC ? | (needs JF for full combo)
  
  #46B
- 46B |  | 
+46BB TS1 - [66A+B] / 6BB	61	
+46BB TS2 - [2A+B] - 66A+B	85	[Close Hit]
+46BB TS2 - [2A+B] - 22A [TT] - 8A+B - 66A+B / 8B+K	125	Tech Trap
+ 
+ #1B
+ 1BB TS2 - [3AB] / 46B	43	RO | NC | ( /Forward )
+1BB TS3 - 6B+KA - 6K	62	 | NC | (Curses)
+ 1B 8B+K
+ 1B 66A+BB TS3 G 2A+B 66A+B | | NCC
+ 1B 66A+BB TS3 G 2A+B 8B+K | | NCC
+ 1B 66A+BB TS3 G 2A+B 22A [TT] 8A+B 66A+B | | NCC
+ 1B 66A+BB TS3 G 2A+B 22A [TT] 8A+B 8B+K | | NCC
+1B CH - [66A+BB TS1 - BT BB]	71	
+1B CH - [66A+BB TS3 - G - 2A+B - 66A+B / 8B+K]	87	/Vortex
+
  
  #BT B
  BT BB | 42 | NC
+BT BB - 8B+K	64	Vortex
+BT BB - 8B+K - (BT B+K)	80	Ends Vortex
+BT BB - 46BB TS1 - 2A+B - 66A+B / 8B+K	112	/Vortex
+BT BB - 46BB TS1 - 2A+B - 22A [TT] - 8B+K - 66A+B / 8B+K	148	Tech Trap
+BT BB - 66A+BB TS3 - G - 2A+B - 66A+B  / 8B+K	138	/Vortex
  
  #K
  KK | 22 | NC
  
  #WRK
  WRKB | 34 | NC
+ 
+ #FC3K
+ FC3K 6K | | 
+ 
+ #BT 2K
+ BT 2K - WR 8B+K
