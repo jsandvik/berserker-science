@@ -8,7 +8,7 @@ AA | 41 | NCC
 
 #3A
 3A 4B | 44 | NCC
-3A 3A+G | 38 | NCC | (requires opponent facing forward)
+3A 3A+G | 38 | NCC | (3A+G misses when other player is not facing forward)
 
 #1[A]
 1[A]A | 59 | NC
@@ -50,6 +50,18 @@ BB6 22K 11BK | 58 | NCC
 6B 22K 22B | 72 | NCC
 6B 22K 11BK | 68 | NCC
 // More to come
+SC6BA 3A+G | 96 | NCC (3A+G misses when other player is not facing forward) (consumes ~1/2 SC meter)
+SC6BA 1B | 102 | NCC (consumes ~1/2 SC meter)
+SC6BB | 56 | NC (consumes ~1/4 SC meter)
+
+
+#6[B]
+6B 22K 22B | 72 | NCC
+6B 22K 11BK | 68 | NCC
+// More to come
+SC6BA 3A+G | 104 | NCC (3A+G misses when other player is not facing forward) (consumes ~3/4 SC meter)
+SC6BA 1B | 110 | NCC | (consumes ~3/4 SC meter)
+SC6[B]B | 58 | NC |  (consumes ~1/4 SC meter)
 
 #3B
 3B 66B | 56 | NC
@@ -129,7 +141,7 @@ BT B+K A+B | | NC
 44[B] 4B | 80 | NC
 
 #66K
-66K 4A | 36 | NC
+66K 4A | 36 | NC (need to be very close when 66K hits)
 
 #66[K]
 //will do later
@@ -138,11 +150,12 @@ BT B+K A+B | | NC
 22K 4B | 35 | NC
 
 #666K
-666K 3A+G | 36 | NC
+666K 3A+G | 36 | NC | (3A+G misses when other player is not facing forward)
 
 #214A+G
 214A+G 22B | 77 | NC | (Requires JF for max damage)
 214A+G 11BK | 73 | NC | (Requires JF for max damage)
+214A+G SC22B 28A+G | 103 | NC | (Requires JF for max damage) (consumes ~1/2 SC meter)
 
 #RE K
 RE K 3K | | NC
@@ -158,6 +171,7 @@ LH K 4B | 90 | NC | (Yells "INSOLENT LITTLE...!)
 
 #LH A+B //Triggers on impact counter
 LH A+B 22B | 95 | LH
+LH A+B 44K A+B | 88 | LH | (need slight delay before 44K)
 // more...
 
 #LH 6A+B //
