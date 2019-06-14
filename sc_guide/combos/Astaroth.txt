@@ -78,11 +78,15 @@ SC6[B]B | 58 | NC |  (consumes ~1/4 SC meter)
 WRB 2B+K4A+G | 79 | NCC
 
 #WR[B]
-WRB 2B+K4A+G | 74 | NC
+WR[B] 2B+K 4A+G | 74 | NC
+WR[B] 214A | 102 | LH
+// more..?
 
 #[K]
 [K] 3A+G | 86 | NC
 [K] 4B | 90 | NC
+[K] 3A+G | 86 | NC | (Yells "INSOLENT LITTLE...!)
+[K] 4B | 90 | NC | (Yells "INSOLENT LITTLE...!)
 
 #44K
 44K 22B | 59 | NCC
@@ -102,6 +106,15 @@ WRB 2B+K4A+G | 74 | NC
 
 #A+B
 A+B 4B | 55 | NC
+A+B 22B | 95 | LH
+A+B 44K A+B | 88 | LH | (need slight delay before 44K)
+// more...
+
+#6A+B //
+6A+B B6B 3K |  | LH | (wiffs against some characters. Mostly the larger ones)
+6A+B B6B 2A+G | 73 | LH | (breakable grab)
+6A+B B6B 1A+G | 78 | LH | (breakable grab)
+6A+B 2B+K 4A+G | 60 | LH | (Can ringout and W! behind)
 
 #2B+K
 2B+K 4A+G | 58 | NC
@@ -113,6 +126,11 @@ A+B 4B | 55 | NC
 #4B+K
 4B+K B A+B | 76 | NC | (Requires close range for B to become attack throw)
 4B+K B 4A+G | 67 | NC | (Requires close range for B to become attack throw)
+
+#LH 6[B+K]
+6[B+K] B6B 2A+G | 78 | LH
+6[B+K] B6B 1A+G | 81 | LH
+//forgot the NC combo? 4B?
 
 #7_8_9[B+K]
 7_8_9[B+K] 2A+G | | (block) // ??
@@ -133,6 +151,8 @@ BT B+K A+B | | NC
 
 #66B
 66B 2A | 51 | NCC
+66B 22B | 82 | LH
+66B 11BK | 78 | LH
 
 #11B
 11BK BT B+K A+B | 78 | NC
@@ -140,11 +160,15 @@ BT B+K A+B | | NC
 #44[B]
 44[B] 4B | 80 | NC
 
+#22B
+22B JF 28A+G | 107 | LH | (Requires JF for max damage)
+
 #66K
 66K 4A | 36 | NC (need to be very close when 66K hits)
 
 #66[K]
 //will do later
+66[K] | | LH // honestly forgot
 
 #22K
 22K 4B | 35 | NC
@@ -157,6 +181,10 @@ BT B+K A+B | | NC
 214A+G 11BK | 73 | NC | (Requires JF for max damage)
 214A+G SC22B 28A+G | 103 | NC | (Requires JF for max damage) (consumes ~1/2 SC meter)
 
+#4A+G //Against air opponent
+4A+G 44K 44B | 87 | LH
+4A+G 44K A+B | 88 | LH //I think if they tech twice in the same direction they may be able to get out
+
 #RE K
 RE K 3K | | NC
 RE K 2A+G | | NC 
@@ -164,47 +192,7 @@ RE K 1A+G | | NC
 RE K 3K | | B //On block....
 RE K 2A+G | | B 
 RE K 1A+G | | B 
+RE K 214A | | LH
 
-#LH K //LH requires opponent has 2 bars of meter)
-LH K 3A+G | 86 | NC | (Yells "INSOLENT LITTLE...!)
-LH K 4B | 90 | NC | (Yells "INSOLENT LITTLE...!)
-
-#LH A+B //Triggers on impact counter
-LH A+B 22B | 95 | LH
-LH A+B 44K A+B | 88 | LH | (need slight delay before 44K)
-// more...
-
-#LH 6A+B //
-LH 6A+B B6B 3K |  | LH | (wiffs against some characters. Mostly the larger ones)
-LH 6A+B B6B 2A+G | 73 | LH | (breakable grab)
-LH 6A+B B6B 1A+G | 78 | LH | (breakable grab)
-LH 6A+B 2B+K 4A+G | 60 | LH | (Can ringout and W! behind)
-
-#LH 6[B+K]
-LH 6[B+K] B6B 2A+G | 78 | LH
-LH 6[B+K] B6B 1A+G | 81 | LH
-
-#LH WR[B] //Triggers on impact counter
-LH WR[B] 214A| 102 | LH
-// more...
-
-#LH 66B
-LH 66B 22B | 82 | LH
-LH 66B 11BK | 78 | LH
-
-#LH 22B
-LH 22B JF 28A+G | 107 | LH | (Requires JF for max damage)
-
-#LH 66[K]
-LH 66[K] // honestly forgot
-
-#LH 4A+G //Against air opponent
-LH4A+G 44K 44B | 87 | LH
-LH4A+G 44K A+B | 88 | LH //I think if they tech twice in the same direction they may be able to get out
-
-#LH RE A
-LH RE A 22B | | LH 
-
-#LH RE K
-LH RE K 214A | | LH
-
+#RE A
+RE A 22B | | LH 
