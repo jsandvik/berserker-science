@@ -22,9 +22,14 @@ BT6AA | 48 | NC
 BB | 34 | NC
 
 #6B
+6B 6BB | 43 | NCC | (6B 6B[B] MCFT BB tech trap all side)
+6B CR A+B | 48 | NCC | (RO)
 6BB | 36 | NCC
 6B[B]666 | 48 | NCC //don't know the notation for this
 6[B]? |  | NCC
+
+#2B
+2BB | 34 | NC
 
 #3B
 3B 666B 6BB | 60 | NC
@@ -35,3 +40,20 @@ BB | 34 | NC
 3B[B] 6BB | | NC | (Possible MC, possible cancel CR)
 3B[B] 66K | | NC
 
+#1B
+1BBB | 39 | NCC
+
+#1BB
+1BBB | 24 | NC
+
+#4B
+4BA | 22 | NC
+
+#WRB
+ |  | NC
+
+#WR[B]
+ |  | NC
+ 
+#6K
+6K 6BB | 47 | NCC
