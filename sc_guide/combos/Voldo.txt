@@ -50,10 +50,17 @@ BB | 34 | NC
 4BA | 22 | NC
 
 #WRB
- |  | NC
+WR B 4 BCR B 236BBB | 70 | NC // How do I even do this
+// more...
 
 #WR[B]
- |  | NC
+WR[B] MCFT B 66B 6BB | 61 | NC
+WR[B] MCFT A MCFT 4K | 53 | NC | (Reverse ringout)
+WR[B] MCFT 66 MCFT B+K MCHT K8~3 |  | NC // WTF IS THIS
  
 #6K
 6K 6BB | 47 | NCC
+
+#666K
+666K 1A_B BS 66BB | 60 | NC | (Does not work against every character)
+666K 1A+B BS 6BB | 58 | NC | (Right or back tech against some characters) (whatever that means)
