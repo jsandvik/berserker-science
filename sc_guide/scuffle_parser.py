@@ -114,6 +114,9 @@ def parse_scuffle_category(scuffle_string):
 def parse_combo(combo_string):
     split_string = [s.strip() for s in combo_string.split("|")]
 
+    if len(split_string) < 2:
+        return None
+
     commands = split_string[0]
     try:
         damage = int(split_string[1])
@@ -121,7 +124,7 @@ def parse_combo(combo_string):
         damage = None
 
     condition = split_string[2]
-    if condition not in ['NC', 'NCC', 'LH']:
+    if condition not in ['NC', 'NCC', 'LH', 'B']:
         condition = None
 
     notes = ""
@@ -161,6 +164,11 @@ def parse_combo_file(path):
     with open(path, "r") as f:
         for line in f.read().split("\n"):
             stripped_line = line.strip()
+
+            # get rid of comments
+            comments_index = stripped_line.find("//")
+            if comments_index != -1:
+                stripped_line = stripped_line[:comments_index]
 
             if stripped_line == "":
                 continue

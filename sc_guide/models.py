@@ -7,7 +7,7 @@ connect('berserker-science', host=os.getenv("MONGODB_URI"))
 class Combo(EmbeddedDocument):
     commands = StringField(required=True)
     damage = IntField()
-    condition = StringField(choices=["NC", "NCC", "LH"])
+    condition = StringField(choices=["NC", "NCC", "LH", "B"])
     notes = StringField()
 
 class Move(Document):
