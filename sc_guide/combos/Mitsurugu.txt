@@ -1,0 +1,60 @@
+#A
+AA | 26 | NC
+
+#1A
+
+#1AB
+1AB 1BB | 64 | NC
+
+#3A
+3A CE | | NCC
+3A 2A | | NCC
+
+#4A
+4A MST BB | | NCC
+
+#WRA
+WRAA | 41 | NC
+
+#B
+#BB | 30 | NC
+
+#B6
+B6 1BB | | NCC
+
+#6B
+6BB MST BB |  | NC
+6B[B] MST 6B |  | NC
+6B[B] MST BBBB |  | NC
+
+#3B
+3B 236B | | 
+3B 66K | | NC (really good for oki)
+3B 66BB | | NC (only works near the wall)
+
+#1B
+1BB | 51 | NC
+
+#1B A+B
+1B A+B RLC AA RLC B |  | NC
+
+#7_8_9B
+7_8_9B 2B |  | NC
+
+#WRB
+CH WRB 2B |  | NCC
+
+#WRB 2B //I'm too lazy for this
+CH WRB 2B |  | NCC
+
+#bK
+bK | 62 | NCC
+
+#1K
+1KB | 44 | NC
+
+#4K
+4KB | 48 | NC
+
+// Dual Button
+
