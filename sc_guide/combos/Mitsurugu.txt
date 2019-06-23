@@ -2,9 +2,12 @@
 AA | 26 | NC
 
 #1A
+//Missing one?
+1A kB 66A+B | | LH
 
 #1AB
 1AB 1BB | 64 | NC
+1AB B+K:B kB 66A+B | | LH
 
 #3A
 3A CE | | NCC
@@ -17,10 +20,12 @@ AA | 26 | NC
 WRAA | 41 | NC
 
 #B
-#BB | 30 | NC
+BB | 30 | NC
+B2B 8A+B 2B | | LH
 
 #B6
 B6 1BB | | NCC
+B6 66A+B 1BA+B | | LH
 
 #6B
 6BB MST BB |  | NC
@@ -31,12 +36,17 @@ B6 1BB | | NCC
 3B 236B | | 
 3B 66K | | NC (really good for oki)
 3B 66BB | | NC (only works near the wall)
+SC3BB 236B 1BB | | 
+3B B+K:B kB 66A+B | | LH (Near wall)
+3B B+K:B kB 66BB | | LH (Near wall)
+
 
 #1B
 1BB | 51 | NC
 
 #1B A+B
 1B A+B RLC AA RLC B |  | NC
+1BA+B RLC A+B RLC K | | LH
 
 #7_8_9B
 7_8_9B 2B |  | NC
@@ -58,6 +68,9 @@ bK | 62 | NCC
 
 // Dual Button
 
+#A+B
+A+B kB 66A+B | | LH
+
 #B+K 
 B+K B | 40 | NC (requires JF) (first hit doesn't combo)
 B+K B | 54 | NCC (requires JF)
@@ -66,6 +79,9 @@ B+K B | 54 | NCC (requires JF)
 
 #66A
 66AA | 26 | NC
+
+#22_88A
+22_88A B+K:B kB 66A+B | | LH
 
 #66B
 66BB | 40 | NC
@@ -78,6 +94,7 @@ B+K B | 54 | NCC (requires JF)
 22_88B 2A+B | | NC
 22_88B 2B | | NC
 22_88B 1BB | | NC
+SC 22_88BB 236A:AB BT B+K 66B | | 
 
 #77_44_11B
 77_44_11BA | | NC
@@ -92,6 +109,7 @@ B+K B | 54 | NCC (requires JF)
 #66A+B
 66A+B 1BA+B | | 
 66A+B 1BB | |  
+SC66A+B 66BB | | 
 
 // Special Moves
 
@@ -118,4 +136,5 @@ MST A+B 1BA+B | | NC
 #RLC A
 RLC AA RLC K | |  (weird range)
 
-
+#RLC B
+RLC B 66A+B | | LH
