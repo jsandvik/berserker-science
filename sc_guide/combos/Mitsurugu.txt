@@ -58,3 +58,39 @@ bK | 62 | NCC
 
 // Dual Button
 
+#B+K 
+B+K B | 40 | NC (requires JF) (first hit doesn't combo)
+B+K B | 54 | NCC (requires JF)
+
+// 8-Way Run
+
+#66A
+66AA | 26 | NC
+
+#66B
+66BB | 40 | NC
+
+#66[B]
+66[B] RLC RLC AA RLC B | | (IV Wind’s note: 99_33(B) also work but doing either of these will give you an automatic Tech Jump(99) or Tech Crouch(33) to avoid this when after you input 33 or 99 and are holding B, hold forward as well and you should be able to do the combo.)
+
+#22_88B
+22_88B 66B | | NC
+22_88B 2A+B | | NC
+22_88B 2B | | NC
+22_88B 1BB | | NC
+
+#77_44_11B
+77_44_11BA | | NC
+77_44_11B[A] MST BB  | 46 | NC
+
+#33K
+33K 1A | 46 | NCC
+
+#11_44_77K
+11_44_77K B | 48 | NC
+
+#66A+B
+66A+B 1BA+B | | 
+66A+B 1BB | |  
+
+// Special Moves
