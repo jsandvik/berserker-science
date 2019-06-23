@@ -94,3 +94,28 @@ B+K B | 54 | NCC (requires JF)
 66A+B 1BB | |  
 
 // Special Moves
+
+#236A
+236AA| 34 | NC (requires JF)
+
+#MST B
+MST BB | 16 | NC
+MST BBBB | 38 | NCC
+MST BBB 2B | 30 | NCC
+
+#MST [B]
+MST [B] RLC B |  | NCC
+
+#MST K
+MST KB 66BB MST BBBB | | NCC
+
+#MST A+B
+MST A+B CE | | NC
+MST A+B 1BA+B | | NC
+
+//Should check other Relic combos
+
+#RLC A
+RLC AA RLC K | |  (weird range)
+
+
