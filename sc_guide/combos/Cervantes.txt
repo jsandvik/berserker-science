@@ -1,0 +1,58 @@
+#A
+AA | 26 | NC
+
+#6A
+6AB | 46 | NCC
+
+#1A
+1A WRB | | 
+1aBB DC B BT B+K 2A+B | | 
+1aBB DC B BT B+K SC 1KBB | | 
+1aB | 22 | NC
+
+#WR A
+WR A 6BB | | NC
+WR A 6AB | | NC
+WR A CE | | NC (+2 shots)
+
+#B
+BB | 22 | NC
+BBB | 60 | NCC
+
+#B2
+
+#bA
+bA 3B | | NC
+bA 2A+B | | NC (requires microwalk before 2A+B)
+bA SC 1KBB | | NC (+1 Shot)
+
+#bK
+
+#6B
+6BB | 48 | NCC
+6[B] A+B | 73 | NC
+
+#3B
+| |
+
+#1B
+1B (stuff) | | (against downed opponents)
+
+#4B
+4BBB | 48 | NCC (requires JF for max damage)
+4BK | 32 | NCC
+
+#WR B
+WR B aB | | NC
+WR B 2A+B | | NC
+WR B CE | | NC
+
+#kA
+
+#4K
+4KK | 39 | NCC
+
+#1K
+1K 2A+B | | NCC
+1K HiGDR | | NCC
+
