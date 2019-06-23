@@ -3,59 +3,62 @@ AA | 26 | NC
 
 #1A
 //Missing one?
-1A kB 66A+B | | LH
+1A kB 66A+B | 86 | LH
 
 #1AB
 1AB 1BB | 64 | NC
-1AB B+K:B kB 66A+B | | LH
+1AB B+K:B kB 66A+B | 109 | LH (requires JF)
 
 #3A
-3A CE | | NCC
-3A 2A | | NCC
+3A CE | 52 | NCC
+3A 2A | 21 | NCC
 
 #4A
-4A MST BB | | NCC
+4A MST BB | 40 | NCC
 
 #WRA
 WRAA | 41 | NC
 
 #B
 BB | 30 | NC
-B2B 8A+B 2B | | LH
 
 #B6
-B6 1BB | | NCC
-B6 66A+B 1BA+B | | LH
+B6 1BB | 51 | NCC
+B6 66A+B 1BA+B | 98 | LH
 
 #6B
-6BB MST BB |  | NC
-6B[B] MST 6B |  | NC
-6B[B] MST BBBB |  | NC
+6BB MST BB | 40 | NC
+
+#6B[B]
+6B[B] MST 6B | 65 | NC
+6B[B] MST BBBB | 49 | NC
 
 #3B
-3B 236B | | 
-3B 66K | | NC (really good for oki)
-3B 66BB | | NC (only works near the wall)
-SC3BB 236B 1BB | | 
-3B B+K:B kB 66A+B | | LH (Near wall)
-3B B+K:B kB 66BB | | LH (Near wall)
+(ce 71)
+3B 236B | 51 | 
+3B 66K | 38 | NC (really good for oki)
+3B 66BB | 52 | NC (only works near the wall)
+SC3BB 236B 1BB | 80 |  NC
+3B B+K:B kB 66A+B | 94 | LH 
+3B B+K:B kB 66BB | 89 | LH (Near wall)
 
 
 #1B
 1BB | 51 | NC
 
 #1B A+B
-1B A+B RLC AA RLC B |  | NC
+1B A+B RLC AA RLC B | 82 | NC
 1BA+B RLC A+B RLC K | | LH
 
 #7_8_9B
-7_8_9B 2B |  | NC
+7_8_9B 2B | 39 | NC
 
 #WRB
 CH WRB 2B |  | NCC
 
 #WRB 2B //I'm too lazy for this
 CH WRB 2B |  | NCC
+B2B 8A+B 2B |  | LH
 
 #bK
 bK | 62 | NCC
