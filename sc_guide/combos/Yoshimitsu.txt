@@ -1,0 +1,53 @@
+#A
+AA | 18 | NC
+
+#6A
+6AA | 44 | NCC
+6AB | 52 | NCC
+
+#3A
+3AB | 36 | NC
+3AA | 24 | NC
+
+#2aB
+2aB Ba | 54 | NCC // Need to try with the JF version.  probably 55 damage
+
+#4A
+4AAA | 25 | NC
+4AAAAA | 49 | NCC
+
+#214A
+||
+
+#FCaB
+WCaB Ba |  | NCC
+
+#FC1A
+FC1AAA | 28 | NC
+FC1AAAAA | 43 | NCC
+
+#WRA
+||
+
+#B
+BB | | NC
+BBB | | NCC
+BBB | | LH
+
+#6B
+6BBBB | 50 | NCC
+6BB | 20 | NC
+
+#6BBB
+6BBBB | 27 | NC
+
+#3B
+3BB | 50 | NC
+3[B] A+B | 57 | NC // that weird move where he says a thing or falls over
+
+#1B
+1BA | 28 | NC
+
+#WRB
+||
+
