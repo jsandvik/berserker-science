@@ -53,12 +53,10 @@ SC3BB 236B 1BB | 80 |  NC
 #7_8_9B
 7_8_9B 2B | 39 | NC
 
-#WRB
-CH WRB 2B |  | NCC
-
 #WRB 2B //I'm too lazy for this
-CH WRB 2B |  | NCC
-B2B 8A+B 2B |  | LH
+WRB 2B | 38 | NCC
+
+// I don't know what I meant by this: B2B 8A+B 2B |  | LH
 
 #bK
 bK | 62 | NCC
@@ -72,7 +70,7 @@ bK | 62 | NCC
 // Dual Button
 
 #A+B
-A+B kB 66A+B | | LH
+A+B kB 66A+B | 98 | LH
 
 #B+K 
 B+K B | 40 | NC (requires JF) (first hit doesn't combo)
@@ -84,23 +82,23 @@ B+K B | 54 | NCC (requires JF)
 66AA | 26 | NC
 
 #22_88A
-22_88A B+K:B kB 66A+B | | LH
+22_88A B+K:B kB 66A+B | 76 | LH
 
 #66B
 66BB | 40 | NC
 
 #66[B]
-66[B] RLC RLC AA RLC B | | (IV Wind’s note: 99_33(B) also work but doing either of these will give you an automatic Tech Jump(99) or Tech Crouch(33) to avoid this when after you input 33 or 99 and are holding B, hold forward as well and you should be able to do the combo.)
+66[B] RLC RLC AA RLC B |  | (IV Wind’s note: 99_33(B) also work but doing either of these will give you an automatic Tech Jump(99) or Tech Crouch(33) to avoid this when after you input 33 or 99 and are holding B, hold forward as well and you should be able to do the combo.)
 
 #22_88B
-22_88B 66B | | NC
-22_88B 2A+B | | NC
-22_88B 2B | | NC
-22_88B 1BB | | NC
-SC 22_88BB 236A:AB BT B+K 66B | | 
+22_88B 66B | 40 | NC
+22_88B 2A+B | 39 | NC
+22_88B 2B | 35 | NC
+22_88B 1BB | 51 | NC
+SC 22_88BB 236A:AB BT B+K 66B | |  //what is this combo?!?
 
 #77_44_11B
-77_44_11BA | | NC
+77_44_11BA | 34 | NC
 77_44_11B[A] MST BB  | 46 | NC
 
 #33K
@@ -110,9 +108,9 @@ SC 22_88BB 236A:AB BT B+K 66B | |
 11_44_77K B | 48 | NC
 
 #66A+B
-66A+B 1BA+B | | 
-66A+B 1BB | |  
-SC66A+B 66BB | | 
+66A+B 1BA+B | 72 |  NC
+66A+B 1BB | 69 | NC
+SC66A+B 66BB |  | NC // I couldn't do this.  last hit wiffs but I guess before it does 67
 
 // Special Moves
 
@@ -125,19 +123,19 @@ MST BBBB | 38 | NCC
 MST BBB 2B | 30 | NCC
 
 #MST [B]
-MST [B] RLC B |  | NCC
+MST [B] RLC B | 27 | NCC
 
 #MST K
-MST KB 66BB MST BBBB | | NCC
+MST KB 66BB MST BBBB |  | NCC
 
 #MST A+B
-MST A+B CE | | NC
-MST A+B 1BA+B | | NC
+MST A+B CE | 99 | NC
+MST A+B 1BA+B | 70 | NC
 
 //Should check other Relic combos
 
 #RLC A
-RLC AA RLC K | |  (weird range)
+RLC AA RLC K |  |  (weird range)
 
 #RLC B
-RLC B 66A+B | | LH
+RLC B 66A+B | 62 | LH
