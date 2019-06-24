@@ -1,0 +1,47 @@
+#A
+AA | 18 | NC
+AK | 18 | NC
+
+#6A
+6AA | 30 | NC
+
+#1AA | 40 | NC
+
+#4A
+4AB 44B | 54 | NC
+
+#4[A]
+4AAAA | 74 | NC
+
+#4AA
+4AAA | 35 | NC
+
+
+#B
+BB | 28 | NC
+BK | 32 | NC
+
+#6bA
+6bA 2BK TAS B | |
+6bA 2BK 8A+B | | (doesn't work near walls)
+
+#6B
+6BB | 30 | NC
+6BA | 40 | NCC
+
+#3B
+ | | 
+ 
+#2B
+2BB (something) | | NCC
+2BK | 32 | NC
+
+#1B
+1BB | 18 | NC
+1BBBB | 30 | NCC
+
+#WCB
+WCBB | 38 | NCC
+
+#9B
+9B 3K | | (Point blank range only)
