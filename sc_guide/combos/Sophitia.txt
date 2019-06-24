@@ -11,7 +11,10 @@ AK | 18 | NC
 4AB 44B | 54 | NC
 
 #4[A]
-4AAAA | 74 | NC
+4[A]AAA | 74 | NC
+4[A] AS B 4 | | (obv other variations will do less, use B followup for wallsplat/ringout. Followup is inconsistent on some chars due to how they but you can also do 2BK for ringout/wallsplat* (can't resplat/launch here so combo damage is smaller, but still significant.))
+4[A] 66K TAS B 3B | | (whiffs at far ranges)
+4[A] CE | | NC
 
 #4AA
 4AAA | 35 | NC
@@ -45,3 +48,83 @@ WCBB | 38 | NCC
 
 #9B
 9B 3K | | (Point blank range only)
+
+#K
+KK | 24 | NC
+
+#6K
+6K | | NCC
+
+#1K
+1K 3K | 27 | NCC
+1K 1K | 29 | NCC (can wiff)
+
+#1[K]
+1[K] 1K | 42 | NCC
+1[K] 3B | 46 | NCC
+
+// Dual button
+
+#A+B
+A+B 66B | 53 | NC
+A+B TAS B | | //Couldn't do this one
+
+#8A+B
+| |
+
+8[A+B]
+| | 
+
+#B+K
+B+K B | 41 | NC
+
+#8B+K
+| | 
+
+
+#8B+K A
+8B+K A B| | 
+
+#4B+K
+| | 
+
+#WR B+K
+| | 
+
+#22_88A
+| | 
+
+#44A
+| | 
+
+#11_77A
+| | 
+
+#33_66_99B
+| | 
+
+#22_88B
+22_88B A K | 48 | NC
+
+#11_44_77B
+||
+
+#33_66_99K
+| | 
+
+#66A+B
+| | 
+
+#22_88A+B
+| | 
+
+#33_66_99B+K
+33_66_99B+K A+B | 20 | NC
+
+#33_66_99[B+K]
+||
+
+#666K
+||
+
+//Special Moves
