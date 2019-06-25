@@ -9,10 +9,11 @@ AK | 18 | NC
 
 #4A
 4AB 44B | 54 | NC
+4AB 1K | 43 | NC
 
 #4[A]
 4[A]AAA | 74 | NC
-4[A] AS B 4 | | (obv other variations will do less, use B followup for wallsplat/ringout. Followup is inconsistent on some chars due to how they but you can also do 2BK for ringout/wallsplat* (can't resplat/launch here so combo damage is smaller, but still significant.))
+4[A] AS: B :4 | | (obv other variations will do less, use B followup for wallsplat/ringout. Followup is inconsistent on some chars due to how they but you can also do 2BK for ringout/wallsplat* (can't resplat/launch here so combo damage is smaller, but still significant.))
 4[A] 66K TAS B 3B | | (whiffs at far ranges)
 4[A] CE | | NC
 
@@ -34,6 +35,10 @@ BK | 32 | NC
 
 #3B
  | | 
+ 3B > TAS B > 4B_TAS B (54_61)
+3B > wrB+K > TAS B > 3B (63)*Hard
+3B > CE (75)
+3B > wrB+K CE 75 builds more meter than going straight into CE, harder. not really worth it imo but good to know.
  
 #2B
 2BB (something) | | NCC
@@ -100,14 +105,23 @@ B+K B | 41 | NC
 #11_77A
 | | 
 
+#66B
+66B > wrB+K > TAS B > 4B_3B (70_71) optimal vs girl chars
+66B > wrB+K > 22BAK (79) works on Ivy + guy chars, excluding Cervantes and Astaroth
+66B > TAS B > 4B_TAS B (62_70)
+
 #33_66_99B
 | | 
+33/99B > wrB+K > 22BAK (79) works on all chars
+33/99B > wrB+K > CE 88
 
 #22_88B
 22_88B A K | 48 | NC
 
 #11_44_77B
 ||
+44B > TAS B > 3B (67)
+44B > CE (90)
 
 #33_66_99K
 | | 
