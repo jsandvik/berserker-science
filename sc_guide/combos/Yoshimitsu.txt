@@ -1,23 +1,39 @@
 #A
 AA | 18 | NC
+AA A+B | 45 | NCC
 
 #6A
 6AA | 44 | NCC
 6AB | 52 | NCC
+//LH 6AA 3[B]
+//LH 6AA 66A+B
+//LH 6A 6BBA+B 9K 3BB
+//LH 6A 6BBA+B 9K 6kA+B
+//LH 6A 6BBA+B 4aA+B DGF A
+//LH 6AB 3[B]
 
 #3A
 3AB | 36 | NC
 3AA | 24 | NC
 
 #2aB
-2aB Ba | 54 | NCC // Need to try with the JF version.  probably 55 damage
+2aB B:a | 54 | NCC // Need to try with the JF version.  probably 55 damage
+//CH 2aB b:A
+//CH 2aB WR AA+B
+//CH 2aB WR B
 
 #4A
 4AAA | 25 | NC
 4AAAAA | 49 | NCC
+//CH 4aA+B 44B+K 66A+B
+//CH 4aA+B DGF A
+//CH 4aA+B 44B+K 3[B]
+//CH 4aA+B 66B+KA+B
 
 #214A
 ||
+//LH 214A 44B+K 3[B]
+//LH 214A 6BBB 3[B]
 
 #FCaB
 WCaB Ba |  | NCC
@@ -28,26 +44,76 @@ FC1AAAAA | 43 | NCC
 
 #WRA
 ||
+//WR AA+B DGF B 3[B]
+//WR AA+B DGF B 236K[K]
+//WR AA+B DGF B 66A+B
+//WR AA+B DGF A
+//WR AA+B DGF B 6A+B Flea 66
+//WR AA+B SC DGF BBBB
+//WR AA+B SC DGF AB 3BB
+//WR AA+B SC DGF AB 3[B]
 
 #B
-BB | | NC
-BBB | | NCC
-BBB | | LH
+BB | 28 | NC
+BBB | 46 | NCC
+BBB 3AA | 75 | LH
+BBB 3AB | 69 | LH
+BBB 2aB b:A | 79 | LH (requires JF for max damage)
+BBB 6BBA+B 9K 3BB | 80 | LH (costs .5 meter)
+BBB 6BBA+B 9K 6kA+B | 82 | LH (costs 1 meter)
+BBB 6BBA+B 9K 4aA+B DGF A | 82 | LH (costs 1 meter)
 
 #6B
 6BBBB | 50 | NCC
 6BB | 20 | NC
+//missing lots
+//CH 6BBA+B 9K 6K
+//CH 6BBA+B 9K 6kA+B
+//CH 6BBA+B 9K 3BB
+//CH 6BBA+B 9K 3[B]
+//CH 6BBA+B 6A+B Flea 66
+//CH 6BBA+B 4aA+B 44B+K 3[B]
+//CH 6BBA+B 4aA+B 44B+K 66A+B
+//CH 6BBA+B 4aA+B 66B+KA+B
+//CH 6BBA+B 4aA+B MED K SC DGF AB
 
 #6BBB
 6BBBB | 27 | NC
 
 #3B
 3BB | 50 | NC
-3[B] A+B | 57 | NC // that weird move where he says a thing or falls over
+3[B] DGF A+B:K | 57 | NC // that weird move where he says a thing or falls over
+3[B] DGF A | 53 | NC
+3B b:A | 42 | NC
+3B SC DGF AB | 68 | NC
+3B 4AAAA | 50 | NC
+3B 4AAAAA | 55 | NC
 
 #1B
 1BA | 28 | NC
 
 #WRB
 ||
+//CH WR B 9K 6K
+//CH WR B 9K 3[B]
+//CH WR B 66B 3[B]
+//CH WR B 4aA+B 44B+K 3[B]
+//CH WR B 4aA+B 44B+K 66A+B
+//CH WR B 9K 6kA+B
 
+#4K
+4KB | 48 | NC
+
+#236K
+236KK | 51 | NC
+
+#FC3K
+FC3K 3[B] | 39 | NC (ends in dragonfly)
+FC3K 6A+B Flea 66 | 40 | NC
+
+#FC1K
+FC1KKK | 22 | NC
+FC1KKKKK | 39 | NCC
+
+#9K
+9K 3B | 42 | NC
