@@ -3,14 +3,17 @@ AA | 24 | NC
 
 #6A
 6A B | 34 | NC
+6ABB 44BB | | LH (requires both players to be in soul charge for max damage)
 
 #1A
 1AB | 43 | NCC
 1AA | 41 | NCC
+1AB 3B 6AB | | LH
 
 #4A
 4AAA | 43 | NCC | (requires JF)
 4AA | 28 | NCC
+4A:A B+K bt B+K 1B | | LH
 
 #B
 BB | 28 | NC
@@ -23,6 +26,14 @@ BB | 28 | NC
 3B 6AB | 51 | NC
 3B 6B+KB 44BB | 79 | NC | (only works when opponent is in SC.  Rings out over small walls)
 
+#1B
+1B 6AB | | LH
+1B 6B+KB 44BB | | LH (only works on Soul Charged opponents)
+1B CE | | LH
+
+8_9B, 1AA combo after jumping B, but can be avoided by backwards ukemi.
+8_9B, 66B+K, 4A:A, 1AA if you know they'll do the backwards ukemi, this will tech trap that and lead to huge damage
+
 #4K
 4KK A | 44 | NC
 4KK A+B | 60 | NCC
@@ -30,6 +41,12 @@ BB | 28 | NC
 #6K
 6K 2B | 29 | NCC
 // guessing on this one
+
+#A+B
+A+B B+K bt B+K 1AA | | LH (need to end the combo with bt B+KB instead vs some characters as they will avoid 1AA)
+A+B 66BB 1AA | | LH
+A+B 4KKA w! 66B+K 4A:A 1AA | | LH //idk why I included this
+
 
 #6B+K
 6B+KB | 27 | NC
@@ -62,5 +79,26 @@ B+KB | 51 | NC
 44K A | 44 | NC
 44K A+B | 60 | NCC
 
+#66A+B
+66A+B 66BB 66BB | 75 | (requires 1/2 meter. Ends with ~1/4 less than before combo)
+66A+B 66BA | 62 | NC (requires 1/2 meter. Ends with ...?) 
+
 #66B+K
 //Can't find any info.
+
+#4A+B
+4A+B 66B+K 4A:A 1AA | | (requires 1/2 meter.  Ends with ...?) (you even have time to slightly side step first to alter your angle, making the ring-out even easier) (requires JF for max damage)
+4A+B 66B+K 6B+KB  | 58 | (requires 1/2 meter.  Ends with ...?)
+4A+B walk around 3B | 31 | (reverse ringout) (requires 1/2 meter.  Ends with ...?)
+4A+B walk around 66B+K |  | (reverse ringout) (requires 1/2 meter.  Ends with ...?)
+
+#4A+B
+4A:A 8A+B Aard(???) | | (requires JF for max damage)
+
+A+GA+B 3B | | LH
+
+//I think this is 6A+B?
+LH Quen B / LH 66BA / LH 4B, 66B+K, 4A:A, 1AA very high damage, identical to the Yrden combo
+LH Quen B / LH 66BA / LH 4B, 66B+K, 6B+KB for ringing out over small walls
+
+//Missing RE combos
