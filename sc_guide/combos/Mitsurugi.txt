@@ -139,3 +139,14 @@ RLC AA RLC K |  |  (weird range)
 
 #RLC B
 RLC B 66A+B | 62 | LH
+
+#RE A
+RE A 1BB | 39 | NC
+RE AA RLC B | 43 | NC
+RE AAA | 47 | NC
+RE A B+K:B kB 1BA+B | 74 | LH (requires JF for max damage)
+RE A CE | 78 | LH
+RE B CE | 80 | NC
+RE K BB | 64 | LH
+RE K KB | 62 | LH
+RE K CE | 87 | LH
