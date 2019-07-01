@@ -1,0 +1,61 @@
+#A
+AA | 18 | NC
+
+#6A
+6AA | 35 | NCC
+
+#7_8_9A
+7_8_9A 3[B] AL B | | NC
+7_8_9A 3[B] AL k | | NC
+7_8_9A 44K | | NC
+
+#B
+BA | | NCC
+BB | 22 | NC
+BBBB | 46 | NCC
+// [B] only combos on NCC hm...
+[B] BT B+K 66B+K | | NCC | (second hit of [B])
+[B] BT B+K 44K | | NCC | (second hit of [B])
+
+#6B
+6BB | | NC
+6BB AGS KK | | NCC
+6BB AGS KK 66B+K | | NCC
+6B[K] | 45 | NC
+6BK | 41 | NC
+6B LH K |  | NC //what
+
+#3B
+3B AL AAB | | NC
+3B AL AAK | | NC
+3B AL LH AAK 3[B] AL B | | NC
+3B AL LH AAK 3[B] AL 6[K] | | NC
+3[B] AL B+K AL LH[A+B] 44[B]6 AGS A+B | | NC
+3[B] AL B+D AL [A+B] 66B+K | | NC
+3[B] AL B+K AL AAB | | NC
+3[B] AL LH AAK 2[B] AL B | | NC
+3[B] AL LH AAK 3[B] AL [6]K | | NC
+ 
+#2B
+2B WRB | | NCC
+2bA | 37 | NCC
+
+#4B
+4BBB CE | | NC
+4BB6B 3B | | NC
+
+#WR BK
+WR BK AL B
+WR BK AL AAB | | NCC
+
+#6K
+6K AGS A | | NCC
+6KB | 50 | NCC
+6KK | 32 | NCC
+6K[K] | 37 | NCC
+
+3[K]
+3[K] | 35 | NCC
+
+#7_8_9K
+WJ K 2B | | NC
