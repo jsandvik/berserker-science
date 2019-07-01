@@ -15,7 +15,7 @@ AK | 18 | NC
 4[A]AAA | 74 | NC
 4[A] AS: B :4 | | (obv other variations will do less, use B followup for wallsplat/ringout. Followup is inconsistent on some chars due to how they but you can also do 2BK for ringout/wallsplat* (can't resplat/launch here so combo damage is smaller, but still significant.))
 4[A] 66K TAS B 3B | | (whiffs at far ranges)
-4[A] CE | | NC
+4[A] CE | 98 | NC
 
 #4AA
 4AAA | 35 | NC
@@ -26,7 +26,7 @@ BB | 28 | NC
 BK | 32 | NC
 
 #6bA
-6bA 2BK TAS B | |
+6bA 2BK TAS B |  |
 6bA 2BK 8A+B | | (doesn't work near walls)
 
 #6B
@@ -35,13 +35,14 @@ BK | 32 | NC
 
 #3B
  | | 
- 3B > TAS B > 4B_TAS B (54_61)
-3B > wrB+K > TAS B > 3B (63)*Hard
-3B > CE (75)
-3B > wrB+K CE 75 builds more meter than going straight into CE, harder. not really worth it imo but good to know.
+ 3B > TAS B > 4B_TAS B (54_61) | NC
+3B > wrB+K > TAS B > 3B (63)*Hard | NC
+3B > CE (75) | NC
+3B > wrB+K CE 75  | NC | builds more meter than going straight into CE, harder. not really worth it imo but good to know.
  
 #2B
-2BB (something) | | NCC
+2BB:4 | 63 | NCC
+2BB B | 58 | NCC
 2BK | 32 | NC
 
 #1B
@@ -58,15 +59,18 @@ WCBB | 38 | NCC
 KK | 24 | NC
 
 #6K
-6K | | NCC
+6K TAS B | 50 | NCC
+6K 44B+K | 49 | NCC
+6K 1[K] | 46 | NCC
+//more?
 
 #1K
 1K 3K | 27 | NCC
 1K 1K | 29 | NCC (can wiff)
 
 #1[K]
-1[K] 1K | 42 | NCC
-1[K] 3B | 46 | NCC
+1[K] 1K | 42 | NC
+1[K] 3B | 46 | NC
 
 // Dual button
 
@@ -75,20 +79,22 @@ A+B 66B | 53 | NC
 A+B TAS B | | //Couldn't do this one
 
 #8A+B
-| |
+8A+B ASB :4 | 56 | NC | (quake hit)
 
 8[A+B]
 | | 
 
 #B+K
 B+K B | 41 | NC
+B+K B : 4 | 66 | NCC | (JF required for max damage)
+CH B+K B : B | 61 | NCC | (JF required for max damage)
 
 #8B+K
-| | 
+8B+K K | 42 | NC 
 
 
 #8B+K A
-8B+K A B| | 
+8B+K A B | 44 | NC
 
 #4B+K
 | | 
@@ -97,43 +103,53 @@ B+K B | 41 | NC
 | | 
 
 #22_88A
-| | 
+22_88A+B [G] TAS B 3B | 68 | NC
+22_88A+B [G] CE | 88 | NC
+22_88A+B B+K | 40 | NC
 
 #44A
-| | 
+44A TAS B 3B | 64 | NCC
+44A CE | 78 | NCC
 
 #11_77A
 | | 
 
 #66B
-66B > wrB+K > TAS B > 4B_3B (70_71) optimal vs girl chars
-66B > wrB+K > 22BAK (79) works on Ivy + guy chars, excluding Cervantes and Astaroth
-66B > TAS B > 4B_TAS B (62_70)
+66B > wrB+K > TAS B > 4B_3B (70_71) | NC | optimal vs girl chars
+66B > wrB+K > 22BAK (79)  | NC | works on Ivy + guy chars, excluding Cervantes and Astaroth
+66B > TAS B > 4B_TAS B (62_70) | NC
 
 #33_66_99B
-| | 
-33/99B > wrB+K > 22BAK (79) works on all chars
-33/99B > wrB+K > CE 88
+33_99B wrB+K 22BAK | 79 | NC
+33_99B wrB+K CE | 88 | NC
 
 #22_88B
 22_88B A K | 48 | NC
 
 #11_44_77B
-||
-44B > TAS B > 3B (67)
-44B > CE (90)
+44B TAS B 3B | 67 | NC
+44B CE | 90 | NC
 
 #33_66_99K
 | | 
+66K > TAS B > 4B_3B_TAS B (52_53_60) | NC
+66K > wrB+K > TAS B > 4B (62) * Hard  | NC
+66K > CE (76)  | NC
+66K > wrB+K > CE | 76 | NC | technically possible, same deal for slight meter gain but too difficult to be practical.
+
+#44K
+44KK TAS B 3B | 63 | NC | somewhat difficult, you have to buffer the TAS B VERY early, as in during the animation, earlier than it looks. Huge damage increase over other options, but also regular stab works and is easier to buffer for (53) if you hit the AS just frame, K you can actually hit confirm but it only does (36)
 
 #66A+B
-| | 
+66A+B 3B | 60 | NCC
 
 #22_88A+B
 | | 
 
 #33_66_99B+K
 33_66_99B+K A+B | 20 | NC
+33_66_99B+K A B TAS B 3B | 76 | NCC
+33_66_99B+K A B B+K | 56 | NCC | (reverser ringout)
 
 #33_66_99[B+K]
 ||
