@@ -113,6 +113,7 @@ move_id|Command|from_stance|to_stance|Notes|Sound|Name|agi|imp|Properties|Block|
 343| 6B+K  |???|???||||| 17 |mid_4b| -50 |  -36  |STN -36|18|[gd]|3|85 |68 | 0 |
 344| 6B+KB |343|N; or 345 (Eventually N)||||| 33 |mid_6f| -14 |LNC -10|       |22|[gd]|2|72 |39 | 0 |GRND
 345|6B[B+K]|344|N|Reached by holding during 344;|||| 33 |mid_6f| -4  |LNC -8 |       |28|[gd]|2|70 |37 | 0 |GRND
+346|6B+KG|343|RC|Cancel from 343.|||||||||||||||
 347| 3B+K  |N|N; Or 348|Maxi stomps the ground. Mashing ok.|||| 22 |low_37| -18 |   -8  |STN -8 |16|[gd]|2|57 |35 | 0 |GRND
 347| 3B+K  |???|???||||| 22 |low_37| -18 |   -8  |STN -8 |16|[gd]|2|57 |35 | 0 |GRND
 348| 3B+KB |347|N|Looks like he goes to RO, but he does not.|||| 21 |low_37| -18 |   -8  |STN -8 |20|[gd]|3|58 |37 | 0 |GRND
@@ -256,7 +257,7 @@ move_id|Command|from_stance|to_stance|Notes|Sound|Name|agi|imp|Properties|Block|
 473| 4AK*. ||||||| 22 |low_37| -24 |  -16  |       |18|[gd]|5|68 |46 | 0 |GRND
 474|KK|SCBL|N||||| 16 |high_49| +6  |KND -4 |       |30|[gd]|5|49 |33 | 0 |TJ[11-34]
 477|A|LO|N; Or 478 (if K)|This is reactable. Do a jumping move that will hit Maxi, unless you really want to go for the GI mixup after. (Note that with Azwel, jumping moves other than 7A can be inconsistent.|||| 32 |low_13| -10 |   +4  |       |18|[gd]|3|63 |31 | 0 |TC[20-]
-478|AK|LO|N|Warning! If opponent blocks 447, they can GI this move (478) getting a level 0 GI (best possible GI).|||| 31 |mid_4b| -10 |  +10  |       |20|[gd]|3|60 |29 | 0 |TC[0-51]
+478|AK|LO|N|Warning! If opponent blocks 447, they can GI this move (478) getting a level 3 GI (best possible GI).|||| 31 |mid_4b| -10 |  +10  |       |20|[gd]|3|60 |29 | 0 |TC[0-51]
 479|B|LO|RC||||| 16 |mid_6f| -18 |  -10  |STN -10|16|[gd]|3|55 |39 | 0 |TC[5-16] GRND
 479||||Tip hit of above.|||| 16 |mid_6f| -18 |  -10  |STN -10|16|[gd]|4|55 |39 | 0 |TC[5-16] GRND
 480|BK|LO|N||Going somewhere?||| 28 |high_49| -2  |KND +3 |       |24|[gd]|5|59 |31 | 0 |TJ[20-38]
@@ -312,6 +313,6 @@ move_id|Command|from_stance|to_stance|Notes|Sound|Name|agi|imp|Properties|Block|
 530||530|RO (if miss); Or 532 (if hit and hold); Or 533 (if hit not hold)|Strike for 528.|||||||||||||||
 532||530 (if hit and hold A+B+K)|RO||||||||||||||||
 533||530 (if hit and not hold); Or 531 (if hit and not hold)|||I'm gonna ride the waves! WHHHUUUAAAAHHHH. … Go get some rest.||||||||||||||
-Todo: 526+ (too tired atm)|||||||||||||||||||
+|||||||||||||||||||
 212|4A+B+K|N|214 (Eventually NSC)|SC|Am I...; Or I'll have my revenge! (vs Astaroth)||||||||||||||
 214||212|NSC|Hit of 212 (SC).|Too fast for ya?; Or HAAATAAWH!!! (vs Astaroth)||||||||||||||
