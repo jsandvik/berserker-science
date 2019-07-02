@@ -117,3 +117,114 @@ FC1KKKKK | 39 | NCC
 
 #9K
 9K 3B | 42 | NC
+
+//Dual buttons
+
+#A+B
+A+B 3AA | 64 | NC
+5A+B 3AB |  | NC
+5A+B 2aB b:A |  | NC
+5A+B 3[B] |  | NC
+LH 5A+B 66A+B 3BB
+LH 5A+B 66A+B 2aB b:A
+LH 5A+B 6A+B Flea [B] 3BB
+LH 5A+B 44bA MED K DGF A
+//WHY SO MANY??
+
+#A+B
+5[A+B] 3B DGF A+B:K
+5[A+B] 3B DGF A
+5[A+B] 2aB b:A
+5[A+B] 3AA
+LH 5[A+B] 66A+B 3BB
+LH 5[A+B] 66A+B 2aB b:A
+//WTF WHY SO MANY????
+
+#6A+B
+6A+B Flea B 6K
+6A+B Flea B 6kA+B
+
+#4A+B
+LH 4A+B 4KB
+LH 4A+B 66[B+K] 3[B]
+
+#8A+B
+8a+b2 3BB
+8a+b2 3[B]
+
+#BT2A+B
+BT 2a+bK BT 2K
+
+#66A+B
+66A+B 3[B]
+66A+B 3BB
+66A+B 2aB b:A
+
+#66B+K
+(66B+K)A+BK 9K 3[B]
+
+#66[B+K]
+LH 66[B+K] 4aA+B 44B+K 3[B]
+LH 66[B+K] 4aA+B 44B+K 66A+B
+LH 66[B+K] 4aA+B 236KK
+LH 66[B+K] 9K 3[B]
+LH 66[B+K] 9K 6K
+LH 66[B+K] 9K 6A+B Flea 66
+
+#A+K
+LH 5A+K 6A+B Flea [B] 3BB
+LH 5A+K 6A+B Flea [B] 2aB b:A
+LH 5A+K 44K 236KK[6]
+LH 5A+K 44K 66B 3[B]
+LH 5A+K 44K 9K 66B 3[B]
+
+#DGF B
+DGF B 3BB
+DGF B 3[B]
+DGF B 1[B]
+DGF B 6A+B Flea 66
+
+#DGF K
+SC DGF KA SDGF B 3[B]
+SC DGF KA SDGF B 6A+B Flea 66
+SC DGF KA 8B+K SC DGF AB 3[B]
+SC DGF KA 8B+K SC DGF AB 3BB
+
+#DGF A+B
+CH DGF A+B DGF A
+CH DGF A+B DGF K
+
+#Flea B
+Flea B 6K
+Flea B 6kA+B
+
+#Flea [B]
+Flea [B] 3BB
+Flea [B] 6A+B Flea 66
+Flea [B] 2aB b:A
+
+//???
+Flea 7_8_9 Flea K
+Flea 7_8_9 Flea 66
+
+#MED B
+LH MED B 66A+B
+LH MED B 6A+B Flea 66
+LH MED B 2aB b:A
+
+#2 MED K
+CH2 MED K DGF A+B DGF A
+CH2 MED K DGF A+B DGF K
+CH2 MED K DGF B 3[B]
+
+#RE A
+RE A DGF A+B DGF A
+LH RE A 6A+B Flea [B] 3BB
+LH RE A 6A+B Flea [B] 2aB b:A
+LH RE A 66A 3AA
+LH RE A 66A 6BBA+B 9K 6kA+B
+
+#RE B
+LH RE B 9K 6K
+LH RE B 9K 6kA+B
+LH RE B 9K 3BB
