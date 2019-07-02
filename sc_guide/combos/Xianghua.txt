@@ -3,10 +3,11 @@ AA | 18 | NC
 AAB | 43 | NCC
 
 #3A
-3AK | 34 | NCC
+3AK bK | | NCC
+3AK bK 6BB | | NCC
 
 #4A
-4AA
+4A.A CH 6BB BT B+K 6KA_A+B
 
 #FC3A
 FC3AA | 44 | NCC
@@ -23,6 +24,11 @@ BBBB | 26 | NC
 #6B
 6BA | 25 | NC
 6BB | 32 | NC
+6B.B CH ~ BT B+K ~ 6K.A_A+B
+6B.B CH ~ CE
+
+#6BB
+||
 
 #3B
 3B ~ 6K.A_A+B	46	
@@ -32,7 +38,11 @@ BBBB | 26 | NC
 3B ~ CE	80	
 
 #1B
-||NCC
+1B CH ~ bK
+1B CH ~ 6B.B
+1B CH ~ 1A+G.B+K ~ 6K.A_A+B
+1B CH ~ 1A+G.B+K JF ~ 6K.A_A+B
+1B CH ~ 2_3A+G
 
 #4B
 4BA | 38 | NCC
@@ -63,3 +73,5 @@ WR B 66K | |
 #WRK
 #WRKB | 45 | NCC
 
+FC 3K.B.6 CH ~ bK
+FC 3K.B.6 CH ~ 6B.B
