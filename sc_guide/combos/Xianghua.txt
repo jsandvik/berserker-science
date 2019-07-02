@@ -1,0 +1,65 @@
+#A
+AA | 18 | NC
+AAB | 43 | NCC
+
+#3A
+3AK | 34 | NCC
+
+#4A
+4AA
+
+#FC3A
+FC3AA | 44 | NCC
+
+#WRA
+WRAA | 36 | NC
+
+#B
+BB | 24 | NC
+
+#BBB
+BBBB | 26 | NC
+
+#6B
+6BA | 25 | NC
+6BB | 32 | NC
+
+#3B
+3B ~ 6K.A_A+B	46	
+3B ~ 3B+K.K	55	Use when 3B hits at tip range
+3B ~ 3B+K ~ 6B.B	63	Use when 3B hits at tip range
+3B ~ 66B+K	54	Use when 3B hits at close range
+3B ~ CE	80	
+
+#1B
+||NCC
+
+#4B
+4BA | 38 | NCC
+4BB | 33 | NCC
+
+#WC 3B
+FC 3B ~ 3B+K.K
+FC 3B ~ 3B+K ~ 6B.B
+FC 3B ~ 66A+B
+FC 3B ~ 66[A+B] ~ SXS K ~ bK
+FC 3B ~ 66[A+B] ~ SXS K ~ 6B.B
+FC 3B ~ CE
+
+#WRB
+WR B 66K | | 
+
+#6K
+6KA | 32 | NC
+//buncha other stance ending versions
+
+#4K
+4K ~ 66K
+4K ~ 3B
+
+#1kA
+1kA A | 40 | NC
+
+#WRK
+#WRKB | 45 | NCC
+
