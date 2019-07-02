@@ -75,3 +75,52 @@ WR B 66K | |
 
 FC 3K.B.6 CH ~ bK
 FC 3K.B.6 CH ~ 6B.B
+
+//Dual button moves
+
+#1_2_3A+B
+1_2_3A+B ~ bK
+1_2_3A+B ~ 6B.B
+1_2_3A+B ~ 1A+G.B+K ~ 6K.A_A+B
+1_2_3A+B ~ 1A+G.B+K ~ CE
+1_2_3A+B ~ 1A+G.B+K JF ~ 6K.A_A+B
+1_2_3A+B ~ 1A+G.B+K JF ~ CE
+1_2_3A+B ~ 2_3A+G
+
+#4A+B
+4A+B ~ 66K
+1_2_3A+B ~ CE
+
+#6B+K
+6[B+K] CH ~ 6K.A_A+B
+6[B+K] CH ~ CE
+
+#2B+K
+2B+K QS ~ 6B.B ~ BT B+K ~ 6K.A_A+B
+2B+K QS ~ 6B.B ~ CE
+2B+K QS ~ 3B ~ 6K.A_A+B
+2B+K QS ~ 3B ~ CE
+2B+K QS ~ CE
+
+#4B+K
+4B+K ~ bK
+4B+K ~ 6B.B
+
+#FCB+K
+FC 3B+K ~ bK
+FC 3B+K ~ 6B.B
+FC 3B+K ~ CE
+
+#BT B+K
+BT B+K ~ 6K.A_A+B
+BT B+K ~ 1A+G.B+K
+BT B+K ~ 1A+G.B+K JF
+BT B+K ~ 2_3A+G
+BT B+K ~ CE
+
+#BT 2B+K
+BT 2B+K ~ 1A+G.B+K ~ 6K.A_A+B
+BT 2B+K ~ 1A+G.B+K ~ CE
+BT 2B+K ~ 1A+G.B+K JF ~ 6K.A_A+B
+BT 2B+K ~ 1A+G.B+K JF ~ CE
+BT 2B+K ~ 2_3A+G
