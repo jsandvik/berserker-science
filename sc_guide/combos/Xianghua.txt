@@ -124,3 +124,48 @@ BT 2B+K ~ 1A+G.B+K ~ CE
 BT 2B+K ~ 1A+G.B+K JF ~ 6K.A_A+B
 BT 2B+K ~ 1A+G.B+K JF ~ CE
 BT 2B+K ~ 2_3A+G
+
+//8wayrun moves
+
+#66A
+66AB | 30 | NC
+
+#44_44_77A
+11_44_77A CH ~ bK	39
+11_44_77A CH ~ 6B.B	46
+
+
+#11_44_77[A]
+11_44_77[A] ~ 6B.B ~ BT B+K ~ 6K.A_A+B	74 | NC
+11_44_77[A] ~ 6B.B ~ CE	85 | NC
+11_44_77[A] ~ 3B ~ 6K.A_A+B	63 | NC
+11_44_77[A] ~ 3B ~ CE	84 | NC
+11_44_77[A] ~ CE	84 | NC
+
+#33_66_99B
+33_66_99B.B CH ~ bK	54	
+33_66_99B.B CH ~ 6B.B	58	
+33_66_99B.B CH ~ 1A+G.B+K ~ 6K.A_A+B	71	
+33_66_99B.B CH ~ 1A+G.B+K JF ~ 6K.A_A+B	77	Input B+K right before feet touches the ground for JF
+33_66_99B.B CH ~ 2_3A+G	75	Can be used to ring out / Returns to WD state
+
+#22_88B
+22_88B ~ 6K.A_A+B	45	 | NC
+22_88B ~ 66B+K	52 | NC| 	Use when 22_88B hits at close range
+22_88B ~ CE	73	 | NC
+
+#22_88K
+22_88K ~ bK | NC
+22_88K ~ 6B.B | NC
+22_88K.2 ~ PXS K ~ 3B | NC
+22_88K.2 ~ PXS K ~ CE | NC
+
+#22_88A+B
+22_88A+B ~ 3B+K.K | NC
+22_88A+B ~ 3B+K ~ 6B.B | NC
+22_88A+B ~ CE | NC
+
+#11_44_77A+B
+11_44_77A+B CH ~ bK
+11_44_77A+B CH ~ 6B.B
+11_44_77A+B CH ~ CE
