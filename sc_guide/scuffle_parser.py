@@ -114,22 +114,29 @@ def parse_scuffle_category(scuffle_string):
 def parse_combo(combo_string):
     split_string = [s.strip() for s in combo_string.split("|")]
 
-    if len(split_string) < 2:
+    # skip if not splittable
+    if len(split_string) == 0:
         return None
 
-    commands = split_string[0]
+    commands = None
+    damage = None
+    condition = None
+    notes = ""
     try:
-        damage = int(split_string[1])
+        commands = split_string[0]
+        damage = split_string[1]
+        condition = split_string[2]
+        notes = split_string[3]
+    except IndexError:
+        pass
+
+    try:
+        damage = int(damage)
     except ValueError:
         damage = None
 
-    condition = split_string[2]
     if condition not in ['NC', 'NCC', 'LH', 'B']:
         condition = None
-
-    notes = ""
-    if len(split_string) > 3:
-        notes = split_string[3]
 
     return {
         "commands": commands,
