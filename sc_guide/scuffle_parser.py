@@ -132,7 +132,7 @@ def parse_combo(combo_string):
 
     try:
         damage = int(damage)
-    except ValueError:
+    except (TypeError, ValueError):
         damage = None
 
     if condition not in ['NC', 'NCC', 'LH', 'B']:
