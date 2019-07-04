@@ -15,17 +15,20 @@ def moves(session=None):
     page = request.args.get("page", None, int)
     character = request.args.get("character", None, str)
     command = request.args.get("command", None, str)
+    category = request.args.get("category", None, str)
     order_by = request.args.getlist("order_by", str)
 
     filter_args = {}
 
     if character is not None:
-        filter_args["character"] = character
+        filter_args["character__iexact"] = character
     if command is not None:
         # think this through better... I'd like to be able to 
         # not have to input the move name exactly, but I also don't
         # want to return every move using 'A' when I type just 'A'
         filter_args["command__iexact"] = command
+    if category is not None:
+        filter_args["category__iexact"] = category
 
     query = Move.objects(**filter_args)
 
