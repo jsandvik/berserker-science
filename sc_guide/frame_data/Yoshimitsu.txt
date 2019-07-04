@@ -170,7 +170,7 @@
 461| 6A+G6            | 18 |high| -7  |STN -7 |       |0  |0 |2|54 |36 |-30| | TH
 462| 236A+G           | 18 |high| -7  |STN -7 |       |65 |0 |2|54 |36 | 0 | | TH
 
-[Special]
+[Flea Stance]
 351| B+K            | 0  |  | +0  |   +0  |       |  |4 | |20 |-1 | 0 |TJ[7-] | SS
 500| Flea A         | 36 |low| -16 |   +1  |       |28|10|3|76 |40 |50 |TJ[0-12] TC[12-] GRND |
 501| Flea B         | 14 |mid| -10 |LNC -2 |       |20|22|2|45 |31 |28 |TJ[0-8] TC[8-17] |
@@ -184,6 +184,8 @@
 526| Flea 66 on hit | 18 |slow,slow,slow,mid| +4  |STN +11|       |5,5,5,5 |7 |2|50 |32 |-12|TJ[0-17] GRND |
 508| Flea 8B+K      | 0  |  | +0  |   +0  |       |  |4 | |50 |-1 |14 |TJ[0-] | SS
 507| Flea 2B+K      | 0  |  | +0  |   +0  |       |  |4 | |30 |-1 |14 |TC[17-] TJ[0-17] | SS
+
+[Indian Stance]
 353| 2B+K           | 0  |  | +0  |   +0  |       |  |4 | |20 |-1 | 0 |TC[13-] | SS
 527| Indian 5       | 0  |  | +0  |   +0  |       |  |4 | |30 |-1 | 0 |TC[0-] | SS
 535| Indian A       | 40 |low| -16 |   +2  |       |28|10|5|53 |37 | 0 |TC[0-] GRND |
@@ -199,6 +201,8 @@
 531| Indian 2_8     | 0  |  | +0  |   +0  |       |  |4 | |33 |-1 | 0 |TC[0-] |
 546| Indian B+K     | 0  |  | +0  |   +0  |       |  |4 | |30 |-1 | 0 |TJ[13-] TC[0-14] | SS
 549| Indian 8B+K    | 0  |  | +0  |   +0  |       |  |4 | |30 |-1 | 0 |TJ[6-] TC[0-6] | SS
+
+[Manji Dragonfly]
 550| 8B+K           | 0  |  | +0  |   +0  |       |  |4 | |36 |-1 | 0 |TJ[0-] | SS
 554| Dragonfly A    | 18 |mid,mid,mid| -12 |KND -2 |       |12,12,12|4 |4|71 |34 |-14,-15|TJ[0-34] TC[34-56] |
 556| Dragonfly B    | 30 |mid| +2  |STN +0 |       |26|22|2|60 |30 | 0 |TJ[0-29] TC[31-50] GRND |
@@ -210,6 +214,20 @@
 578| Dragonfly 4    | 0  |  | +0  |   +0  |       |  |4 | |35 |-1 | 0 |TJ[0-] | SS
 573| Dragonfly B+K  | 0  |  | +0  |   +0  |       |  |4 | |30 |-1 | 0 |TJ[0-] | SS
 574| Dragonfly 2B+K | 0  |  | +0  |   +0  |       |  |4 | |30 |-1 | 0 |TJ[0-28] TC[28-] |
+
+[Super Dragonfly]
+587| Super Dragonfly A | 30 |mid,mid| -8  |KND -6 |       |30,30|10|14|65 |35 |-16|TJ[0-33] TC[35-56] | SC
+588| Super Dragonfly B | 21 |mid| +2  |STN +22|       |30|38|3|38 |17 |50 |TJ[0-22] TC[22-32] | SC, UA
+589| Super Dragonfly K | 65 |smid|-100 |STN -92|       |30|38|3|186|121|94 |TJ[0-69] TC[70-106] GRND | SC
+589| Super Dragonfly K | 69 |low| -96 |STN -53|       |0 |38|2|186|117|98 |TJ[0-69] TC[70-106] GRND  | SC
+593| Super Dragonfly B+K | 54 |mid| +0  |STN +10|       |60|38|5|73 |19 |83 |TJ[0-60] GRND | SC, SS
+603| Super Dragonfly 8B+K| 0  |  | +0  |   +0  |       |  |4 | |30 |-1 | 0 |TJ[0-] | SC, SS
+595| Super Dragonfly 2B+K| 54 |smid,mid| +25 |KND -5 |       |40,30|38|5|125|34 |13 |TJ[0-95] TC[95-] GRND | SC, BA, SS
+595| Super Dragonfly 2B+K| 60 |low,mid| +25 |KND -5 |       |0,30|38|5|125|34 |13 |TJ[0-95] TC[95-] GRND | SC, BA, SS
+596| Super Dragonfly A+K | 62 |mid| -24 |STN -14|       |120|38|10|105|43 |91 |TJ[0-74] GRND | SC, UA
+599| Super Dragonfly 6   | 0  |  | +0  |   +0  |       |  |4 | |35 |-1 |29 |TJ[0-] | SC, SS
+601| Super Dragonfly 2_8 | 0  |  | +0  |   +0  |       |  |4 | |35 |-1 |29 |TJ[0-] | SC, SS
+602| Super Dragonfly 4   | 0  |  | +0  |   +0  |       |  |4 | |35 |-1 |29 |TJ[0-] | SC, SS
 
 [Gauge]
 632| A+B+K             | 8  |mid| +4  |   +9  |       |36|30|3|58 |50 | 0 |TJ[0-10] TC[10-43] GI{HVK}[0-11] | SG, BA, TH
@@ -230,15 +248,3 @@
 562| SC Dragonfly BBBB | 30 |mid,mid,mid,mid,mid,mid| -6  |   +2  |       |26,16,10,10,10,20|25|2|57 |30 |-8,17,-15,2,-10|TC[10-13] | SC, UA, TH
 567| SC Dragonfly KA   | 20 |low,mid,mid,mid| +6  |KND +8 |       |26,10,10,10|4 |10|69 |21 |0,-19,-18|TJ[0-] | SC, SS
 583| SC Dragonfly 8B+K | 0  |  | +0  |   +0  |       |  |4 | |30 |-1 | 0 |TJ[0-] | SC, SS
-587| Super Dragonfly A | 30 |mid,mid| -8  |KND -6 |       |30,30|10|14|65 |35 |-16|TJ[0-33] TC[35-56] | SC
-588| Super Dragonfly B | 21 |mid| +2  |STN +22|       |30|38|3|38 |17 |50 |TJ[0-22] TC[22-32] | SC, UA
-589| Super Dragonfly K | 65 |smid|-100 |STN -92|       |30|38|3|186|121|94 |TJ[0-69] TC[70-106] GRND | SC
-589| Super Dragonfly K | 69 |low| -96 |STN -53|       |0 |38|2|186|117|98 |TJ[0-69] TC[70-106] GRND  | SC
-593| Super Dragonfly B+K | 54 |mid| +0  |STN +10|       |60|38|5|73 |19 |83 |TJ[0-60] GRND | SC, SS
-603| Super Dragonfly 8B+K| 0  |  | +0  |   +0  |       |  |4 | |30 |-1 | 0 |TJ[0-] | SC, SS
-595| Super Dragonfly 2B+K| 54 |smid,mid| +25 |KND -5 |       |40,30|38|5|125|34 |13 |TJ[0-95] TC[95-] GRND | SC, BA, SS
-595| Super Dragonfly 2B+K| 60 |low,mid| +25 |KND -5 |       |0,30|38|5|125|34 |13 |TJ[0-95] TC[95-] GRND | SC, BA, SS
-596| Super Dragonfly A+K | 62 |mid| -24 |STN -14|       |120|38|10|105|43 |91 |TJ[0-74] GRND | SC, UA
-599| Super Dragonfly 6   | 0  |  | +0  |   +0  |       |  |4 | |35 |-1 |29 |TJ[0-] | SC, SS
-601| Super Dragonfly 2_8 | 0  |  | +0  |   +0  |       |  |4 | |35 |-1 |29 |TJ[0-] | SC, SS
-602| Super Dragonfly 4   | 0  |  | +0  |   +0  |       |  |4 | |35 |-1 |29 |TJ[0-] | SC, SS

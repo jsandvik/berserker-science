@@ -139,7 +139,7 @@
 413|R A+G.B| 16 |mid| -4  |STN +8 |       |42|50|2|44 |28 | 1 |GRND |
 414|A+G.[B]| 16 |mid| +8  |STN +8 |       |46|100|2|44 |28 |-13|GRND |
 
-[Special Moves]
+[Lingering Step]
 430|Lingering step A| 20 |high| -14 |KND -11|       |20|10|4|60 |40 |-8 |TC[8-15] |
 430|Lingering step A| 20 |high| -4  |KND -11|       |32|10|4|60 |40 |-8 |TC[8-15] |
 431|Lingering step B| 22 |low| -20 |   -8  |       |22|7 |2|70 |48 |-6 |TC[0-52] GRND |

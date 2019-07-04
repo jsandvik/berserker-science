@@ -166,7 +166,7 @@
 480| Right side throw  | 18 |high| -7  |STN -7 |       |60 |0 |2|54 |36 | 0 | | TH
 480| Back throw  | 18 |high| -7  |STN -7 |       |70 |0 |2|54 |36 | 0 | | TH
 
-[Special]
+[Updraft]
 514| 7_8_9B+K  | 0  |  | +0  |   +0  |       |  |4 | |65 |-1 | 0 |TJ[14-49] | SS
 515| Updraft A | 32 |mid| -8  |   -2  |       |26|4 |5|61 |29 |53 |TJ[1-36] |
 516| Updraft B | 31 |mid| +1  |STN +1 |       |40|38|8|71 |40 |52 |TC[42-56] TJ[1-42] GRND | BA
