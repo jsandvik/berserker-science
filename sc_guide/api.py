@@ -9,6 +9,20 @@ app = create_app()
 def hello_world():
     return 'Hello, World!'
 
+@app.route('/categories/')
+def categories(session=None):
+    character = request.args.get("character", "", str)
+
+    moves = Move.objects(character__iexact=character)
+    categories = []
+    for move in moves:
+        if move.category not in categories:
+            categories.append(move.category)
+
+    return jsonify({
+        "categories": categories
+    })
+
 @app.route('/moves/')
 def moves(session=None):
     size = request.args.get("size", None, int)
