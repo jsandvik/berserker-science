@@ -12,11 +12,11 @@ move_id|Command|from_stance|to_stance|Notes|Sound|Name|agi|imp|Properties|Block|
 268|  4AA  |N|N|||Serpent's Bane|| 17 |mid_4b| -14 |   -4  |       |14|[gd]|3|53 |36 | 0 |
 269| 4AAA  |N|BL|Mashing OK||Serpent's Bane|| 26 |mid_4b| +6  |  +14  |       |14|[gd]|3|53 |27 | 0 |
 271| 4AAAB |N|N|Mashing OK||Serpent's Bane|| 24 |mid_4b| -16 |STN -6 |       |25|[gd]|2|59 |35 | 0 |TC[5-23]
-272|4AAAB|SC|N|Mashing OK||Serpent's Bane|| 16 |mid_4b| +5  |STN +0 |       |20|[gd]|2|45 |29 | 0 |TC[5-16]
+272|SC 4AAAB|N|N|Mashing OK||Serpent's Bane|| 16 |mid_4b| +5  |STN +0 |       |20|[gd]|2|45 |29 | 0 |TC[5-16]
 273|  4AB  |N|LO|Mashing OK||Nunchaku Slap|| 18 |high_49| -2  |KND -8 |       |42|[gd]|2|55 |37 | 0 |GRND
 273|  4AB  |N|LO; Or 390/FS (Eventually LI)|Mashing OK. Hold 4 to go to 390.||Nunchaku Slap||999 |high_49|+979 |KND +973|       |42|[gd]|2|55 |-944| 0 |GRND
 274| 4ABB  |???|???|Only reached when not holding back after 273||Nunchaku Slap|| 18 |high_49| -13 |KND -19|       |42|[gd]|2|66 |48 | 0 |GRND
-275|236A|SC|BL||||| 28 |low_37| -83 |  -71  |       |8 |[gd]|2|130|102| 0 |TJ[6-20] TC[24-67] GRND
+275|SC 236A|N|BL||||| 28 |low_37| -83 |  -71  |       |8 |[gd]|2|130|102| 0 |TJ[6-20] TC[24-67] GRND
 276| 6A*?. |||Second hit of 275.|||| 33 |low_37| -78 |  -66  |       |8 |[gd]|2|130|97 | 0 |TJ[6-20] TC[24-67] GRND
 277|6A*?.. |||Third hit of 275.|||| 38 |low_37| -73 |  -61  |       |8 |[gd]|2|130|92 | 0 |TJ[6-20] TC[24-67] GRND
 278|6A*?...|||Fourth hit of 275.|||| 43 |low_37| -68 |  -56  |       |8 |[gd]|2|130|87 | 0 |TJ[6-20] TC[24-67] GRND
@@ -64,7 +64,7 @@ move_id|Command|from_stance|to_stance|Notes|Sound|Name|agi|imp|Properties|Block|
 310|?......|309|N||||| 56 |mid_4b| -14 |STN -6 |       |8 |[gd]|4|91 |35 | 0 |TC[0-83]
 312| 5A+B  |N|N|It looks like he goes into RO, but he does not.|Stand aside!|Vegabond|| 36 |mid_4b| +0  |LNC -17|       |30|[gd]|2|82 |46 | 0 |
 313| 6A+B  |N|N||Try this!|Dragon's Brand|| 16 |mid_4b| -8  |STN -8 |       |35|[gd]|2|53 |37 | 0 |TC[4-16]
-314|6A+B*. |N|LI|Pretty fast, long range guard break. Note that this only transitions to LI in SC.|Whatcha!||| 16 |mid_4b| +5  |STN +0 |       |30|[gd]|2|45 |29 | 0 |TC[4-16]
+314|SC 6A+B*. |N|LI|Pretty fast, long range guard break. Note that this only transitions to LI in .|Whatcha!||| 16 |mid_4b| +5  |STN +0 |       |30|[gd]|2|45 |29 | 0 |TC[4-16]
 315| 3A+B  ||316 (Eventually C)|A quick high then low while Maxi crushes high.|Here ya go.|Guillotine Dance|| 30 |low_37| -24 |STN -17|       |20|[gd]|4|76 |46 | 0 |TC[16-] GRND
 316| 3A+B. |315|C||||| 38 |high_49| -15 |KND -7 |       |26|[gd]|3|74 |36 | 0 |TC[0-]
 317| 4A+B  ||318 (Eventually N);|Can be held to become a guardbreak (318). Second hit (320) is guaranteed to hit if guardbreak 318) hits opponent's guard.|Take...|Rage of Pleasure|| 32 |mid_6f| -49 |  -41  |       |20|[gd]|2|102|70 | 0 |TC[9-19] TC[30-51] GRND
@@ -141,7 +141,7 @@ move_id|Command|from_stance|to_stance|Notes|Sound|Name|agi|imp|Properties|Block|
 367|  WR5K   |C|N|Note: This is distinct from 411 (88K). You cannot get the last kick starting from this move.||Dragon Scream|| 20 |mid_4b| -12 |LNC -6 |       |22|[gd]|3|55 |35 | 0 |TJ[11-36] TC[0-11]
 368| WR5KK  |367|N|Note: This is distinct from 412 (88KK). You cannot get the kick after this move. Mashing ok.|||| 21 |high_49| +0  |LNC -2 |       |30|[gd]|7|52 |31 | 0 |TJ[6-31]
 369| WR5B+K  |C|370 (Eventually BL); Or 371 (if cancel)|Slight side step from crouch. Press guard to cancel the subsequent overhead strike (370).|||| 26 |mid_4b| +6  |   +6  |       |0 |[gd]|4|19 |-7 | 0 |TC[0-17]
-370||369 (Unless canceled)|BL|Overhead strike after a slight side step from crouch. Used to be a guard break move in SC2.||Canyon Carve|| 7  |mid_4b| -41 |  -33  |       |26|[gd]|4|77 |70 | 0 |
+370||369 (Unless canceled)|BL|Overhead strike after a slight side step from crouch. Used to be a guard break move in SC2.||Canyon Carve|| 7  |mid_4b| -41 |  -33  |       |26|[gd]|4|77 |70 | 0 
 371|G|369 (if canceled)|RO|Cancel from 369.|Heh.||||||||||||||
 372|  9A   |N|RC|Jump forward into low sweep.||Falling Snake Sythe|| 40 |low_13| -6  |   +2  |       |24|[gd]|3|75 |35 | 0 |TJ[4-31]
 373|  8A   |N|RC|Jump into low sweep.||Falling Snake Sythe|| 40 |low_13| -6  |   +2  |       |24|[gd]|3|75 |35 | 0 |TJ[4-31]
@@ -228,24 +228,24 @@ move_id|Command|from_stance|to_stance|Notes|Sound|Name|agi|imp|Properties|Block|
 444|AK|RO|N; Or 444 (if hold K, then release); Or 445 (if hold K as long as possible)|Does 443 then a kick. Hold K to delay the kick.|Various sounds.||| 18 |mid_4b| -12 |   +6  |       |26|[gd]|4|49 |31 | 0 |
 444|A[K]|RO|N|Does 443 then a delayed kick.|Take this.||| 18 |mid_4b| -12 |LNC +6 |       |26|[gd]|4|49 |31 | 0 |
 445|A[K] |RO|N|Does 443 then a fully delayed guardbreak kick.|Get ready!||| 18 |mid_4b| +10 |LNC +0 |       |46|[gd]|4|47 |29 | 0 |
-446|AA+B|SCRO|BL||Feeling good!||| 21 |high_49| +3  |KND -1 |       |20|[gd]|2|51 |30 | 0 |TC[5-15]
+446|SC AA+B|RO|BL||Feeling good!||| 21 |high_49| +3  |KND -1 |       |20|[gd]|2|51 |30 | 0 |TC[5-15]
 447|B|RO|448 (Eventually RC); RC|Maxi slightly steps to the side during this move.|||| 18 |mid_6f| -33 |  -23  |STN -23|20 (21 at tip)|[gd]|3|74 |56 | 0 |GRND
 447|---||||||| 18 |mid_6f| -33 |  -23  |STN -23|20|[gd]|3|74 |56 | 0 |GRND
 448|BB|RO|449 (if K); Or RC||||| 16 |mid_6f| -18 |  -10  |STN -10|16|[gd]|3|55 |39 | 0 |TC[5-16] GRND
 448|--||||||| 16 |mid_6f| -18 |  -10  |STN -10|16|[gd]|4|55 |39 | 0 |TC[5-16] GRND
 449|BB+K|RO|N||Going somewhere?||| 28 |high_49| -2  |KND +3 |       |24|[gd]|5|59 |31 | 0 |TJ[20-38]
-450|BBA+B|SCRO|LO||Whoh bebe!||| 26 |mid_6f| -1  |LNC -13|       |24|[gd]|2|70 |44 | 0 |GRND
+450|SC BBA+B|RO|LO||Whoh bebe!||| 26 |mid_6f| -1  |LNC -13|       |24|[gd]|2|70 |44 | 0 |GRND
 450|--||||||| 26 |mid_6f| -1  |LNC -13|       |24|[gd]|3|70 |44 | 0 |GRND
 451|K|RO|N||Outta my way!; Or Scram! (from 532)||| 24 |high_49| +4  |KND +11|       |40|[gd]|6|57 |33 | 0 |TJ[23-44]
-452|A+B|SCRO|RO||WACHAH!||| 29 |mid_6f| -3  |STN -1 |       |34|[gd]|3|64 |35 | 0 |GRND
+452|SC A+B|RO|RO||WACHAH!||| 29 |mid_6f| -3  |STN -1 |       |34|[gd]|3|64 |35 | 0 |GRND
 455|A|RC|456|Elbow from RC.|||| 22 |mid_4b| +3  |  +11  |       |14|[gd]|3|47 |25 | 0 |
 466||455||Elbow from RC.|||||||||||||||
 457|AA|RC|LI|Maxi winds up and performs a high horizontal swing.|||| 28 |high_49| +0  |STN +10|       |20|[gd]|3|70 |42 | 0 |
 459|AB|RC|N||Try this!||| 24 |mid_4b| -16 |STN -12|       |25|[gd]|2|65 |41 | 0 |TC[5-23]
-460|9AAB*. |SCRC|LI|high pitched WAATCHAH!|||| 16 |mid_4b| +5  |STN +0 |       |20|[gd]|2|45 |29 | 0 |TC[5-16]
+460|SC 9AAB*. |RC|LI|high pitched WAATCHAH!|||| 16 |mid_4b| +5  |STN +0 |       |20|[gd]|2|45 |29 | 0 |TC[5-16]
 461|B|RC|LI||||| 26 |mid_6f| -5  |LNC -15|       |30|[gd]|2|70 |44 | 0 |GRND
 462|K|RC|N||Ever forward! (on Severance)||| 18 |mid_4b| -4  |   +8  |LNC +8 |20|[gd]|2|45 |27 | 0 |
-463|A+B|SCRC|N|Back flip attack.|||| 18 |mid_4b| -29 |STN -29|       |20|[gd]|4|81 |63 | 0 |TC[47-] TJ[25-48]
+463|SC A+B|RC|N|Back flip attack.|||| 18 |mid_4b| -29 |STN -29|       |20|[gd]|4|81 |63 | 0 |TC[47-] TJ[25-48]
 464||||Second hit of 463|||| 43 |mid_6f| +0  |STN -4 |       |25|[gd]|6|76 |33 | 0 |TJ[0-49] TC[48-] GRND
 468|A|BL|N|Maxi pivots on his left (back) foot, spinning back while swinging horizontally high.|||| 16 |high_49| -18 |   -8  |       |22|[gd]|4|53 |37 | 0 |
 469|B|BL|RC||Ever forward! (on Severance)||| 22 |mid_4b| +4  |  +14  |       |16|[gd]|2|55 |33 | 0 |GRND
@@ -253,16 +253,16 @@ move_id|Command|from_stance|to_stance|Notes|Sound|Name|agi|imp|Properties|Block|
 469|  4AB  |???|???||||| 22 |mid_4b| +4  |  +14  |       |16|[gd]|2|55 |33 | 0 |GRND
 471|K|BL|N; Or 472 (if K)||||| 24 |low_37| -22 |  -14  |       |18|[gd]|2|68 |44 | 0 |GRND
 472|KK|BL|N||Back off!||| 10 |high_49| -14 |KND -4 |       |22|[gd]|4|47 |37 | 0 |
-473|K|SCBL|N; Or 473 (if K)||||| 24 |low_37| -22 |  -14  |       |18|[gd]|2|68 |44 | 0 |GRND
+473|SC K|BL|N; Or 473 (if K)||||| 24 |low_37| -22 |  -14  |       |18|[gd]|2|68 |44 | 0 |GRND
 473| 4AK*. ||||||| 24 |low_37| -22 |STN -14|       |18|[gd]|2|68 |44 | 0 |GRND
 473| 4AK*. ||||||| 22 |low_37| -24 |  -16  |       |18|[gd]|5|68 |46 | 0 |GRND
-474|KK|SCBL|N||||| 16 |high_49| +6  |KND -4 |       |30|[gd]|5|49 |33 | 0 |TJ[11-34]
+474|SC KK|BL|N||||| 16 |high_49| +6  |KND -4 |       |30|[gd]|5|49 |33 | 0 |TJ[11-34]
 477|A|LO|N; Or 478 (if K)|This is reactable. Do a jumping move that will hit Maxi, unless you really want to go for the GI mixup after. (Note that with Azwel, jumping moves other than 7A can be inconsistent.|||| 32 |low_13| -10 |   +4  |       |18|[gd]|3|63 |31 | 0 |TC[20-]
 478|AK|LO|N|Warning! If opponent blocks 447, they can GI this move (478) getting a level 3 GI (best possible GI).|||| 31 |mid_4b| -10 |  +10  |       |20|[gd]|3|60 |29 | 0 |TC[0-51]
 479|B|LO|RC||||| 16 |mid_6f| -18 |  -10  |STN -10|16|[gd]|3|55 |39 | 0 |TC[5-16] GRND
 479||||Tip hit of above.|||| 16 |mid_6f| -18 |  -10  |STN -10|16|[gd]|4|55 |39 | 0 |TC[5-16] GRND
 480|BK|LO|N||Going somewhere?||| 28 |high_49| -2  |KND +3 |       |24|[gd]|5|59 |31 | 0 |TJ[20-38]
-481|BB+K|SCLO|||WHOh bebe!||| 26 |mid_6f| -1  |LNC -13|       |24|[gd]|2|70 |44 | 0 |GRND
+481|SC BB+K|LO|||WHOh bebe!||| 26 |mid_6f| -1  |LNC -13|       |24|[gd]|2|70 |44 | 0 |GRND
 481|4BB*A+B|???|???||||| 26 |mid_6f| -1  |LNC -13|       |24|[gd]|3|70 |44 | 0 |GRND
 482|K|LO|N||Ever forward! (on Severance)||| 20 |high_49| +4  |STN +6 |       |18|[gd]|2|48 |28 | 0 |
 486|A|LI|RC||||| 18 |high_49| -22 |KND +12|       |30|[gd]|3|65 |47 | 0 |TC[2-41]
@@ -315,5 +315,5 @@ move_id|Command|from_stance|to_stance|Notes|Sound|Name|agi|imp|Properties|Block|
 532||530 (if hit and hold A+B+K)|RO||||||||||||||||
 533||530 (if hit and not hold); Or 531 (if hit and not hold)|||I'm gonna ride the waves! WHHHUUUAAAAHHHH. … Go get some rest.||||||||||||||
 |||||||||||||||||||
-212|4A+B+K|N|214 (Eventually NSC)|SC|Am I...; Or I'll have my revenge! (vs Astaroth)||||||||||||||
-214||212|NSC|Hit of 212 (SC).|Too fast for ya?; Or HAAATAAWH!!! (vs Astaroth)||||||||||||||
+212|SC 4A+B+K|N|214 (Eventually N)|SC|Am I...; Or I'll have my revenge! (vs Astaroth)||||||||||||||
+214|SC |212|N|Hit of 212 (SC).|Too fast for ya?; Or HAAATAAWH!!! (vs Astaroth)||||||||||||||
