@@ -1,0 +1,65 @@
+#A
+AA | 24 | NC
+AB | 34 | NC
+
+#6A
+6AA | 40 | NC
+
+#3A
+3A - 6B:A | 45 | NCC | Ends in spear
+3A - 4A+B - 4_5A+G | 61 | NCC | Astaroth anc Voldo can break out of back grab ender, ends in almighty
+SC 3A - 1BB - 8A+B - 6A+B+K | 77 | NCC | Highest damage, uses 1 meter and soul charge // lol
+
+#B
+BB | 24 | NC
+
+#b6
+b6 - BB | 39 | NC
+b6 - 4A+B - B+K - BA | 58 | NCC | Best ring out option, ends in axe
+b6 - 2BB K - BoB B - 1A | 58 | NCC | Ends in spear
+b6 - B+K - A+B+K | 74 | NCC | Highest damage, costs 1 meter
+
+#6B
+6BA | NCC | 41 | Ends in spear
+6bA | NCC | 38 | Ends in sword
+
+#6BB
+6BB - 3B | 43 | NC // triggered by second hit in string
+
+#3B
+3BB - b4 | 55 | NC | Ends in sword
+3BB - 66B | 57 | NC | Ends in axe
+3BB - 1A | 58 | NC | Ends in spear
+3B[B] - b4 | 69 | NC | Ends in sword
+3B[B] - 66B | 71 | NC | Ends in axe
+3B[B] - 1A | 72 | NC | Ends in spear
+3B - 6A+B - 1A | 66 | LH | Can ringout
+3B[B] - 8A+B | 79 | LH
+3B - A+B+K | 84 | LH | Uses 1 meter, max damage
+
+#2B
+2BB K - BoB BA | 49 | NC | Ends in spear
+
+#1B
+1BB | 43 | NCC
+
+#4B
+4B - 4B+K | 52 | Uses weapon art
+4B - 1BB - 1A | 49 | LH | Ends in spear
+4B - 2BB K - BoB B - b4 | 43 | Ends in sword, can ring out
+
+#FC 3B
+FC 3BB | 41 | NC
+FC 3B 6B:A | 50 | NC
+
+#FC 1B
+FC 1B - 6B:A | 46 | NC | Ends in spear
+SC FC 1B - 66B - BA | 63 | NC | Requires soul charge, rings out
+SC FC 1B - 66B - A+B+K | 94 | NC | Requires soul charge and one meter
+
+#WR B
+WR BB | 36 | NC
+WR BB - B+K | 56 | NCC | Uses weapon art
+WR BB - A+B+K | 76 | NCC | Uses 1 meter
+WR BB - 9B | 55 | NCC | Ends in axe
+
