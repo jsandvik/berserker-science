@@ -264,8 +264,8 @@ move_id|Command|from_stance|to_stance|Notes|Sound|Name|agi|imp|Properties|Block|
 480|BK|LO|N||Going somewhere?||| 28 |high_49| -2  |KND +3 |       |24|[gd]|5|59 |31 | 0 |TJ[20-38]
 481|BB+K|SCLO|||WHOh bebe!||| 26 |mid_6f| -1  |LNC -13|       |24|[gd]|2|70 |44 | 0 |GRND
 481|4BB*A+B|???|???||||| 26 |mid_6f| -1  |LNC -13|       |24|[gd]|3|70 |44 | 0 |GRND
-482|LO|K|N||Ever forward! (on Severance)||| 20 |high_49| +4  |STN +6 |       |18|[gd]|2|48 |28 | 0 |
-486|LI|A|RC||||| 18 |high_49| -22 |KND +12|       |30|[gd]|3|65 |47 | 0 |TC[2-41]
+482|K|LO|N||Ever forward! (on Severance)||| 20 |high_49| +4  |STN +6 |       |18|[gd]|2|48 |28 | 0 |
+486|A|LI|RC||||| 18 |high_49| -22 |KND +12|       |30|[gd]|3|65 |47 | 0 |TC[2-41]
 487|--|||Second hit of 486|||| 18 |high_49| -53 |  -53  |       |0 |[gd]|4|70 |52 | 0 |TC[4-41]
 488|B|LI|N|This move has insane lag. If you're guard is low, opt to guard this to get broken every time. Maxi cannot follow up off of a guard crush here.|You're mine!||| 16 |mid_4b| -32 |KND -32|       |40|[gd]|2|79 |63 | 0 |
 489|K|LI|N; Or 490 (if K)||||| 30 |mid_4b| -12 |STN -2 |       |18|[gd]|3|63 |33 | 0 |TJ[15-34] GRND
