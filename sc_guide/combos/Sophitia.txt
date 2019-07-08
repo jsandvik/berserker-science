@@ -158,3 +158,14 @@ CH B+K B : B | 61 | NCC | (JF required for max damage)
 ||
 
 //Special Moves
+
+#AS A
+AS AA | 38 | NC
+
+#AS K
+AS K ||
+
+#TAS A
+|| NCC
+TAS AB |  | NCC
+
