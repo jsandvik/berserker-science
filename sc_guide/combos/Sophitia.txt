@@ -35,10 +35,10 @@ BK | 32 | NC
 
 #3B
  | | 
- 3B > TAS B > 4B_TAS B (54_61) | NC
-3B > wrB+K > TAS B > 3B (63)*Hard | NC
-3B > CE (75) | NC
-3B > wrB+K CE 75  | NC | builds more meter than going straight into CE, harder. not really worth it imo but good to know.
+ 3B TAS B 4B_TAS B | 54_61 | NC
+3B wrB+K TAS B 3B | 63*Hard | NC
+3B CE | 75 | NC
+3B wrB+K CE 75  | NC | builds more meter than going straight into CE, harder. not really worth it imo but good to know.
  
 #2B
 2BB:4 | 63 | NCC
@@ -71,16 +71,16 @@ KK | 24 | NC
 #1[K]
 1[K] 1K | 42 | NC
 1[K] 3B | 46 | NC
-LH 1[K] > wrB+K > 22BAK (87)
-LH 1[K] > wrB+K > CE (97)
+LH 1[K] wrB+K 22BAK | 87 | LH
+LH 1[K] wrB+K CE | 97 | LH
 
 // Dual button
 
 #A+B
 A+B 66B | 53 | NC
 A+B TAS B | | //Couldn't do this one
-LH A+B > TAS B > 3B (79) *Somewhat difficult, requires early buffer of TAS B during lethal hit animation.
-LH A+B > CE (102)
+A+B TAS B 3B | 79| LH *Somewhat difficult, requires early buffer of TAS B during lethal hit animation.
+A+B CE 102 | LH
 
 #8A+B
 8A+B ASB :4 | 56 | NC | (quake hit)
@@ -107,9 +107,9 @@ CH B+K B : B | 61 | NCC | (JF required for max damage)
 | | 
 
 #66A
-LH 66A+B > 22A+B > wrB+K > TAS B > 3B (99)
-LH 66A+B > 22A+B > wrB+K > CE (111)
-LH 66A+B > 22A+B > wrB+K > 22BAK (105) big bodies only
+66A+B 22A+B wrB+K TAS B > 3B | 99 | LH
+66A+B 22A+B wrB+K CE | 111 | LH
+66A+B 22A+B wrB+K 22BAK | 105 | LH | big bodies only
 
 #22_88A
 22_88A+B [G] TAS B 3B | 68 | NC
@@ -124,9 +124,9 @@ LH 66A+B > 22A+B > wrB+K > 22BAK (105) big bodies only
 | | 
 
 #66B
-66B > wrB+K > TAS B > 4B_3B (70_71) | NC | optimal vs girl chars
-66B > wrB+K > 22BAK (79)  | NC | works on Ivy + guy chars, excluding Cervantes and Astaroth
-66B > TAS B > 4B_TAS B (62_70) | NC
+66B wrB+K TAS B > 4B_3B | 70_71 | NC | optimal vs girl chars
+66B wrB+K 22BAK | 79 | NC | works on Ivy + guy chars, excluding Cervantes and Astaroth
+66B TAS B 4B_TAS B | 62_70 | NC
 
 #33_66_99B
 33_99B wrB+K 22BAK | 79 | NC
@@ -138,16 +138,16 @@ LH 66A+B > 22A+B > wrB+K > 22BAK (105) big bodies only
 #11_44_77B
 44B TAS B 3B | 67 | NC
 44B CE | 90 | NC
-LH 44B > 22A+B > wrB+K > TAS B > 3B (67)
-LH 44B > 22A+B > wrB+K > CE (79)
-LH44B > 8B+KK Reverse ring out.
+44B 22A+B wrB+K TAS B 3B | 67 | LH
+44B 22A+B wrB+K CE | 79 | LH
+44B 8B+KK |  | LH | Reverse ring out.
 
 #33_66_99K
 | | 
-66K > TAS B > 4B_3B_TAS B (52_53_60) | NC
-66K > wrB+K > TAS B > 4B (62) * Hard  | NC
-66K > CE (76)  | NC
-66K > wrB+K > CE | 76 | NC | technically possible, same deal for slight meter gain but too difficult to be practical.
+66K TAS B 4B_3B_TAS B | 52_53_60 | NC
+66K wrB+K TAS B 4B | 62 * Hard  | NC
+66K CE | 76 | NC
+66K wrB+K CE | 76 | NC | technically possible, same deal for slight meter gain but too difficult to be practical.
 
 #44K
 44KK TAS B 3B | 63 | NC | somewhat difficult, you have to buffer the TAS B VERY early, as in during the animation, earlier than it looks. Huge damage increase over other options, but also regular stab works and is easier to buffer for (53) if you hit the AS just frame, K you can actually hit confirm but it only does (36)
@@ -159,7 +159,7 @@ LH44B > 8B+KK Reverse ring out.
 | | 
 
 #22_88B+K
-LH 22B+K > TAS B (63)
+22B+K TAS B | 63 | LH
 
 #33_66_99B+K
 33_66_99B+K A+B | 20 | NC
@@ -184,16 +184,16 @@ AS K AS: B :4_B | 81_77 | LH
 #TAS A
 TAS AA | 44 | NCC
 TAS AB | 46 | NCC
-LH TAS AB > 6BA > 2BK > TAS B (100)
-LH TAS AB > 6BA > 2BK > 8A+B (101) doesn't work near walls
-LH TAS AB > TAS AA > AS: B :4 (108) char specific vs Nightmare/ Astaroth/ Cervantes/ Siegfried)
+TAS AB 6BA 2BK TAS B | 100 | LH
+TAS AB 6BA 2BK 8A+B | 101 | LH | doesn't work near walls
+TAS AB TAS AA AS: B :4 | 108 | LH | char specific vs Nightmare/ Astaroth/ Cervantes/ Siegfried)
 
 #TAS B
-LH TAS B > AS: B :4_B | 82_79 | LH
-LH TAS B > CE | 90 | LH
+TAS B AS: B :4_B | 82_79 | LH
+TAS B CE | 90 | LH
 
 #66A+G
-LH 66A+G, 1K (64)
+66A+G, 1K | 64 | LH
 
 #RE K
 // dont know re combos
