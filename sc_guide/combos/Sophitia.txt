@@ -36,7 +36,7 @@ BK | 32 | NC
 #3B
  | | 
  3B TAS B 4B_TAS B | 54_61 | NC
-3B wrB+K TAS B 3B | 63*Hard | NC
+3B wrB+K TAS B 3B | 63 | NC | *Hard
 3B CE | 75 | NC
 3B wrB+K CE 75  | NC | builds more meter than going straight into CE, harder. not really worth it imo but good to know.
  
@@ -53,7 +53,7 @@ BK | 32 | NC
 WCBB | 38 | NCC
 
 #9B
-9B 3K | | (Point blank range only)
+9B 3K | 27 | NC | (Point blank range only)
 
 #K
 KK | 24 | NC
@@ -66,7 +66,7 @@ KK | 24 | NC
 
 #1K
 1K 3K | 27 | NCC
-1K 1K | 29 | NCC (can wiff)
+1K 1K | 29 | NCC | (can wiff)
 
 #1[K]
 1[K] 1K | 42 | NC
@@ -79,14 +79,11 @@ LH 1[K] wrB+K CE | 97 | LH
 #A+B
 A+B 66B | 53 | NC
 A+B TAS B | | //Couldn't do this one
-A+B TAS B 3B | 79| LH *Somewhat difficult, requires early buffer of TAS B during lethal hit animation.
-A+B CE 102 | LH
+A+B TAS B | 3B | 79| LH | *Somewhat difficult, requires early buffer of TAS B during lethal hit animation.
+A+B CE | 102 | LH
 
 #8A+B
 8A+B ASB :4 | 56 | NC | (quake hit)
-
-8[A+B]
-| | 
 
 #B+K
 B+K B | 41 | NC
