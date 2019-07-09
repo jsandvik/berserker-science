@@ -13,6 +13,9 @@ SC 3A - 1BB - 8A+B - 6A+B+K | 77 | NCC | Highest damage, uses 1 meter and soul c
 #B
 BB | 24 | NC
 
+#BBB
+BBB - A+B - 9B | 77 | NC | If third B hits (same as 6A+B)
+
 #b6
 b6 - BB | 39 | NC
 b6 - 4A+B - B+K - BA | 58 | NCC | Best ring out option, ends in axe
@@ -62,4 +65,23 @@ WR BB | 36 | NC
 WR BB - B+K | 56 | NCC | Uses weapon art
 WR BB - A+B+K | 76 | NCC | Uses 1 meter
 WR BB - 9B | 55 | NCC | Ends in axe
+
+#A+B
+Sword/Almighty A+B - 6A+B - A+B - 9B | 88 | LH
+Axe A+B - 6A+B - A+B - 9B | 98 | LH
+Spear A+B - 3B[B] - 1A | 69 | LH | Works for the other weapons too if you want a consistent combo but less damage (only 10 less damage)
+
+#6A+B
+6A+B - A+B - 9B | 77 | NC | If third B hits (same as 6A+B)
+
+#2A+B
+2A+B - AB | 29 | NCC | Need to be in sword mode before initial hit
+
+#Sword B+K
+B+K - BA | 54 | NC
+B+K - A+B+K | 77 | NC | Needs 1 meter
+SC B+K - 4B+K | 75 | NC | Requires soul charge
+
+#BT A+B
+BT A+B - FC 1B - 6BB | 62 | NC | Any weapon can be used
 
