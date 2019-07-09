@@ -286,7 +286,7 @@ move_id|Command|from_stance|to_stance|Notes|Sound|Name|agi|imp|Properties|Block|
 495| 4A.A  ||||||| 16 |low_13| -22 |   -6  |       |20|[gd]|2|64 |48 | 0 |TC[15-30]
 496|A|NG|N|||Shin Breaker|| 20 |mid_4b| -21 |  -11  |       |20|[gd]|3|70 |50 | 0 |TC[5-16]
 496||???|???||||| 20 |mid_4b| -21 |  -11  |       |20|[gd]|3|70 |50 | 0 |TC[5-16]
-497|B|NG|LO|** check framedata||Transforming Serpent ~ LO|| 22 |mid_4b| +0  |  +10  |       |24|[gd]|2|53 |31 | 0 |GRND
+497|B|NG|LO|||Transforming Serpent ~ LO||20|mid_4b|-21|-11|       |20|[gd]|3|70|50| 0 |TC[5-16]
 498|BB|NG|RC|||Transforming Serpent ~ RC|| 22 |mid_6f| +0  |  +10  |       |24|[gd]|3|53 |31 | 0 |GRND
 497| 4A.BB |???|???||||| 22 |mid_4b| +0  |  +10  |       |24|[gd]|2|53 |31 | 0 |GRND
 499|B[B]|NG|LO|||Transforming Serpent ~ RC|| 22 |low_37| -6  |   +8  |       |18|[gd]|3|53 |31 | 0 |TC[13-] GRND
