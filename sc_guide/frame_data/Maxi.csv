@@ -3,7 +3,7 @@ move_id|Command|from_stance|to_stance|Notes|Sound|Name|agi|imp|Properties|Block|
 257|  5A   |???|???||||| 12 |high_49| -8  |   +2  |       |10|[gd]|3|40 |28 | 0 |
 258|  5AA  |N|RC|||Twin Snakes|| 14 |high_49| +0  |  +10  |       |12|[gd]|3|34 |20 | 0 |
 260|  6A   |N|RO|||Lunging Snake|| 16 |high_49| -4  |   +4  |  +14  |18|[gd]|3|41 |25 | 0 |
-261|  3A   |N|BL|||Lotus|| 20 |mid_4b| +5  |  +13  |       |14|[gd]|3|47 |27 | 0 |
+261|  3A   |N|BL|||Lotus ~ BL|| 20 |mid_4b| +5  |  +13  |       |14|[gd]|3|47 |27 | 0 |
 263|  2A   |N|N|||Tongue|| 12 |sl_1b| -6  |   +6  |       |12|[gd]|3|42 |30 | 0 |TC[8-]
 264|  1A   |N|C|||Scythe Fang|| 28 |low_13| -14 |   +0  |       |20|[gd]|3|63 |35 | 0 |TC[16-]
 265|  1AB  |N|C||You're mine!|Scythe Fang|| 31 |mid_6f| +2  |KND -3 |       |30|[gd]|3|63 |32 | 0 |TJ[7-33] GRND
@@ -284,14 +284,14 @@ move_id|Command|from_stance|to_stance|Notes|Sound|Name|agi|imp|Properties|Block|
 492|[K]|LI|N|||Wheel Kick|||||||||||||
 494|LI|||Stance||Left Inner (Phecda)|||||||||||||
 495| 4A.A  ||||||| 16 |low_13| -22 |   -6  |       |20|[gd]|2|64 |48 | 0 |TC[15-30]
-496|A|WL|N|||Shin Breaker|| 20 |mid_4b| -21 |  -11  |       |20|[gd]|3|70 |50 | 0 |TC[5-16]
+496|A|NG|N|||Shin Breaker|| 20 |mid_4b| -21 |  -11  |       |20|[gd]|3|70 |50 | 0 |TC[5-16]
 496||???|???||||| 20 |mid_4b| -21 |  -11  |       |20|[gd]|3|70 |50 | 0 |TC[5-16]
-497|B|WL|LO|** check framedata||Transforming Serpent ~ LO|| 22 |mid_4b| +0  |  +10  |       |24|[gd]|2|53 |31 | 0 |GRND
-498|BB|WL|RC|||Transforming Serpent ~ RC|| 22 |mid_6f| +0  |  +10  |       |24|[gd]|3|53 |31 | 0 |GRND
+497|B|NG|LO|** check framedata||Transforming Serpent ~ LO|| 22 |mid_4b| +0  |  +10  |       |24|[gd]|2|53 |31 | 0 |GRND
+498|BB|NG|RC|||Transforming Serpent ~ RC|| 22 |mid_6f| +0  |  +10  |       |24|[gd]|3|53 |31 | 0 |GRND
 497| 4A.BB |???|???||||| 22 |mid_4b| +0  |  +10  |       |24|[gd]|2|53 |31 | 0 |GRND
-499|B[B]|WL|LO|||Transforming Serpent ~ RC|| 22 |low_37| -6  |   +8  |       |18|[gd]|3|53 |31 | 0 |TC[13-] GRND
-500|K|WL|C; Or 501 (if K)|||Guillotine Kick|| 26 |mid_4b| -8  |KND -2 |       |28|[gd]|4|57 |31 | 0 |
-501|KK|WL||||Guillotine Kick|| 16 |high_49| -11 |STN -11|       |26|[gd]|2|61 |45 | 0 |TC[4-14]
+499|B[B]|NG|LO|||Transforming Serpent ~ RC|| 22 |low_37| -6  |   +8  |       |18|[gd]|3|53 |31 | 0 |TC[13-] GRND
+500|K|NG|C; Or 501 (if K)|||Guillotine Kick|| 26 |mid_4b| -8  |KND -2 |       |28|[gd]|4|57 |31 | 0 |
+501|KK|NG||||Guillotine Kick|| 16 |high_49| -11 |STN -11|       |26|[gd]|2|61 |45 | 0 |TC[4-14]
 502|  4A?  |???|||||| 17 |mid_4b| -7  |STN -32|       |45|[gd]|2|78 |61 | 0 |
 504|Forward|||Transition||Pure Seven|||||||||||||
 505|Forward|||Transition||Pure Seven|||||||||||||
@@ -322,9 +322,9 @@ move_id|Command|from_stance|to_stance|Notes|Sound|Name|agi|imp|Properties|Block|
 524|  ???  ||||||| 27 |low_13| -14 |STN -3 |       |20|[gd]|4|64 |37 | 0 |TC[3-36]
 525||479 (After 516 aka A from RE)|||||| 13 |mid_4b| -3  |   -3  |       |0 |[gd]|3|15 | 2 | 0 |
 526|A+B+K|N|528||||| 13 |mid_4b| -1  |   -1  |       |0 |[gd]|3|13 | 0 | 0 |
-527|A+B+K|WL|529|||Raging Dragon Zodiac: Reprisal|||||||||||||
+527|A+B+K|NG|529|||Raging Dragon Zodiac: Reprisal|||||||||||||
 528||526; Or 527|530||The surf 's gonna get rough!||||||||||||||
-529|A+B+K|WL|531||||| 2  |mid_6f| -18 |LNC -9 |       |22|[gd]|3|42 |40 | 0 |GRND
+529|A+B+K|NG|531||||| 2  |mid_6f| -18 |LNC -9 |       |22|[gd]|3|42 |40 | 0 |GRND
 529|3AU....||||||| 2  |mid_4b| -18 |   -9  |       |22|[gd]|3|42 |40 | 0 |GRND
 530||528|RO (if miss); Or 533 (if hit)|Strike for 528.|||| 2  |mid_6f| -2  |LNC -9 |       |32|[gd]|3|42 |40 | 0 |GRND
 531|||||||||||||||||||
