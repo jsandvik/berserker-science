@@ -201,15 +201,15 @@ move_id|Command|from_stance|to_stance|Notes|Sound|Name|agi|imp|Properties|Block|
 418|66A+BB |415|LO|Break attack version.||Fish in a Barrel ~ LO|| 26 |mid_6f| -7  |LNC -29|       |30|[gd]|2|84 |58 | 0 |GRND
 419| 66B+K |N|N||MMMmmmooorrrrreahh!|Dragon Cannon|| 24 |mid_6f| -12 |LNC -10|       |42|[gd]|3|69 |45 | 0 |TJ[27-50] TC[14-21] GRND
 420| WR K  |||||Sliding|| 20 |low_37| -22 |LNC -10|       |26|[gd]|7|61 |41 | 0 |TJ[6-26] TC[26-46] GRND
-421| 6A+G  |N|N; Or 425||||| 18 |throw| -7  |STN -7 |       |0 |[gd]|2|54 |36 | 0 |
+421| 6A+G  |N|N; Or 425; Or 426; Or 428||||| 18 |throw| -7  |STN -7 |       |0 |[gd]|2|54 |36 | 0 |
 422| 4A+G  |N|Grab||||| 18 |throw| -7  |STN -7 |       |0 |[gd]|2|54 |36 | 0 |
 423| btAU  ||||||| 20 |throw| -7  |STN -7 |       |0 |[gd]|2|56 |36 | 0 |
 424| 0A+G  ||||||| 20 |throw| -7  |STN -7 |       |0 |[gd]|2|56 |36 | 0 |
-425||421||Forward grab (neutral/5)|||||||||||||||
-426||421; Or 422|N|Side grab (opponent's left). Switches position with opponent's.|||||||||||||||
-427||421; Or 422|BL|Side grab (opponent's right)|||||||||||||||
-428||421; Or 422|N|Back grab. Switches position with opponent's.|I'm done, messin' around. Can't stand?||||||||||||||
-429||422|N|Forward grab (back/4). Switches positions with opponent's.|Hmph. Back off!||||||||||||||
+425||421||Forward grab (neutral/5)||Falling Heaven Dragon|||||||||||||
+426||421; Or 422|N|Side grab (opponent's left). Switches position with opponent's.||Dragon Destroyer|||||||||||||
+427||421; Or 422|BL|Side grab (opponent's right)||Leaving the Dragon Nest ~ BL|||||||||||||
+428||421; Or 422|N|Back grab. Switches position with opponent's.|I'm done, messin' around. Can't stand?|Parting the Waves|||||||||||||
+429||422|N|Forward grab (back/4). Switches positions with opponent's.|Hmph. Back off!|Lynching|||||||||||||
 430|  btA  ||||||| 14 |high_49| -20 |  -10  |       |14|[gd]|3|53 |39 | 0 |
 431|  btA  |BT|N|||Reverse Snake|| 14 |high_49| -20 |  -10  |       |14|[gd]|3|53 |39 | 0 |
 432|  btA  |BT|N|Duplicate (from other direction relative to opponent)||Reverse Snake|| 14 |sl_1b| -20 |   -8  |       |14|[gd]|3|53 |39 | 0 |TC[10-]
