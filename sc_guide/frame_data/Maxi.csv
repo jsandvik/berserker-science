@@ -15,7 +15,7 @@ move_id|Command|from_stance|to_stance|Notes|Sound|Name|agi|imp|Properties|Block|
 272|SC 4AAAB|N|N|Mashing OK||Serpent's Bane|| 16 |mid_4b| +5  |STN +0 |       |20|[gd]|2|45 |29 | 0 |TC[5-16]
 273|  4AB  |N|LO|Mashing OK||Nunchaku Slap|| 18 |high_49| -2  |KND -8 |       |42|[gd]|2|55 |37 | 0 |GRND
 273|  4AB  |N|LO; Or 390/FS (Eventually LI)|Mashing OK. Hold 4 to go to 390.||Nunchaku Slap||999 |high_49|+979 |KND +973|       |42|[gd]|2|55 |-944| 0 |GRND
-274| 4ABB  |???|???|Only reached when not holding back after 273||Nunchaku Slap|| 18 |high_49| -13 |KND -19|       |42|[gd]|2|66 |48 | 0 |GRND
+274| 4ABB  |???|???|Only reached when not holding back after 273||Nunchaku Slap to Steel Dragon|| 18 |high_49| -13 |KND -19|       |42|[gd]|2|66 |48 | 0 |GRND
 275|SC 236A|N|BL||||| 28 |low_37| -83 |  -71  |       |8 |[gd]|2|130|102| 0 |TJ[6-20] TC[24-67] GRND
 276| 6A*?. |||Second hit of 275.|||| 33 |low_37| -78 |  -66  |       |8 |[gd]|2|130|97 | 0 |TJ[6-20] TC[24-67] GRND
 277|6A*?.. |||Third hit of 275.|||| 38 |low_37| -73 |  -61  |       |8 |[gd]|2|130|92 | 0 |TJ[6-20] TC[24-67] GRND
@@ -141,7 +141,7 @@ move_id|Command|from_stance|to_stance|Notes|Sound|Name|agi|imp|Properties|Block|
 367|  WR5K   |C|N|Note: This is distinct from 411 (88K). You cannot get the last kick starting from this move.||Dragon Scream|| 20 |mid_4b| -12 |LNC -6 |       |22|[gd]|3|55 |35 | 0 |TJ[11-36] TC[0-11]
 368| WR5KK  |367|N|Note: This is distinct from 412 (88KK). You cannot get the kick after this move. Mashing ok.|||| 21 |high_49| +0  |LNC -2 |       |30|[gd]|7|52 |31 | 0 |TJ[6-31]
 369| WR5B+K  |C|370 (Eventually BL); Or 371 (if cancel)|Slight side step from crouch. Press guard to cancel the subsequent overhead strike (370).|||| 26 |mid_4b| +6  |   +6  |       |0 |[gd]|4|19 |-7 | 0 |TC[0-17]
-370||369 (Unless canceled)|BL|Overhead strike after a slight side step from crouch. Used to be a guard break move in SC2.||Canyon Carve|| 7  |mid_4b| -41 |  -33  |       |26|[gd]|4|77 |70 | 0 
+370||369 (Unless canceled)|BL|Overhead strike after a slight side step from crouch. Used to be a guard break move in SC2.||Canyon Carve|| 7  |mid_4b| -41 |  -33  |       |26|[gd]|4|77 |70 | 0 |
 371|G|369 (if canceled)|RO|Cancel from 369.|Heh.||||||||||||||
 372|  9A   |N|RC|Jump forward into low sweep.||Falling Snake Sythe|| 40 |low_13| -6  |   +2  |       |24|[gd]|3|75 |35 | 0 |TJ[4-31]
 373|  8A   |N|RC|Jump into low sweep.||Falling Snake Sythe|| 40 |low_13| -6  |   +2  |       |24|[gd]|3|75 |35 | 0 |TJ[4-31]
@@ -152,17 +152,17 @@ move_id|Command|from_stance|to_stance|Notes|Sound|Name|agi|imp|Properties|Block|
 378|  9K   |N|N|||Reverse Roundhouse|| 42 |mid_4b| -4  |LNC +6 |       |26|[gd]|4|67 |25 | 0 |TJ[7-33]
 379|  8K   |N|N|||Reverse Roundhouse|| 42 |mid_4b| -4  |LNC +6 |       |26|[gd]|4|67 |25 | 0 |TJ[7-33]
 380|  7K   |N|N|||Reverse Roundhouse|| 42 |mid_4b| -4  |LNC +6 |       |26|[gd]|4|67 |25 | 0 |TJ[7-33]
-381|  66A  |N|N||||| 20 |high_49| -6  |  +10  |       |20|[gd]|3|49 |29 | 0 |
-382|  22A  |N|LI|P1 side: 22A; P2 side: 88A. Aka move is relative to Maxi's POV.|||| 24 |mid_4b| -9  |   +3  |STN +21|20|[gd]|3|62 |38 | 0 |
-383|  88A  |N|N|P1 side: 88A; P2 side: 22A. Aka move is relative to Maxi's POV.|||| 24 |mid_4b| -8  |   +4  |STN +22|20|[gd]|3|61 |37 | 0 |
-384|  44A  |N|N|Looks like he goes to RO, but he does not.|||| 20 |high_49| -14 |   -4  |       |15|[gd]|3|62 |42 | 0 |TC[6-14]
+381|  66A  |N|N|||Striking Snake|| 20 |high_49| -6  |  +10  |       |20|[gd]|3|49 |29 | 0 |
+382|  22A  |N|LI|P1 side: 22A; P2 side: 88A. Aka move is relative to Maxi's POV.||Northern Lights|| 24 |mid_4b| -9  |   +3  |STN +21|20|[gd]|3|62 |38 | 0 |
+383|  88A  |N|N|P1 side: 88A; P2 side: 22A. Aka move is relative to Maxi's POV.||Northern Lights (Reverse)|| 24 |mid_4b| -8  |   +4  |STN +22|20|[gd]|3|61 |37 | 0 |
+384|  44A  |N|N|Looks like he goes to RO, but he does not.||Propeller Nunchaku|| 20 |high_49| -14 |   -4  |       |15|[gd]|3|62 |42 | 0 |TC[6-14]
 385| 44AB  |384|386 (Eventually RO)||||| 23 |mid_4b| -40 |  -30  |       |5 |[gd]|3|82 |59 | 0 |
 386| 44AB. |385|387 (Eventually RO)||||| 30 |sm_5b| -33 |  -23  |       |5 |[gd]|3|82 |52 | 0 |
 387|44AB.. |386|RO||||| 37 |sm_5b| -22 |  -14  |       |5 |[gd]|3|82 |45 | 0 |
-388|  66B  ||389; Or 390 (if holding 4)|Hold 4 to go to 390.|Say!|Nunchaku Slap to Steel Dragon|| 18 |high_49| -2  |KND -8 |       |42|[gd]|2|55 |37 | 0 |GRND
+388|  66B  ||389; Or 390 (if holding 4)|Hold 4 to go to 390.|Say!|Steel Dragon|| 18 |high_49| -2  |KND -8 |       |42|[gd]|2|55 |37 | 0 |GRND
 388|  66B  |???|???|???||||999 |high_49|+979 |KND +973|       |42|[gd]|2|55 |-944| 0 |GRND
 389| 66BB  |388|N|Only reached when not holding back after 388|||| 18 |high_49| -13 |KND -19|       |42|[gd]|2|66 |48 | 0 |GRND
-390| 66Bd  |273|391/FS ;Eventually LI|From holding back during  (273 or 388); You will be stuck in FS until after 401.|||| 2  |mid_4b| -10 |   -2  |       |10|[gd]|2|27 |25 | 0 |
+390| 66Bd  |273|391/FS ;Eventually LI|From holding back during  (273 or 388); You will be stuck in FS until after 401.||Branding Nuchaku|| 2  |mid_4b| -10 |   -2  |       |10|[gd]|2|27 |25 | 0 |
 391| 66Bd. |390/FS|392/FS ;Eventually LI|From 390|||| 8  |mid_4b| -12 |KND -4 |       |20|[gd]|4|35 |27 | 0 |
 392|66Bd.. |391/FS|393/FS ;Eventually LI|From 391|||| 16 |mid_4b| -12 |KND -4 |       |20|[gd]|4|43 |27 | 0 |
 392|66Bd.. |???|???|???|||| 18 |mid_4b| -10 |KND -2 |       |20|[gd]|2|43 |25 | 0 |
@@ -181,26 +181,26 @@ move_id|Command|from_stance|to_stance|Notes|Sound|Name|agi|imp|Properties|Block|
 399|.......|398/FS|399/FS ;Eventually LI|From 398|||| 72 |mid_4b| -8  |KND +2 |       |20|[gd]|4|99 |27 | 0 |
 399|.......|???|???||||| 74 |mid_4b| -6  |KND +4 |       |20|[gd]|2|99 |25 | 0 |
 401||399/FS|LI|From 399|||||||||||||||
-402|  99B  |N|BL|Slight step into long swing from Maxi's right to his left.|||| 28 |mid_6f| -43 |LNC -38|KND -38|36|[gd]|3|95 |67 | 0 |TC[11-21] GRND
-403| 99B?  ||||||| 11 |high_49| +3  |   +9  |       |24|[gd]|6|26 |15 | 0 |
-405|  88B  |N|406||||| 20 |mid_4b| -56 |LNC -46|       |12|[gd]|3|95 |75 | 0 |
+402|  99B  |N|BL|Slight step into long swing from Maxi's right to his left.||Return of Fear|| 28 |mid_6f| -43 |LNC -38|KND -38|36|[gd]|3|95 |67 | 0 |TC[11-21] GRND
+403| 99bA|N|RC|||Cobra's Temple|| 11 |high_49| +3  |   +9  |       |24|[gd]|6|26 |15 | 0 |
+405|  88B  |N|406|||Mark of the Beast|| 20 |mid_4b| -56 |LNC -46|       |12|[gd]|3|95 |75 | 0 |
 406| 88B.  |405|407||||| 29 |mid_4b| -47 |LNC -37|       |12|[gd]|2|95 |66 | 0 |
 407| 88B.. |406|408||||| 36 |mid_4b| -40 |LNC -30|       |12|[gd]|2|95 |59 | 0 |
 408|88B... |407|N|Maxi leans forward and does a drum roll.|||| 49 |mid_4b| -14 |STN -9 |       |12|[gd]|2|87 |38 | 0 |
-409|  44B  |N|RC|Overhead arc that lethal hits on attacking opponents.|||| 24 |mid_6f| -8  |   +0  |STN +0 |26|[gd]|2|65 |41 | 0 |TC[5-50] GRND
-410|  66K  |N|N|Spinning kick forwards. Cover decent distance.|||| 26 |high_49| -2  |KND -2 |       |24|[gd]|5|57 |31 | 0 |TJ[21-39]
-411|  88K  |N|C; Or 411|Low spinning leg sweep using Maxi's right leg.|||| 32 |low_37| -20 |  -10  |STN -10|18|[gd]|3|73 |41 | 0 |TC[8-] GRND
+409|  44B  |N|RC|Overhead arc that lethal hits on attacking opponents.||Reverse Snake Cross|| 24 |mid_6f| -8  |   +0  |STN +0 |26|[gd]|2|65 |41 | 0 |TC[5-50] GRND
+410|  66K  |N|N|Spinning kick forwards. Cover decent distance.||Rolling Sobat|| 26 |high_49| -2  |KND -2 |       |24|[gd]|5|57 |31 | 0 |TJ[21-39]
+411|  88K  |N|C; Or 411|Low spinning leg sweep using Maxi's right leg.||Dragon Star|| 32 |low_37| -20 |  -10  |STN -10|18|[gd]|3|73 |41 | 0 |TC[8-] GRND
 412| 88KK  |411|N; Or 413|Flipping kick from crouch after 411. Note that this is not the same as 367 (WR K). |||| 14 |mid_4b| -12 |LNC -2 |       |16|[gd]|3|45 |31 | 0 |TJ[8-29] TC[0-4]
 413| 88KKK |412|N|Mashing encouraged.|Outta my way!||| 24 |high_49| +6  |KND +6 |       |30|[gd]|5|60 |36 | 0 |TJ[21-42]
-414|  44K  |N|N|Backflip kick|YeeAhhh! (without break, rising in volume)||| 38 |mid_6f| +2  |STN -4 |       |36|[gd]|4|71 |33 | 0 |TJ[17-37] TC[37-] GRND
-415| 66A+B |N|416||||| 24 |mid_4b| -28 |  -16  |       |15|[gd]|3|70 |46 | 0 |
+414|  44K  |N|N|Backflip kick|YeeAhhh! (without break, rising in volume)|Falling Hydra|| 38 |mid_6f| +2  |STN -4 |       |36|[gd]|4|71 |33 | 0 |TJ[17-37] TC[37-] GRND
+415| 66A+B |N|RO|||Seismic Whale ~ RO|| 24 |mid_4b| -28 |  -16  |       |15|[gd]|3|70 |46 | 0 |
 415| 66A+B |???|???||||| 24 |mid_4b| -28 |  -16  |       |15|[gd]|3|70 |46 | 0 |
 415| 66A+B |???|???||||| 24 |mid_4b| -28 |  -16  |       |15|[gd]|3|70 |46 | 0 |
-416|66[A+B]|415|RO||||| 42 |mid_6f| -9  |   -1  |       |20|[gd]|3|80 |38 | 0 |GRND
+416|66[A+B]|N|BL|Held to make go into BL instead of RO.||Seismic Whale ~ BL|| 42 |mid_6f| -9  |   -1  |       |20|[gd]|3|80 |38 | 0 |GRND
 417||416 (on hold)|BL||||||||||||||||
-418|66A+BB |415|LO||||| 26 |mid_6f| -7  |LNC -29|       |30|[gd]|2|84 |58 | 0 |GRND
-419| 66B+K |N|N||MMMmmmooorrrrreahh!||| 24 |mid_6f| -12 |LNC -10|       |42|[gd]|3|69 |45 | 0 |TJ[27-50] TC[14-21] GRND
-420| WR K  ||||||| 20 |low_37| -22 |LNC -10|       |26|[gd]|7|61 |41 | 0 |TJ[6-26] TC[26-46] GRND
+418|66A+BB |415|LO|Break attack version.||Fish in a Barrel ~ LO|| 26 |mid_6f| -7  |LNC -29|       |30|[gd]|2|84 |58 | 0 |GRND
+419| 66B+K |N|N||MMMmmmooorrrrreahh!|Dragon Cannon|| 24 |mid_6f| -12 |LNC -10|       |42|[gd]|3|69 |45 | 0 |TJ[27-50] TC[14-21] GRND
+420| WR K  |||||Sliding|| 20 |low_37| -22 |LNC -10|       |26|[gd]|7|61 |41 | 0 |TJ[6-26] TC[26-46] GRND
 421| 6A+G  |N|N; Or 425||||| 18 |throw| -7  |STN -7 |       |0 |[gd]|2|54 |36 | 0 |
 422| 4A+G  |N|Grab||||| 18 |throw| -7  |STN -7 |       |0 |[gd]|2|54 |36 | 0 |
 423| btAU  ||||||| 20 |throw| -7  |STN -7 |       |0 |[gd]|2|56 |36 | 0 |
@@ -251,6 +251,7 @@ move_id|Command|from_stance|to_stance|Notes|Sound|Name|agi|imp|Properties|Block|
 469|B|BL|RC||Ever forward! (on Severance)||| 22 |mid_4b| +4  |  +14  |       |16|[gd]|2|55 |33 | 0 |GRND
 469|  4AB  |???|???||||| 22 |mid_6f| +4  |  +14  |       |16|[gd]|3|55 |33 | 0 |GRND
 469|  4AB  |???|???||||| 22 |mid_4b| +4  |  +14  |       |16|[gd]|2|55 |33 | 0 |GRND
+470|[B]|BL|LO|Hold B during 469 (BL B) to go to LO.|||||||||||||||
 471|K|BL|N; Or 472 (if K)||||| 24 |low_37| -22 |  -14  |       |18|[gd]|2|68 |44 | 0 |GRND
 472|KK|BL|N||Back off!||| 10 |high_49| -14 |KND -4 |       |22|[gd]|4|47 |37 | 0 |
 473|SC K|BL|N; Or 473 (if K)||||| 24 |low_37| -22 |  -14  |       |18|[gd]|2|68 |44 | 0 |GRND
@@ -284,7 +285,7 @@ move_id|Command|from_stance|to_stance|Notes|Sound|Name|agi|imp|Properties|Block|
 499| 4A.K  ||||||| 22 |low_37| -6  |   +8  |       |18|[gd]|3|53 |31 | 0 |TC[13-] GRND
 500|K|WL|C; Or 501 (if K)||||| 26 |mid_4b| -8  |KND -2 |       |28|[gd]|4|57 |31 | 0 |
 501|KK|WL|||||| 16 |high_49| -11 |STN -11|       |26|[gd]|2|61 |45 | 0 |TC[4-14]
-502|  4A?  |asdf|||||| 17 |mid_4b| -7  |STN -32|       |45|[gd]|2|78 |61 | 0 |
+502|  4A?  |???|||||| 17 |mid_4b| -7  |STN -32|       |45|[gd]|2|78 |61 | 0 |
 514|G+K|N (not against Astaroth)|N|Taunt. Maxi steps back slightly, runs his fingers through his luscious hair, and asks his opponent if he or she is scared.|What? Ya scared?|Appeal|||||||||||||
 514|G+K|N (against Xianghua)|N|Taunt. Maxi chuckles to himself. Then says “Come on!”|Hehehe. Come on!||||||||||||||
 515|  ???  |N (against Astaroth)|N|Taunt. Maxi tenses up while holding his Nunchaku in front of himself. His body lowers during this move (515), but he does not crush highs.|You freak!||| 36 |high_49|-65471| -65452|       |18|[gd]|3|65534|65498| 0 |
