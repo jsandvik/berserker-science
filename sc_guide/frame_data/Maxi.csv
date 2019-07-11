@@ -240,7 +240,8 @@ move_id|Command|from_stance|to_stance|Notes|Sound|Name|agi|imp|Properties|Block|
 452|SC A+B|RO|RO||WACHAH!||| 29 |mid_6f| -3  |STN -1 |       |34|[gd]|3|64 |35 | 0 |GRND
 453|NG|||Stance||Neutral Guard (Alkaid) [Wavering Light in SC IV]|||||||||||||
 454|RO|||Stance||Right Outer (Dubhe)|||||||||||||
-455|A|RC|456|Elbow from RC.|||| 22 |mid_4b| +3  |  +11  |       |14|[gd]|3|47 |25 | 0 |
+455|A|RC|BL (456)|Elbow from RC.|||| 22 |mid_4b| +3  |  +11  |       |14|[gd]|3|47 |25 | 0 |
+456|BL|||Stance||Behind Lower (Alioth)|||||||||||||
 466||455||Elbow from RC.|||||||||||||||
 467|RC|||Stance||Right Cross (Megrez)|||||||||||||
 457|AA|RC|LI|Maxi winds up and performs a high horizontal swing.||Dragon's Beard ~ LI|| 28 |high_49| +0  |STN +10|       |20|[gd]|3|70 |42 | 0 |
@@ -304,7 +305,7 @@ move_id|Command|from_stance|to_stance|Notes|Sound|Name|agi|imp|Properties|Block|
 512|Back|||Transition||True Seven|||||||||||||
 513|Back|||Transition||True Seven|||||||||||||
 514|G+K|N (not against Astaroth)|N|Taunt. Maxi steps back slightly, runs his fingers through his luscious hair, and asks his opponent if he or she is scared.|What? Ya scared?|Appeal|||||||||||||
-514|G+K|N (against Xianghua)|N|Taunt. Maxi chuckles to himself. Then says "Come on!"|Hehehe. Come on!||||||||||||||
+514|G+K|N (against Xianghua)|N|"Taunt. Maxi chuckles to himself. Then says ""Come on!"""|Hehehe. Come on!||||||||||||||
 515|  ???  |N (against Astaroth)|N|Taunt. Maxi tenses up while holding his Nunchaku in front of himself. His body lowers during this move (515), but he does not crush highs.|You freak!||| 36 |high_49|-65471| -65452|       |18|[gd]|3|65534|65498| 0 |
 515|  ???  ||||||| 36 |high_49|-65471| -65452|       |18|[gd]|3|65534|65498| 0 |
 515|  ???  |||||||1000|high_49|-64507| -64488|       |18|[gd]|2|65534|64534| 0 |
@@ -327,7 +328,7 @@ move_id|Command|from_stance|to_stance|Notes|Sound|Name|agi|imp|Properties|Block|
 529|A+B+K|NG|531||||| 2  |mid_6f| -18 |LNC -9 |       |22|[gd]|3|42 |40 | 0 |GRND
 529|3AU....||||||| 2  |mid_4b| -18 |   -9  |       |22|[gd]|3|42 |40 | 0 |GRND
 530||528|RO (if miss); Or 533 (if hit)|Strike for 528.|||| 2  |mid_6f| -2  |LNC -9 |       |32|[gd]|3|42 |40 | 0 |GRND
-531|||||||||||||||||||
+531||529|454/RO|||||2|mid_6f|-2|LNC -9||32|20|3|42|40|0|GI{HVK}[0-4] GRND
 479||352; Or 354; Or 516; Or 517; Or 518;|RE|This is the id for the pause before RE action.|||||||||||||||
 530||530|RO (if miss); Or 532 (if hit and hold); Or 533 (if hit not hold)|Strike for 528.|||||||||||||||
 532||530 (if hit and hold A+B+K)|RO||||||||||||||||
