@@ -20,7 +20,10 @@ BB | 24 | NC
 6BBB | 31 | NCC
 
 #3B
+3B 6K6 AwS KB | 40 | NC (gives white rose)
 3BB | 40 | NC
+3B 6k6 AmS KBB | 62 | NC | (requires white rose) (character specific)
+3B 4B | 41 | NC | (requires red rose)
 
 #1B
 1B - 6[B+K] |  | NC | Gives red rose
