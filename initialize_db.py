@@ -27,7 +27,7 @@ def main():
     combos = {}
     for f in combo_files:
         print("Parsing: ", f)
-        character_name = basename(splitext(f)[0])
+        character_name = basename(splitext(f)[0]).lower()
 
         for starting_move, combo_data in parse_combo_file(f).items():
             combo_list = []
@@ -43,7 +43,7 @@ def main():
     print("Parsing Frame Data")
     for f in frame_data_files:
         print("Parsing: ", f)
-        character_name = basename(splitext(f)[0])
+        character_name = basename(splitext(f)[0]).lower()
 
         for move_data in parse_scuffle_output(f):
             move = Move(
