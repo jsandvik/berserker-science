@@ -189,3 +189,33 @@ def parse_combo_file(path):
                     results[starting_move].append(combo)
 
     return results
+
+def parse_lethal_hit_line(lethal_hit_line):
+    split_string = [s.strip() for s in lethal_hit_line.split("|")]
+    if len(split_string) != 2:
+        return None
+    moves, condition = split_string
+
+    return {
+        "moves": [s.strip() for s in moves.split(",")],
+        "condition": condition,
+    }
+
+def parse_lethal_hits(path):
+    results = defaultdict(dict)
+    character = None
+    with open(path, "r") as f:
+        for line in f.read().split("\n"):
+            stripped_line = line.strip()
+
+            if stripped_line == "":
+                continue
+            elif stripped_line.startswith("#"):
+                character = stripped_line[1:]
+            else:
+                lethal_hits = parse_lethal_hit_line(stripped_line)
+                if lethal_hits is not None:
+                    for move in lethal_hits["moves"]:
+                        results[(character, move)] = lethal_hits["condition"]
+    
+    return results

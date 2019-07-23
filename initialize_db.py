@@ -1,7 +1,9 @@
 from sc_guide.create_app import create_app
 from os import listdir
 from os.path import isfile, join, splitext, basename
-from sc_guide.scuffle_parser import parse_scuffle_output, parse_combo_file
+from sc_guide.scuffle_parser import (
+    parse_scuffle_output, parse_combo_file, parse_lethal_hits
+)
 from sc_guide.models import Move, Combo
 
 def main():
@@ -40,6 +42,10 @@ def main():
                 ))
             combos[(character_name, starting_move)] = combo_list
 
+    print("Parsing Lethal Hits")
+    lethal_hit_data_path = join(app.root_path, "other_data/lethal_hits.txt")
+    lethal_hits = parse_lethal_hits(lethal_hit_data_path)
+
     print("Parsing Frame Data")
     for f in frame_data_files:
         print("Parsing: ", f)
@@ -60,8 +66,10 @@ def main():
                 counter_property=move_data["counterProperty"],
                 damage=move_data["damage"],
                 gap_frames=move_data["gapFrames"],
-                combos=combos.get((character_name, move_data["command"]), [])
+                combos=combos.get((character_name, move_data["command"]), []),
+                lethal_hit_condition=lethal_hits.get((character_name, move_data["command"]), None)
             )
+
             move.save()
 
 if __name__ == "__main__":

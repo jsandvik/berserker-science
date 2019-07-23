@@ -84,6 +84,7 @@ def moves(session=None):
         "damage": move.damage,
         "gapFrames": move.gap_frames,
         "combos": temp(move.combos),
+        "lethalHitCondition": move.lethal_hit_condition,
     } for move in query]
 
     results = {

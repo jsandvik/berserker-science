@@ -24,4 +24,5 @@ class Move(Document):
     counter_property = StringField()
     damage = ListField(IntField())
     gap_frames = ListField(IntField())
+    lethal_hit_condition = StringField()
     combos = ListField(EmbeddedDocumentField(Combo))
