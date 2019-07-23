@@ -217,3 +217,103 @@ A+B, TAS AB | Triggers upon impact counter
 AS K | Triggers upon hit during a high attack (except throws and excluding the opening after it's guarded)
 
 TAS B, SC TAS B | Triggers upon hitting an opponent who missed a horizontal attack (except kicks)
+
+#geralt
+SC 6ABB, 4B, 4KK Quen B, 6A+B Quen B, 33_66_99 AB Quen B, 66BA, 11_44_77KK Quen B, A+G, 4A+G A+B | Always triggers when opponent is soul charged
+
+1AB | Triggers upon hitting an opponent with a full soul gauge
+
+1B | Triggers after hitting an opponent with all five signs
+
+A+B | Triggers upon impact counter
+
+22_88A | Triggers upon hit after a successful guard impact
+
+#raphael
+3A | Triggers after landing the same attack three times
+
+46A | Triggers upon hitting an opponent who missed a horizontal attack (except kicks)
+
+236B, 236:B | Triggers upon hitting opponent during the opening after a guard
+
+214B, 214:B | Triggers upon hitting an opponent who missed a guard break or unblockable attack
+
+46B | Triggers upon hitting an opponent who missed a vertical attack (except kicks)
+
+46K | Triggers upon hitting an opponent who missed a kick
+
+FC 3B | Triggers upon hitting an opponent who missed a throw
+
+A+B | Triggers upon impact counter
+
+8A+B | Triggers upon hitting opponent with a lethal hit 4 or more times
+
+#2b
+4A | Triggers upon hitting an opponent when your soul gauge is full
+
+6BBB, 6BB6, 6BB4, 6BB8 | Triggers upon hitting opponent from the back
+
+6BK, 4K, AL AAK | Triggers upon hitting an opponent whose stun build-up is at 9 or above
+
+A+B, [A+B] | Triggers upon impact counter
+
+8[A+B], AL [A+B] | Triggers upon hitting an opponent when your guard stamina is full
+
+33_66_99a[K] | Triggers if 2nd strike misses and 3rd strike hits
+
+SC 22_88AAA | Triggers upon hitting an opponent when your health is full
+
+22_88B, 22_88B6, 22_88B4, 22_88B8 | Triggers upon hitting an opponent with a ranged attack after they missed an attack
+
+33_66_99K, 33_66_99[K] | Triggers upon hitting an opponent in the middle of a technique that uses their soul gauge
+
+#seungmina
+6A, SC 6A | Triggers upon long-range running counter
+
+6B | Triggers upon running counter while moving back
+
+A+B, 9A+B B | Triggers upon impact counter
+
+2A+B | Triggers when hitting an opponent whoe guard stamina is low
+
+WR B+K | Triggers upon hitting an opponent who missed a throw
+
+44A | Triggers upon long-range hit
+
+11_44_77K | Triggers upon hitting an opponent who missed a low attack
+
+11_44_77A+B, SC 11_44_77A+B | Triggers upon hitting an opponent knocked off balance with a guard crush
+
+#mitsurugi
+1A | Triggers upon hitting an opponent who missed a high attack
+
+1AB, A+B | Triggers upon impact counter
+
+b6 | Triggers upon running counter while moving back
+
+3B, SC 3BB | Triggers upon hitting opponent during a crouching guard
+
+1B A+B | Triggers upon hitting an opponent during a reversal edge
+
+WR B2B | Triggers upon counter hit
+
+22_88A | Triggers upon hitting an opponent who missed an attack
+
+Relic B | Triggers upon hitting an opponent knocked off balance with a guard crush
+
+#kilik
+4A | Triggers after landing the same attack four times
+
+b6 | Triggers upon hitting opponent during the opening after a guard
+
+6BB | 2nd hit triggers upon counter hit
+
+3B | Triggers in the next battle after you use a soul charge
+
+4BB | Triggers upon hitting an opponent knocked off balance with a guard impact
+
+A+B, [A+B] | Triggers upon impact counter
+
+22_88[B] | Triggers upon hitting an opponent who missed an attack
+
+Monument ABK, Back Parry A | Triggers upon hit after a successful guard impact
