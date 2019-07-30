@@ -141,9 +141,9 @@
 [Monument]
 454| 236             | 0  |  | +0  |   +0  |       |  |4 | |40 |-1 | 0 | | GI, SS
 455| Monument A      | 18 |mid| -14 |   -2  |       |18|4 |3|59 |41 |32 |  | LH
-457| Monument AB     | 18 |mid,low| -12 |   -4  |       |18,16|7 |2|66 |36 | 8 |GRND |
-458| Monument ABK    | 18 |mid,low,mid| -16 |LNC -17|       |18,16,25|16|2|77 |46 | 8,6 |TJ[31-60] |
-456| Monument A4     | 18 |mid| +0  |   +0  |       |18|7 | |42 |-1 |  | | GI, SS
+457| Monument AB     | 18 |mid,low| -12 |   -4  |       |18,16|7 |2|66 |36 | 8 |GRND | LH
+458| Monument ABK    | 18 |mid,low,mid| -16 |LNC -17|       |18,16,25|16|2|77 |46 | 8,6 |TJ[31-60] | LH
+456| Monument A4     | 18 |mid| +0  |   +0  |       |18|7 | |42 |-1 |  | | GI, SS, LH
 459| Monument B      | 26 |mid| -8  |STN +5 |       |36|22|2|60 |34 |40 |GRND |
 461| Monument K      | 16 |high,high| +2  |KND +6 |       |15,20|22|2|48 |23 |-13|TJ[0-35] |
 462| Monument A+B    | 64 |mid| -2  |KND +8 |       |75|38|2|85 |21 |  |TJ[11-63] TC[65-80] GRND | UA

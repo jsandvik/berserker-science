@@ -7,7 +7,7 @@ A+B, A+B6, AVN B+K | Triggers upon impact counter
 
 4B+K | Triggers in the next battle after you use a soul charge
 
-AVN A | Triggers upon hitting an opponent knocked off balance with a guard crush
+AVN A, AVN [A] | Triggers upon hitting an opponent knocked off balance with a guard crush
 
 11_44_77A | Triggers upon hit after a successful guard impact
 
@@ -28,9 +28,9 @@ A+B, WR [B] | Triggers upon impact counter
 
 22_88B, SC 22_88B | Triggers upon hitting an opponent who missed a light attack
 
-33_66_99[K]K | Triggers upon long-range hit
+33_66_99[K], 33_66_99[K]K | Triggers upon long-range hit
 
-midair opponent 4A+G | Triggers upon hitting a jumping opponent
+Midair 4A+G | Triggers upon hitting a jumping opponent
 
 #nightmare
 abA, a:b:A, agA, a:g:A | Triggers upon hitting an opponent knocked off balance with a guard impact
@@ -49,10 +49,10 @@ GS aB | Triggers upon hit after a successful guard impack
 
 NSS aB, NSS a[B] | Triggers upon hitting an opponent who missed an attack
 
-6A during hit, 6B during hit, 6K during hit, 6A+B, BT A+B | Always triggers when soul charged
+6A when hit, 6B when hit, 6K when hit, 6A+B when hit, BT A+B when hit | Always triggers when soul charged
 
 #azwel
-3BB | Triggers upon hitting opponent during a crouching guard
+3B, 3BB | Triggers upon hitting opponent during a crouching guard
 
 4B | Triggers upon hitting an opponent knocked off balance with a guard impact
 
@@ -60,11 +60,11 @@ A+B, Sword A+B, Axe A+B, Spear A+B, Almighty A+B, ToW B | Triggers upon impact c
 
 22_88A, 22_88A K, 22_88A 6K, 22_88A 4K | Triggers upon hitting an opponent in the middle of an 8-way run
 
-22_88B, 22_88B K, 22_88 6K, 22_88B 4K | Triggers upon hitting an opponent who missed an attack
+22_88B, 22_88B K, 22_88B 6K, 22_88B 4K | Triggers upon hitting an opponent who missed an attack
 
 11_44_77B, 11_44_77[B] | Triggers upon long-range hit
 
-8 Way Run A+B. SC 8 Way Run A+B | Triggers after hitting an opponent with all three weapon arts
+8 Way Run A+B, SC 8 Way Run A+B | Triggers after hitting an opponent with all three weapon arts
 
 BoB B | Triggers upon hitting an opponent knocked off balance with a guard crush
 
@@ -90,7 +90,7 @@ FC 3B, FC 3[B] | Triggers upon running counter while moving back
 11_44_77B | Triggers upon hitting an opponent who missed a high attack
 
 #cervantes
-midair opponent b2 | Triggers upon hitting opponent with a gun technique 9 or more times
+b2 | Triggers upon hitting opponent with a gun technique 9 or more times
 
 kA | Triggers upon hitting an opponent knocked off balance with a guard impact
 
@@ -102,11 +102,11 @@ A+B | Triggers upon impact counter
 
 22_88[K] | Triggers upon hit after a successful guard impact
 
-SC Dread Charge 2_8BA | Triggers upon running counter
+SC DC 2_8BA | Triggers upon running counter
 
-SC Dread Charge 2_8BK, Dread Storm K | Triggers upon hitting a downed opponent
+SC DC 2_8BK, DS K | Triggers upon hitting a downed opponent
 
-Dread Storm A | Triggers upon running counter
+DS A | Triggers upon running counter
 
 #tira
 b8 | Triggers upon hitting a jumping opponent
@@ -115,12 +115,12 @@ Gloomy 6B, SC Gloomy 6BB | Triggers upon hit immediately after opponent has won 
 
 Jolly A+B, Gloomy A+B | Triggers upon impact counter
 
-Jolly 33_66_99B, SC Jolly 33_66_99BB, GM A, GM B, Jolly 33_66_99A+B | Triggers upon hitting opponent immediately after personality change
+Jolly 33_66_99B, SC Jolly 33_66_99BB, B+K A, B+K B, Jolly 33_66_99A+B | Triggers upon hitting opponent immediately after personality change
 
 Gloomy 11_44_77A | Triggers upon hitting opponent during a guard break or unblockable attack
 
 #taki
-a6, a:6 | Triggers upon hitting opponent from the side
+a6, a:6, a6 B+K, a6 [B+K], a6 2_8B+K | Triggers upon hitting opponent from the side
 
 A+B, A+B A, A+B A4 | Triggers upon impact counter
 
@@ -151,9 +151,9 @@ BT WR B | Triggers upon hitting an opponent who missed a high attack
 
 BT 8 Way Run A, SC BT 8 Way Run A | Triggers upon hitting an opponent behind you
 
-MCFT B | Triggers upon counter hit
+MC FT B | Triggers upon counter hit
 
-MCHT 66 | Triggers upon hitting opponent during a standing guard
+MC HT 66 | Triggers upon hitting opponent during a standing guard
 
 #amy
 46A | Triggers upon hitting opponent from the back
@@ -210,7 +210,7 @@ A+B, TAS AB | Triggers upon impact counter
 
 33_66_99A+B | Triggers upon running counter while moving back
 
-11_22_44_77_88B+K | Triggers upon hitting an opponent who missed an attack
+11_44_77_22_88B+K | Triggers upon hitting an opponent who missed an attack
 
 33_66_99A+G, 4A+G A, 4A+G 4A | Triggers upon hit after 5 or more successful guard impacts
 
@@ -219,7 +219,7 @@ AS K | Triggers upon hit during a high attack (except throws and excluding the o
 TAS B, SC TAS B | Triggers upon hitting an opponent who missed a horizontal attack (except kicks)
 
 #geralt
-SC 6ABB, 4B, 4KK Quen B, 6A+B Quen B, 33_66_99 AB Quen B, 66BA, 11_44_77KK Quen B, A+G, 4A+G A+B | Always triggers when opponent is soul charged
+SC 6ABB, 4B, 4KK Quen B, 6A+B Quen B, 33_66_99AB Quen B, 66BA, 11_44_77KK Quen B, A+G, 4A+G A+B | Always triggers when opponent is soul charged
 
 1AB | Triggers upon hitting an opponent with a full soul gauge
 
@@ -316,4 +316,103 @@ A+B, [A+B] | Triggers upon impact counter
 
 22_88[B] | Triggers upon hitting an opponent who missed an attack
 
-Monument ABK, Back Parry A | Triggers upon hit after a successful guard impact
+Monument A4, Monument A, Monument AB, Monument ABK, Back Parry A | Triggers upon hit after a successful guard impact
+
+#maxi
+3A | Triggers when performing a running counter against an opponent whose guard stamina is low
+
+A+B | Triggers upon impact counter
+
+Seven Starts Severance B+K B B B A | Always triggers during Seven Stars Severance
+
+66B | Triggers upon hitting opponent with a revenge attack
+
+11_44_77B | Triggers upon hitting an opponent who missed a high attack
+
+LO K, RC K, BL B, BL [B] | Triggers upon hit chained from Seven Stars Rebirth
+
+LI K[K] | Triggers upon hitting an opponent knocked off balance with a guard crush
+
+NG A | Triggers upon hitting an opponent knocked off balance with a guard impact
+
+#siegfried
+a:g:A | Triggers upon hitting opponent during the opening after a guard
+
+3B, 3[B] | Triggers upon counter hit while Dark Legacy is active
+
+A+B | Triggers upon impact counter
+
+33_66_99A+B | Triggers upon hitting an opponent who missed an attack while Dark Legacy is active
+
+6A+G | Triggers when guard stamina is low
+
+SBH B | Triggers upon hitting an opponent knocked off balance with a guard impact
+
+SRSH B | Triggers upon hitting opponent during a crouching guard while Dark Legacy is active
+
+SRSH K, SRSH [K] | Triggers upon hitting opponent during a standing guard while Dark Legacy is active
+
+SCH B, SCH [B] | Triggers upon hitting opponent from the back
+
+#xianghua
+1A | Triggers upon hitting a downed opponent rolling to the side (including during a horizontal ukemi)
+
+FC 3KB | Triggers upon hitting a jumping opponent
+
+A+B, 33_66_99B[B], BHH A+B | Triggers upon impact counter
+
+A+B6, BHH A+B6 | Triggers upon hitting an opponent knocked off balance with a guard impact
+
+6A+B, 2A+B, 4A+B | Triggers upon hit after a successful guard impact
+
+SXS K | Triggers upon hitting an opponent who missed a high attack
+
+SXS A+B | Triggers upon hitting an opponent who missed a reversal edge
+
+SXS a+b6 | Triggers upon hit after opponent misses a guard impact
+
+#yoshimitsu
+6A, 6AA, 6AB | Triggers after hitting opponent 7 or more times with a technique that drains the soul gauge
+
+214A | Triggers upon hitting an opponent who missed a high attack
+
+BBB, 22_88A | Triggers upon hitting an opponent with a full soul gauge
+
+A+B, [A+B] | Triggers upon impact counter
+
+4A+B | Triggers upon hitting an opponent who missed a reversal edge
+
+A+K | Triggers upon hitting an opponent who missed an attack
+
+11_44_77bB | Triggers upon counter hit
+
+11_44_77K | Triggers upon hit after opponent misses a guard impact
+
+33_66_99B+K A+B K, 33_66_99B+K [A+B], 33_66_99[B+K] A+B K, 33_66_99[B+K] [A+B] | Triggers upon hitting opponent during a low attack (excluding the opening after it's guarded)
+
+Indian Stance B | Triggers upon hit after successfully dodging opponent's attack
+
+#talim
+236[B] | Triggers upon hit after opponent misses a guard impact
+
+A+B | Triggers upon impact counter
+
+6[A+B] | Triggers upon hitting an opponent who missed an attack
+
+3A+B | Triggers if 1st strike misses and 2nd strike hits
+
+1A+B | Triggers when hitting an opponent whose guard stamina is low
+
+11_44_77AA, 11_44_77A[A] | Triggers upon hitting an opponent who missed a high attack
+
+33_66_99B, SC 33_66_99BB | Triggers upon running counter while moving back
+
+11_44_77B | Triggers upon hitting an opponent who missed a low attack
+
+While running K low health | Triggers upon hitting opponent during a standing guard
+
+BT A+B | Triggers upon hitting opponent during an attack
+
+WC K | Triggers upon hitting an opponent who missed a middle attack
+
+WF BB | Triggers upon hitting an opponent knocked off balance with a guard crush
