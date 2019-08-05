@@ -1,0 +1,61 @@
+#A
+AA | 22 | NC
+AK | 26 | NC
+a6AA | 22 | NC
+a6AAA | 46 | NCC
+
+#6A
+6AA | 47 | NCC
+6AB | 54 | NCC
+
+#3A
+3AK | 34 | NCC
+
+#WRA
+WR[A] something | | NC
+
+#B
+BB | 28 | NC
+BK | 30 | NC
+
+#B6
+
+#B2
+[B2] something | | NC
+
+#6B
+6BB | 40 | NC
+6B A+B | 74 | NC | (Requires divine Force)
+
+#6B[B]
+
+#3B
+3B CE | 80 | NC
+3B 6BB | 55 | NC
+
+#2B
+2BBK | 61 | NCC | (requires JF for max damage)
+2B A+B | 71 | NCC | (Requires divine Force)
+
+#1B
+1B 2K | | NC
+1B 2K | | NCC
+
+#WR B
+
+#6K
+6K TS 4A_B_K | 68 | NCC
+6K TS A_B_K | 64 | NCC | (gives Divine Force)
+6[K] TS 4A_B_K | 77 | NC
+6[K] TS A_B_K | 73 | NC | (gives Divine Force)
+
+#1K
+
+#4K
+
+#WC8K
+
+#WR K
+
+#8K
+8KK | 46 | NCC
