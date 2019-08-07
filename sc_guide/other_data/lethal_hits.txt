@@ -416,3 +416,24 @@ BT A+B | Triggers upon hitting opponent during an attack
 WC K | Triggers upon hitting an opponent who missed a middle attack
 
 WF BB | Triggers upon hitting an opponent knocked off balance with a guard crush
+
+#cassandra
+b6 | Triggers upon running counter while moving back
+
+FC 8K | Triggers when guard stamina is low
+
+A+B | Triggers upon impact counter
+
+6B+K, SC 6B+K B | Triggers upon hitting an opponent knocked off balance with a guard crush
+
+33_66_99K, 33_66_99[K] | Triggers upon hit immediately after a successful reverse impact
+
+11_44_77B+K | Triggers upon hitting opponent during a light attack
+
+AS B | Triggers immediately after dodging a high attack with Angel Step
+
+AT BB, AT B[B] | Triggers immediately after a successful guard impact with Angelic Twirl
+
+TS A_B_K | Triggers when only your health is low
+
+TS 4A_B_K | Triggers after shifting to Titanic Struggle 5 or more times
