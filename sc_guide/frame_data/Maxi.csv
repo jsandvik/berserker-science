@@ -29,8 +29,8 @@ move_id|Command|from_stance|to_stance|Notes|Sound|Name|agi|imp|Properties|Block|
 287|  1B   |N|RO|||Nuchaku Lick|| 16 |low_37| -25 |  -17  |       |20|[gd]|2|65 |49 | 0 |TC[16-] GRND
 289|  4B   |N|LO|||Snake Kiss|| 18 |mid_4b| -52 |  -42  |       |16|[gd]|3|91 |73 | 0 |TC[10-13]
 290| 236B  |N|291 (Eventually LI)|||Mantis Lunge|| 24 |mid_4b| -27 |  -17  |       |10|[gd]|4|70 |46 | 0 |TJ[12-34]
-291| 236B. |209|292 (Eventually LI)||||| 24 |mid_4b| -27 |  -17  |       |10|[gd]|6|70 |46 | 0 |TJ[12-34]
-292|236B.. |291|LI||||| 31 |mid_4b| -14 |   -4  |       |10|[gd]|3|70 |39 | 0 |TJ[12-34]
+291||209|292 (Eventually LI)||||| 24 |mid_4b| -27 |  -17  |       |10|[gd]|6|70 |46 | 0 |TJ[12-34]
+292||291|LI||||| 31 |mid_4b| -14 |   -4  |       |10|[gd]|3|70 |39 | 0 |TJ[12-34]
 293|  5K   |N|N|||Fang Scratch|| 12 |high_49| -6  |   +2  |       |14|[gd]|2|41 |29 | 0 |
 295|  6K   |||P1 side: kicks from background to foreground (Maxi's left to his right). P2 side (forward + K): kicks from foreground to background (Maxi's left to his right).||Left Roundhouse|| 20 |high_49| -8  |KND -4 |       |28|[gd]|4|53 |33 | 0 |
 296|  3K   |||||Snap Kick|| 14 |mid_4b| -6  |   +4  |       |18|[gd]|2|39 |25 | 0 |
@@ -50,12 +50,12 @@ move_id|Command|from_stance|to_stance|Notes|Sound|Name|agi|imp|Properties|Block|
 310||309|N||||| 56 |mid_4b| -14 |STN -6 |       |8 |[gd]|4|91 |35 | 0 |TC[0-83]
 312| 5A+B  |N|N|It looks like he goes into RO, but he does not.|Stand aside!|Vegabond|| 36 |mid_4b| +0  |LNC -17|       |30|[gd]|2|82 |46 | 0 |
 313| 6A+B  |N|N||Try this!|Dragon's Brand|| 16 |mid_4b| -8  |STN -8 |       |35|[gd]|2|53 |37 | 0 |TC[4-16]
-314|SC 6A+B*. |N|LI|Pretty fast, long range guard break. Note that this only transitions to LI in .|Whatcha!||| 16 |mid_4b| +5  |STN +0 |       |30|[gd]|2|45 |29 | 0 |TC[4-16]
+314|SC 6A+B|N|LI|Pretty fast, long range guard break. Note that this only transitions to LI in .|Whatcha!||| 16 |mid_4b| +5  |STN +0 |       |30|[gd]|2|45 |29 | 0 |TC[4-16]
 315| 3A+B  ||316 (Eventually C)|A quick high then low while Maxi crushes high.|Here ya go.|Guillotine Dance|| 30 |low_37| -24 |STN -17|       |20|[gd]|4|76 |46 | 0 |TC[16-] GRND
-316| 3A+B. |315|C||||| 38 |high_49| -15 |KND -7 |       |26|[gd]|3|74 |36 | 0 |TC[0-]
+316||315|C||||| 38 |high_49| -15 |KND -7 |       |26|[gd]|3|74 |36 | 0 |TC[0-]
 317| 4A+B  ||318 (Eventually N);|Can be held to become a guardbreak (318). Second hit (320) is guaranteed to hit if guardbreak 318) hits opponent's guard.|Take...|Rage of Pleasure|| 32 |mid_6f| -49 |  -41  |       |20|[gd]|2|102|70 | 0 |TC[9-19] TC[30-51] GRND
 318|4[A+B] |317|319; 320 (If GB [held])|Holds here.||Rage of Pleasure|| 31 |mid_6f| -47 |  -42  |       |22|[gd]|3|102|71 | 0 |TC[9-19] TC[30-51] GRND
-319|4[A+B].|317|320|Only reached when not holding A+B after 317.|||| 32 |mid_6f| -49 |  -41  |       |20|[gd]|2|102|70 | 0 |TC[9-19] TC[30-51] GRND
+319||317|320|Only reached when not holding A+B after 317.|||| 32 |mid_6f| -49 |  -41  |       |20|[gd]|2|102|70 | 0 |TC[9-19] TC[30-51] GRND
 320| 4A+B. |||Guaranteed follow up: step forward -> 3b or 66K|...this!||| 52 |mid_6f| -16 |KND -10|       |24|[gd]|2|91 |39 | 0 |TC[33-51] GRND
 321|  9AU  ||||||| 41 |mid_4b| -9  |KND -14|       |52|[gd]|3|84 |43 | 0 |TJ[12-47]
 321|  9AU  ||||||| 42 |mid_4b| -8  |KND -13|       |52|[gd]|2|84 |42 | 0 |TJ[12-47]
@@ -208,7 +208,7 @@ move_id|Command|from_stance|to_stance|Notes|Sound|Name|agi|imp|Properties|Block|
 457|AA|RC|LI|Maxi winds up and performs a high horizontal swing.||Dragon's Beard ~ LI|| 28 |high_49| +0  |STN +10|       |20|[gd]|3|70 |42 | 0 |
 458|A[A]|RC|LO|||Dragon's Beard ~ LO|||||||||||||
 459|AB|RC|N||Try this!|Dragon's Cross|| 24 |mid_4b| -16 |STN -12|       |25|[gd]|2|65 |41 | 0 |TC[5-23]
-460|SC 9AAB*. |RC|LI|high pitched WAATCHAH!|||| 16 |mid_4b| +5  |STN +0 |       |20|[gd]|2|45 |29 | 0 |TC[5-16]
+460|SC RC AB|RC|LI|high pitched WAATCHAH!|||| 16 |mid_4b| +5  |STN +0 |       |20|[gd]|2|45 |29 | 0 |TC[5-16]
 461|B|RC|LI|||Stampede Wave ~ LI|| 26 |mid_6f| -5  |LNC -15|       |30|[gd]|2|70 |44 | 0 |GRND
 462|K|RC|N||Ever forward! (on Severance)|Rear Kick|| 18 |mid_4b| -4  |   +8  |LNC +8 |20|[gd]|2|45 |27 | 0 |
 463|SC A+B|RC|N|Back flip attack.|||| 18 |mid_4b| -29 |STN -29|       |20|[gd]|4|81 |63 | 0 |TC[47-] TJ[25-48]
@@ -255,16 +255,16 @@ move_id|Command|from_stance|to_stance|Notes|Sound|Name|agi|imp|Properties|Block|
 500|K|NG|C; 501 (if K)|||Guillotine Kick|| 26 |mid_4b| -8  |KND -2 |       |28|[gd]|4|57 |31 | 0 |
 501|KK|NG||||Guillotine Kick|| 16 |high_49| -11 |STN -11|       |26|[gd]|2|61 |45 | 0 |TC[4-14]
 502|  4A?  |???|||||| 17 |mid_4b| -7  |STN -32|       |45|[gd]|2|78 |61 | 0 |
-504|Forward|||Transition||Pure Seven|||||||||||||
-505|Forward|||Transition||Pure Seven|||||||||||||
-506|Forward|||Transition||Pure Seven|||||||||||||
-507|Forward|||Transition||Pure Seven|||||||||||||
-508|Forward|||Transition||Pure Seven|||||||||||||
-509|Back|||Transition||True Seven|||||||||||||
-510|Back|||Transition||True Seven|||||||||||||
-511|Back|||Transition||True Seven|||||||||||||
-512|Back|||Transition||True Seven|||||||||||||
-513|Back|||Transition||True Seven|||||||||||||
+504|Forward|RO|BL|Transition. Seven Stars Rebirth/Guard impact vs. high, middle horizontal attacks||Pure Seven|||||||||||||
+505|Forward|BL|LI|Transition. Seven Stars Rebirth/Guard impact vs. high, middle horizontal attacks||Pure Seven|||||||||||||
+506|Forward|LI|LO|Transition. Seven Stars Rebirth/Guard impact vs. high, middle horizontal attacks||Pure Seven|||||||||||||
+507|Forward|LO|RC|Transition. Seven Stars Rebirth/Guard impact vs. high, middle horizontal attacks||Pure Seven|||||||||||||
+508|Forward|RC|RO|Transition. Seven Stars Rebirth/Guard impact vs. high, middle horizontal attacks||Pure Seven|||||||||||||
+509|Back|RO|RC|Transition. Seven Stars Rebirth/Guard impact vs. high, middle horizontal attacks||True Seven|||||||||||||
+510|Back|RC|LO|Transition. Seven Stars Rebirth/Guard impact vs. high, middle horizontal attacks||True Seven|||||||||||||
+511|Back|LO|LI|Transition. Seven Stars Rebirth/Guard impact vs. high, middle horizontal attacks||True Seven|||||||||||||
+512|Back|LI|BL|Transition. Seven Stars Rebirth/Guard impact vs. high, middle horizontal attacks||True Seven|||||||||||||
+513|Back|BL|RO|Transition. Seven Stars Rebirth/Guard impact vs. high, middle horizontal attacks||True Seven|||||||||||||
 514|G+K|N (against most characters)|N|Taunt. Maxi steps back slightly, runs his fingers through his luscious hair, and asks his opponent if he or she is scared.|What? Ya scared?|Appeal|||||||||||||
 514|G+K|N (against Xianghua)|N|"Taunt. Maxi chuckles to himself. Then says ""Come on!"""|Hehehe. Come on!||||||||||||||
 515|G+K|N (against Astaroth)|N|Taunt. Maxi tenses up while holding his Nunchaku in front of himself. His body lowers during this move (515), but he does not crush highs.|You freak!||| 36 |high_49|-65471| -65452|       |18|[gd]|3|65534|65498| 0 |
