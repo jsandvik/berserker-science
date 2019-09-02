@@ -22,20 +22,20 @@ BB | 28 | NC
 6BK | 32 | NC
 
 #3B
-3B/22B - 46B - 8B+K	56	[Vortex]
-3B/22B - B:K - 46B/:B - 66B	60	Forward RO
-3B/22B - B:K - 8B+K	54	Vortex
-3B/22B - 46BB TS2 - 2A+B - 66A+B / 8B+K	91	/Vortex
-3B - 46BB TS2 - 2A+B - 22A [TT] - 8A+B - 66A+B / 8B+K	125	Tech Trap
+3B 46B 8B+K	| 56	| [Vortex]
+3B B:K 46B/:B 66B	| 60	| Forward RO
+3B B:K 8B+K	54	Vortex
+3B 46BB TS2 2A+B 66A+B / 8B+K	| 91	| /Vortex
+3B 46BB TS2 2A+B 22A [TT] 8A+B 66A+B / 8B+K	| 125	| Tech Trap
  
 #4B
 4B:B BT K BT BB |  | NCC ? | (needs JF for full combo)
 4B:B BT K BT B+K |  | NCC ? | (needs JF for full combo)
 
 #46B
-46BB TS1 - [66A+B] / 6BB	61	
-46BB TS2 - [2A+B] - 66A+B	85	[Close Hit]
-46BB TS2 - [2A+B] - 22A [TT] - 8A+B - 66A+B / 8B+K	125	Tech Trap
+46BB TS1 [66A+B] / 6BB	| 61 |
+46BB TS2 [2A+B] 66A+B	| 85	| | [Close Hit]
+46BB TS2 [2A+B] 22A [TT] 8A+B 66A+B / 8B+K	| 125 |	| Tech Trap
  
 #1B
 1BB TS2 - [3AB] / 46B	43	RO | NC | ( /Forward )
@@ -45,18 +45,18 @@ BB | 28 | NC
 1B 66A+BB TS3 G 2A+B 8B+K | | NCC
 1B 66A+BB TS3 G 2A+B 22A [TT] 8A+B 66A+B | | NCC
 1B 66A+BB TS3 G 2A+B 22A [TT] 8A+B 8B+K | | NCC
-1B CH - [66A+BB TS1 - BT BB]	71	
-1B CH - [66A+BB TS3 - G - 2A+B - 66A+B / 8B+K]	87	/Vortex
+1B CH [66A+BB TS1 BT BB]	71	
+1B CH [66A+BB TS3 G 2A+B 66A+B / 8B+K]	| 87	| /Vortex
 
  
 #BT B
 BT BB | 42 | NC
 BT BB 8B+K	| 64	| Vortex
-BT BB - 8B+K - (BT B+K)	| 80	| Ends Vortex
-BT BB - 46B - 8B+K | 86 | (vortex)
-BT BB - 46BB TS1 - 2A+B - 66A+B / 8B+K	| 112	| /Vortex
-BT BB - 46BB TS1 - 2A+B - 22A [TT] - 8B+K - 66A+B / 8B+K	| 148	| Tech Trap
-BT BB - 66A+BB TS3 - G - 2A+B - 66A+B  / 8B+K	| 138 |	/Vortex
+BT BB 8B+K (BT B+K)	| 80	| Ends Vortex
+BT BB 46B 8B+K | 86 | (vortex)
+BT BB 46BB TS1 2A+B 66A+B / 8B+K	| 112	| /Vortex
+BT BB 46BB TS1 2A+B 22A [TT] 8B+K 66A+B / 8B+K	| 148	| Tech Trap
+BT BB 66A+BB TS3 G 2A+B 66A+B  / 8B+K	| 138 |	/Vortex
  
 #K
 KK | 22 | NC
@@ -68,8 +68,8 @@ WRKB | 34 | NC
 FC3K 6K | | 
  
 #BT 2K
-BT 2K - WR 8B+K
-BT 2K - 8B+K (30) (vortex)
+BT 2K WR 8B+K
+BT 2K 8B+K (30) (vortex)
 
 ---------------------- Dual Button -------------
 
@@ -97,16 +97,16 @@ A+B 6BK 4B:B BT K BT BB | 80 | NC
 66A 6K | 35 | NC
 
 #22B
-22B - b:K - 46B - 66B (58)
-22B - b:K - 8B+K (52) (vortex)
-22B - b:K - 66B (49) (untechable KND oki)
-22B - 46B - 66B (51) (no JF required)
-22B - 46BB TS1 - 66A+B (67)
-22B - 46BB TS2 - 2A+B - 66A+B (88)
-22B - 66A+BB TS3 - G - 2A+B - 66A+B (97)
-SC 22BBB - BT K - BT BB ( 83)
-SC 22BBB - BT K - G - 8B+K (82) (vortex)
-near wall behind SC 22BBB - BT K - G - 46:BB TS1 - 4B+K - BT [B+K] (120)
+22B b:K 46B 66B | 58 |
+22B b:K 8B+K | 52 | (vortex)
+22B b:K 66B | 49 | (untechable KND oki)
+22B 46B 66B | 51 | (no JF required)
+22B 46BB TS1 66A+B | 67 |
+22B 46BB TS2 2A+B 66A+B | 88 |
+22B 66A+BB TS3 G 2A+B 66A+B | 97 |
+SC 22BBB BT K BT BB | 83 |
+SC 22BBB BT K G 8B+K | 82 | (vortex)
+near wall behind SC 22BBB BT K G 46:BB TS1 4B+K BT [B+K] | 120 |
 
 3B/22B - 46B - 8B+K	56	[Vortex]
 3B/22B - B:K - 46B/:B - 66B	60	Forward RO
@@ -132,10 +132,10 @@ near wall behind SC 22BBB - BT K - G - 46:BB TS1 - 4B+K - BT [B+K] (120)
 #666K
 
 #66A+B
-66A+BB TS1 - BT B+K (63)
-66A+BB TS2 - BT BB (77)
-66A+BB TS3 - G - 2A+B - 66A+B (107)
-66A+BB TS3 - G - 2A+B - 8B+K (98) (vortex)
+66A+BB TS1 BT B+K | 63 |
+66A+BB TS2 BT BB | 77 |
+66A+BB TS3 G 2A+B 66A+B | 107 |
+66A+BB TS3 G 2A+B 8B+K | 98 | (vortex)
 
 #33_66_99B
 33_66_99B something
@@ -145,32 +145,32 @@ near wall behind SC 22BBB - BT K - G - 46:BB TS1 - 4B+K - BT [B+K] (120)
 tip range hit 44A+B - BT K - BT BB | 72 | 
  
 #66B+K
-66B+K - b:K - 46B - 66B (65)
-66B+K - b:K - 8B+K (63) (vortex)
-66B+K - 46B - 66B (62) (no JF)
-66B+K - 46BB TS1 - 66A+B (71)
-near wall 66B+K - 46BB TS1 - 4B+K - BT [B+K] (102)
-66B+K - 46BB TS3 - 2A+B - 66A+B (100)
+66B+K b:K 46B 66B | 65 |
+66B+K b:K 8B+K | 63 |  (vortex)
+66B+K 46B 66B | 62 | (no JF)
+66B+K 46BB TS1 66A+B | 71 |
+near wall 66B+K 46BB TS1 4B+K BT [B+K] | 102 |
+66B+K 46BB TS3 2A+B 66A+B | 100 |
  
 #44B+K
  
 -------------- RE -----------------
  
 #RE A
-RE A - BT B+K (50)
+RE A BT B+K | 50 | NC
 
 #RE B
 RE B : +10
-RE BB TS1 : 6B+KA - 6K (81) 
-RE BB TS2 : CE (101)
-RE BB TS3 : A+B - 6BK - 4B:B - BT K - BT BB (101)
+RE BB TS1 : 6B+KA - 6K | 81 | NC
+RE BB TS2 : CE | 101 | NC
+RE BB TS3 : A+B 6BK 4B:B BT K BT BB | 101 | NC
 
-RE B LH : 44A+B - BT B+K (63)
-RE BB TS1 LH : 6BK - 4B:B - BT B+K (80)
-RE BB TS2 : CE (81) 
-RE BB TS3 : A+B - 6BK - 4B:B - BT B - BT BB (88)
+RE B LH : 44A+B BT B+K | 63 |
+RE BB TS1 LH : 6BK 4B:B BT B+K | 80 |
+RE BB TS2 : CE | 81 | 
+RE BB TS3 : A+B 6BK 4B:B BT B BT BB | 88 |
 
-RE B guard break: 44B LH - 4B+K - BT B+K (70)
+RE B guard break: 44B LH 4B+K BT B+K | 70 |
 
 #RE K
-RE K 6K | 30 | RE
+RE K 6K | 30 | NC
