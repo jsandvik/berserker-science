@@ -8,7 +8,10 @@ AA | 20 | NC
 6AB 6K | 43 | NCC (gives one curse)
 
 #6AA
-6AA BT K BT B+K | 50 | NC
+(6A)A BT K BT BB |  | NCC
+(6A)A BT K BT B+K | 50 | NCC
+(6A)A JF 4BB BT B+K |  | NCC (?????)
+(6A)B 6K |  | NCC (gives one curse)
 
 #3A
 3AB | 37 | NC
@@ -29,11 +32,12 @@ BB | 28 | NC
 3B 46BB TS2 2A+B 22A [TT] 8A+B 66A+B / 8B+K	| 125	| Tech Trap
  
 #4B
-4B:B BT K BT BB |  | NCC ? | (needs JF for full combo)
-4B:B BT K BT B+K |  | NCC ? | (needs JF for full combo)
+4B:B BT K BT BB | 80 | NCC | (needs JF for full combo)
+4B:B BT K BT B+K | 72 | NCC | (needs JF for full combo)
+4B:B BT [B+K] something | 64 | NCC | (needs JF for full combo) (hold B+K down almost the full amount) (donno if there's another hit after)
 
 #46B
-46BB TS1 [66A+B] / 6BB	| 61 |
+46BB TS1 [66A+B] / 6BB	| 69/61 | NC | (wtf even is this??? what's it saying? the combo ending on 66A+B is 69 dmg and 6BB is 55)
 46BB TS2 [2A+B] 66A+B	| 85	| | [Close Hit]
 46BB TS2 [2A+B] 22A [TT] 8A+B 66A+B / 8B+K	| 125 |	| Tech Trap
  
@@ -85,8 +89,10 @@ A+B 6BK 4B:B BT K BT BB | 80 | NC
 6B+K A 6K | 60 | NC
 
 #4B+K (first hit)
+||
 
 #4B+K (second hit)
+||
 
 #8B+K
 8B+k BT B+K | 41 | NC | (weird combo)
