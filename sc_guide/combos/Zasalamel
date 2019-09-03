@@ -35,12 +35,12 @@ BB | 28 | NC
 6BB SC 2A+B | 76 | LH
 
 #3B
-3B 46B 8B+K	| 56	| [Vortex]
-3B B:K 46B/:B 66B	| 60	| Forward RO
-3B B:K 8B+K	54	Vortex
-3B 46BB TS2 2A+B 66A+B / 8B+K	| 91	| /Vortex
-3B 46BB TS2 2A+B 22A [TT] 8A+B 66A+B / 8B+K	| 125	| Tech Trap
- 
+3B 46B 8B+K	| 56	| NC | [Vortex]
+3B B:K 46B/:B 66B	| 60	| NC | Forward RO
+3B B:K 8B+K	| 54	| NC | Vortex
+3B 46BB TS2 2A+B 66A+B / 8B+K	| 91	| NC | /Vortex
+3B 46BB TS2 2A+B 22A [TT] 8A+B 66A+B / 8B+K	| 125	| NC | Tech Trap
+
 #4B
 4B:B BT K BT BB | 80 | NCC | (needs JF for full combo)
 4B:B BT K BT B+K | 72 | NCC | (needs JF for full combo)
@@ -48,18 +48,19 @@ BB | 28 | NC
 
 #46B
 46BB TS1 [66A+B] / 6BB	| 69/61 | NC | (wtf even is this??? what's it saying? the combo ending on 66A+B is 69 dmg and 6BB is 55)
-46BB TS2 [2A+B] 66A+B	| 85	| | [Close Hit]
-46BB TS2 [2A+B] 22A [TT] 8A+B 66A+B / 8B+K	| 125 |	| Tech Trap
+46BB TS2 [2A+B] 66A+B	| 85	| NC | [Close Hit]
+46BB TS2 [2A+B] 22A [TT] 8A+B 66A+B / 8B+K	| 125 | NC	| Tech Trap
  
 #1B
 1BB TS2 [3AB] / 46B	43	RO | NC | ( /Forward )
 1BB TS3 6B+KA 6K	62	 | NC | (Curses)
-1B 8B+K
+1B 8B+K | 46 | NCC
+1B 66A+B | 51 | NCC
 1B 66A+BB TS3 G 2A+B 66A+B | | NCC
 1B 66A+BB TS3 G 2A+B 8B+K | | NCC
 1B 66A+BB TS3 G 2A+B 22A [TT] 8A+B 66A+B | | NCC
 1B 66A+BB TS3 G 2A+B 22A [TT] 8A+B 8B+K | | NCC
-1B CH [66A+BB TS1 BT BB]	71	
+1B CH [66A+BB TS1 BT BB]	| 71 | 	
 1B CH [66A+BB TS3 G 2A+B 66A+B / 8B+K]	| 87	| /Vortex
 
  
@@ -83,9 +84,10 @@ near wall 6K 46:BB TS3 2A+B 4B+K BT K BT BB | 123 | LH
 
 #1K
 1K 46:B | 35 | NCC
-1K 46:BB TS1 - 6BB | 57 | NCC
+1K 46:BB TS1 6BB | 57 | NCC
 
 #4K
+4K stuff | | NCC
 4K 6BK 4B:B BT K BT BB | 95 | LH
 4K 6BK 1B 8B+K | 79 | LH
 
@@ -102,11 +104,16 @@ BT 2K 8B+K | 30 | NC | (vortex)
 
 #A+B
 A+B 6BK 4B:B BT K BT BB | 80 | NC
+A+B 6BK 4B:B BT K BT BB | 80 | LH
+close up A+B 4B+K BT K BT BB | 79 | LH | (non JF)
+SC A+B SC 2A+B | 78 | LH
+SC A+B SC 3AKB 8B+K | 67 | LH | (vortex)
 
 #6A+B
 6A+B B | 59 | NCC
 
 #8A+B
+||
 
 #6B+K
 6B+K A 6K | 60 | NC
@@ -115,7 +122,7 @@ A+B 6BK 4B:B BT K BT BB | 80 | NC
 4B+K BT K BT BB | 72 | NCC
 4B+K BT K G 8B+K | 71 | NCC | (vortex)
 
-#4B+K (second hit)
+#4B+K (second hit) //Second hit is less range, and both hits jail, so this only works if you wiff the first hit and they run into the next hit lol
 4B+K BT K BT BB |  | NC | (I think?)
 4B+K BT K G 8B+K |  | NC | (vortex)
 
@@ -128,31 +135,32 @@ A+B 6BK 4B:B BT K BT BB | 80 | NC
 66A 6K | 35 | NC
 
 #22B
-22B b:K 46B 66B | 58 |
-22B b:K 8B+K | 52 | (vortex)
-22B b:K 66B | 49 | (untechable KND oki)
-22B 46B 66B | 51 | (no JF required)
-22B 46BB TS1 66A+B | 67 |
-22B 46BB TS2 2A+B 66A+B | 88 |
-22B 66A+BB TS3 G 2A+B 66A+B | 97 |
-SC 22BBB BT K BT BB | 83 |
-SC 22BBB BT K G 8B+K | 82 | (vortex)
-near wall behind SC 22BBB BT K G 46:BB TS1 4B+K BT [B+K] | 120 |
+22B b:K 46B 66B | 58 | NC
+22B b:K 8B+K | 52 | NC | (vortex)
+22B b:K 66B | 49 | NC | (untechable KND oki)
+22B 46B 66B | 51 | NC | (no JF required)
+22B 46BB TS1 66A+B | 67 | NC
+22B 46BB TS2 2A+B 66A+B | 88 | NC
+22B 66A+BB TS3 G 2A+B 66A+B | 97 | NC
+SC 22BBB BT K BT BB | 83 | NC
+SC 22BBB BT K G 8B+K | 82 | NC | (vortex)
+near wall behind SC 22BBB BT K G 46:BB TS1 4B+K BT [B+K] | 120 | NC
 
-3B/22B - 46B - 8B+K	56	[Vortex]
-3B/22B - B:K - 46B/:B - 66B	60	Forward RO
-3B/22B - B:K - 8B+K	54	Vortex
-3B/22B - 46BB TS2 - 2A+B - 66A+B / 8B+K	91	/Vortex
+3B/22B 46B 8B+K	| 56 |	[Vortex]
+3B/22B B:K 46B/:B 66B	| 60	| Forward RO
+3B/22B B:K 8B+K	| 54 |	Vortex
+3B/22B 46BB TS2 2A+B 66A+B / 8B+K	| 91	| /Vortex
 
 #66B
-66B 8A+B 66A+B (71 | LH
-66B 8A+B 8B+K (66 | LH
+66B 8A+B 66A+B | 71 | LH
+66B 8A+B 8B+K | 66 | LH
 66B 8A+B 66A+BB TS1 BT B+K | 82 | LH
 66B 8A+B 66A+BB TS2 BT BB | 89 | LH
 66B 8A+B 66A+BB TS3 G 2A+B 66A+B | 102 | LH
 
 #44B
 44B 2K | | | (there's gotta be something better)
+44B 4B+K BT K BT BB | 96 | LH
 
 #44[B]
 44[B] 4B:B BT K BT BB | 82 | 
@@ -172,34 +180,48 @@ near wall behind SC 22BBB BT K G 46:BB TS1 4B+K BT [B+K] | 120 |
 44K 66A+BB TS3 G 2A+B 66A+B | 135 | LH
 
 #666K
+||
 
 #66A+B
-66A+BB TS1 BT B+K | 63 |
-66A+BB TS2 BT BB | 77 |
-66A+BB TS3 G 2A+B 66A+B | 107 |
-66A+BB TS3 G 2A+B 8B+K | 98 | (vortex)
+66A+BB TS1 BT B+K | 63 | NC
+66A+BB TS2 BT BB | 77 | NC
+66A+BB TS3 G 2A+B 66A+B | 107 | NC
+66A+BB TS3 G 2A+B 8B+K | 98 | NC | (vortex)
+44A+B RE 8A+B 66A+B | 107 | LH
+44A+B RE 8A+B 8B+K | 102 | LH
+44A+B RE 8A+B 66A+BB TS1 BT [B+K] | 118 | LH
+44A+B RE 8A+B 66A+BB TS2 BT BB | 124 | LH
+44A+B RE 8A+B 66A+BB TS3 G 2A+B 66A+B | 146 | LH
 
 #33_66_99B
 33_66_99B something
 
 #44A+B
-44A+B BT [B+K] | 57 | 
-tip range hit 44A+B - BT K - BT BB | 72 | 
+44A+B BT [B+K] | 57 | NC | (hold almost full time)
+44A+B BT [B+K] | 61 | NC | (hold almost full time but more than other combo)
+tip range hit 44A+B BT K BT BB | 72 | NC
 
 #66B+K
-66B+K b:K 46B 66B | 65 |
-66B+K b:K 8B+K | 63 |  (vortex)
-66B+K 46B 66B | 62 | (no JF)
-66B+K 46BB TS1 66A+B | 71 |
-near wall 66B+K 46BB TS1 4B+K BT [B+K] | 102 |
-66B+K 46BB TS3 2A+B 66A+B | 100 |
+66B+K b:K 46B 66B | 65 | NC
+66B+K b:K 8B+K | 63 | NC | (vortex)
+66B+K 46B 66B | 62 | NC |(no JF)
+66B+K 46BB TS1 66A+B | 71 | NC
+near wall 66B+K 46BB TS1 4B+K BT [B+K] | 102 | NC
+66B+K 46BB TS3 2A+B 66A+B | 100 | NC
+66B+K 8A+B 8B+K | 53 | LH
+66B+K 8A+B 66A+BB TS1 BT [B+K] | 64 | LH
+66B+K 8A+B 66A+BB TS2 BT BB | 69 | LH
+66B+K 8A+B 66A+BB TS3 G 2A+B 66A+B | 79 | LH
 
 #44B+K
- 
+||
+
 -------------- RE -----------------
  
 #RE A
 RE A BT B+K | 50 | NC
+RE A 6BK 4B:B BT [B+K] | 72 | LH
+RE A 6BK 1B 8B+K | 66 | LH
 
 #RE B
 RE B : +10
@@ -212,7 +234,9 @@ RE BB TS1 LH : 6BK 4B:B BT B+K | 80 |
 RE BB TS2 : CE | 81 | 
 RE BB TS3 : A+B 6BK 4B:B BT B BT BB | 88 |
 
-RE B guard break: 44B LH 4B+K BT B+K | 70 |
+RE B guard break: 44B LH 4B+K BT B+K | 70 | 
+RE B 3B b:K 46B 66B | 62 | LH
 
 #RE K
 RE K 6K | 30 | NC
+RE K 6BK 4B:B BT [B+K] 66B | 60 | LH
