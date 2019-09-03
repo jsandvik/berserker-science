@@ -11,11 +11,17 @@ AA | 20 | NC
 (6A)A BT K BT BB |  | NCC
 (6A)A BT K BT B+K | 50 | NCC
 (6A)A JF 4BB BT B+K |  | NCC (?????)
-(6A)B 6K |  | NCC (gives one curse)
+
+#6AB
+6AB 6BK 4B:B BT K BT BB | 77 | LH
+6AB 6BK 4B:B BT B+K | 71 | LH
+6AB 6BK 1B 8B+K | 64 | LH | (non JF)
+6AB SC 2A+B | 74 | LH
 
 #3A
 3AB | 37 | NC
 3AK | 26 | NC
+SC 3AKB 8B+K | 62 | NC (vortex)
 
 #B
 BB | 28 | NC
@@ -23,6 +29,10 @@ BB | 28 | NC
 #6B
 6BB | 30 | NC
 6BK | 32 | NC
+6BB 6BK 4B:B BT K BT BB | 76 | LH
+6BB 6bk 4B:B BT B+K | 72 | LH
+6BB 6BK 1B 8B+K | 66 | LH | (vortex)
+6BB SC 2A+B | 76 | LH
 
 #3B
 3B 46B 8B+K	| 56	| [Vortex]
@@ -42,8 +52,8 @@ BB | 28 | NC
 46BB TS2 [2A+B] 22A [TT] 8A+B 66A+B / 8B+K	| 125 |	| Tech Trap
  
 #1B
-1BB TS2 - [3AB] / 46B	43	RO | NC | ( /Forward )
-1BB TS3 - 6B+KA - 6K	62	 | NC | (Curses)
+1BB TS2 [3AB] / 46B	43	RO | NC | ( /Forward )
+1BB TS3 6B+KA 6K	62	 | NC | (Curses)
 1B 8B+K
 1B 66A+BB TS3 G 2A+B 66A+B | | NCC
 1B 66A+BB TS3 G 2A+B 8B+K | | NCC
@@ -60,11 +70,25 @@ BT BB 8B+K (BT B+K)	| 80	| Ends Vortex
 BT BB 46B 8B+K | 86 | (vortex)
 BT BB 46BB TS1 2A+B 66A+B / 8B+K	| 112	| /Vortex
 BT BB 46BB TS1 2A+B 22A [TT] 8B+K 66A+B / 8B+K	| 148	| Tech Trap
-BT BB 66A+BB TS3 G 2A+B 66A+B  / 8B+K	| 138 |	/Vortex
+BT BB 66A+BB TS3 G 2A+B 66A+B / 8B+K	| 138 |	/Vortex
  
 #K
 KK | 22 | NC
- 
+
+#6K
+6K 8B+K | 48 | LH
+6K 46:BB TS1 66B | 60 | LH
+6K 46:BB TS2 66A+B | 86 | LH
+near wall 6K 46:BB TS3 2A+B 4B+K BT K BT BB | 123 | LH
+
+#1K
+1K 46:B | 35 | NCC
+1K 46:BB TS1 - 6BB | 57 | NCC
+
+#4K
+4K 6BK 4B:B BT K BT BB | 95 | LH
+4K 6BK 1B 8B+K | 79 | LH
+
 #WRK
 WRKB | 34 | NC
  
@@ -72,8 +96,7 @@ WRKB | 34 | NC
 FC3K 6K | | 
  
 #BT 2K
-BT 2K WR 8B+K
-BT 2K 8B+K (30) (vortex)
+BT 2K 8B+K | 30 | NC | (vortex)
 
 ---------------------- Dual Button -------------
 
@@ -89,10 +112,12 @@ A+B 6BK 4B:B BT K BT BB | 80 | NC
 6B+K A 6K | 60 | NC
 
 #4B+K (first hit)
-||
+4B+K BT K BT BB | 72 | NCC
+4B+K BT K G 8B+K | 71 | NCC | (vortex)
 
 #4B+K (second hit)
-||
+4B+K BT K BT BB |  | NC | (I think?)
+4B+K BT K G 8B+K |  | NC | (vortex)
 
 #8B+K
 8B+k BT B+K | 41 | NC | (weird combo)
@@ -119,6 +144,13 @@ near wall behind SC 22BBB BT K G 46:BB TS1 4B+K BT [B+K] | 120 |
 3B/22B - B:K - 8B+K	54	Vortex
 3B/22B - 46BB TS2 - 2A+B - 66A+B / 8B+K	91	/Vortex
 
+#66B
+66B 8A+B 66A+B (71 | LH
+66B 8A+B 8B+K (66 | LH
+66B 8A+B 66A+BB TS1 BT B+K | 82 | LH
+66B 8A+B 66A+BB TS2 BT BB | 89 | LH
+66B 8A+B 66A+BB TS3 G 2A+B 66A+B | 102 | LH
+
 #44B
 44B 2K | | | (there's gotta be something better)
 
@@ -134,7 +166,11 @@ near wall behind SC 22BBB BT K G 46:BB TS1 4B+K BT [B+K] | 120 |
 
 #44K
  | | 
- 
+44K 2A+B 66A+B | 89 | LH
+44K 2A+B 66A+BB TS1 BT B+K | 102 | LH
+44K 2A+B 66A+BB TS2 BT BB | 110 | LH
+44K 66A+BB TS3 G 2A+B 66A+B | 135 | LH
+
 #666K
 
 #66A+B
@@ -149,7 +185,7 @@ near wall behind SC 22BBB BT K G 46:BB TS1 4B+K BT [B+K] | 120 |
 #44A+B
 44A+B BT [B+K] | 57 | 
 tip range hit 44A+B - BT K - BT BB | 72 | 
- 
+
 #66B+K
 66B+K b:K 46B 66B | 65 |
 66B+K b:K 8B+K | 63 |  (vortex)
@@ -157,7 +193,7 @@ tip range hit 44A+B - BT K - BT BB | 72 |
 66B+K 46BB TS1 66A+B | 71 |
 near wall 66B+K 46BB TS1 4B+K BT [B+K] | 102 |
 66B+K 46BB TS3 2A+B 66A+B | 100 |
- 
+
 #44B+K
  
 -------------- RE -----------------
