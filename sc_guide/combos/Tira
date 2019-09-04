@@ -1,0 +1,52 @@
+
+#JS A
+AA | 20 | NC
+
+#GS A
+AA | 24 | NC
+AK | 26 | NCC
+
+#JS [A]
+JS [A] | 28 | NC | (second hit)
+
+#JS 6A
+6AA | 39 | NCC
+6AB | 39 | NCC
+
+#GS 6AB
+6AB | 51 | NCC
+
+#JS 3A
+3AB | 26 | NCC
+
+#GS 3A
+3AA | 42 | NC
+3A A+B | 64 | NC
+
+#JS B
+BB | 26 | NC
+
+#GS B
+BB | 32 | NC
+
+#JS B8
+||
+
+#JS 6B
+6BB | 40 | NC
+6BK | 40 | NC
+
+#GS 6B
+||
+
+#JS 3B
+||
+
+#GS 3B
+
+#JS 4B
+4BB | 26 | NC
+
+#WR B
+WR B K UD K | 51 | NC
+
