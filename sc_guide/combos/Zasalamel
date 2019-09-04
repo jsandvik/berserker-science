@@ -35,11 +35,11 @@ BB | 28 | NC
 6BB SC 2A+B | 76 | LH
 
 #3B
-3B 46B 8B+K	| 56	| NC | [Vortex]
+3B 46B 8B+K	| 56	| NC | (vortex)
 3B B:K 46B/:B 66B	| 60	| NC | Forward RO
 3B B:K 8B+K	| 54	| NC | Vortex
-3B 46BB TS2 2A+B 66A+B / 8B+K	| 91	| NC | /Vortex
-3B 46BB TS2 2A+B 22A [TT] 8A+B 66A+B / 8B+K	| 125	| NC | Tech Trap
+3B 46BB TS2 2A+B 66A+B / 8B+K	| 91	| NC | (vortex)
+3B 46BB TS2 2A+B 22A [TT] 8A+B 66A+B / 8B+K	| 125	| NC | (Tech Trap)
 
 #4B
 4B:B BT K BT BB | 80 | NCC | (needs JF for full combo)
@@ -49,29 +49,28 @@ BB | 28 | NC
 #46B
 46BB TS1 [66A+B] / 6BB	| 69/61 | NC | (wtf even is this??? what's it saying? the combo ending on 66A+B is 69 dmg and 6BB is 55)
 46BB TS2 [2A+B] 66A+B	| 85	| NC | [Close Hit]
-46BB TS2 [2A+B] 22A [TT] 8A+B 66A+B / 8B+K	| 125 | NC	| Tech Trap
+46BB TS2 [2A+B] 22A [TT] 8A+B 66A+B / 8B+K	| 125 | NC	| (Tech Trap)
  
 #1B
-1BB TS2 [3AB] / 46B	43	RO | NC | ( /Forward )
+1BB TS2 [3AB] / 46B	43	RO | NC | (Forward )
 1BB TS3 6B+KA 6K	62	 | NC | (Curses)
 1B 8B+K | 46 | NCC
 1B 66A+B | 51 | NCC
-1B 66A+BB TS3 G 2A+B 66A+B | | NCC
-1B 66A+BB TS3 G 2A+B 8B+K | | NCC
-1B 66A+BB TS3 G 2A+B 22A [TT] 8A+B 66A+B | | NCC
-1B 66A+BB TS3 G 2A+B 22A [TT] 8A+B 8B+K | | NCC
-1B CH [66A+BB TS1 BT BB]	| 71 | 	
-1B CH [66A+BB TS3 G 2A+B 66A+B / 8B+K]	| 87	| /Vortex
+1B 66A+BB TS3 G 2A+B 66A+B | 88 | NCC
+1B 66A+BB TS3 G 2A+B 8B+K | 85 | NCC
+1B 66A+BB TS3 G 2A+B 22A [TT] 8A+B 66A+B |  | NCC | (Tech trap)
+1B 66A+BB TS3 G 2A+B 22A [TT] 8A+B 8B+K |  | NCC | Tech trap)
+1B [66A+BB TS1 BT BB]	| 71 | NCC
+1B [66A+BB TS3 G 2A+B 66A+B / 8B+K]	| 87	| NCC | (vortex)
 
  
 #BT B
-BT BB | 42 | NC
-BT BB 8B+K	| 64	| Vortex
-BT BB 8B+K (BT B+K)	| 80	| Ends Vortex
-BT BB 46B 8B+K | 86 | (vortex)
-BT BB 46BB TS1 2A+B 66A+B / 8B+K	| 112	| /Vortex
-BT BB 46BB TS1 2A+B 22A [TT] 8B+K 66A+B / 8B+K	| 148	| Tech Trap
-BT BB 66A+BB TS3 G 2A+B 66A+B / 8B+K	| 138 |	/Vortex
+BT BB 8B+K	| 70	| NC | (vortex)
+BT BB 8B+K (BT B+K)	| 80	| NC | (Ends Vortex)
+BT BB 46B 8B+K | 86 | NC | (vortex)
+BT BB 46BB TS1 2A+B 66A+B / 8B+K	| 112	| NC | (vortex)
+BT BB 46BB TS1 2A+B 22A [TT] 8B+K 66A+B / 8B+K	| 148	| NC | (Tech Trap)
+BT BB 66A+BB TS3 G 2A+B 66A+B / 8B+K	| 138 |	NC | (vortex)
  
 #K
 KK | 22 | NC
@@ -87,7 +86,6 @@ near wall 6K 46:BB TS3 2A+B 4B+K BT K BT BB | 123 | LH
 1K 46:BB TS1 6BB | 57 | NCC
 
 #4K
-4K stuff | | NCC
 4K 6BK 4B:B BT K BT BB | 95 | LH
 4K 6BK 1B 8B+K | 79 | LH
 
@@ -95,7 +93,7 @@ near wall 6K 46:BB TS3 2A+B 4B+K BT K BT BB | 123 | LH
 WRKB | 34 | NC
  
 #FC3K
-FC3K 6K | | 
+FC3K 6K | 41 | NC
  
 #BT 2K
 BT 2K 8B+K | 30 | NC | (vortex)
@@ -105,7 +103,7 @@ BT 2K 8B+K | 30 | NC | (vortex)
 #A+B
 A+B 6BK 4B:B BT K BT BB | 80 | NC
 A+B 6BK 4B:B BT K BT BB | 80 | LH
-close up A+B 4B+K BT K BT BB | 79 | LH | (non JF)
+A+B 4B+K BT K BT BB | 79 | LH | (non JF) (close up)
 SC A+B SC 2A+B | 78 | LH
 SC A+B SC 3AKB 8B+K | 67 | LH | (vortex)
 
@@ -113,7 +111,11 @@ SC A+B SC 3AKB 8B+K | 67 | LH | (vortex)
 6A+B B | 59 | NCC
 
 #8A+B
-||
+8A+B 66A+B | 65 | NC
+8A+B 8B+K | 58 | NC
+8A+B 66A+BB TS1 BT B+K | 79 | NC
+8A+B 66A+BB TS2 BT BB | 87 | NC
+8A+B 66A+BB TS3 G 2A+B 66A+B | 105 | NC
 
 #6B+K
 6B+K A 6K | 60 | NC
@@ -146,11 +148,6 @@ SC 22BBB BT K BT BB | 83 | NC
 SC 22BBB BT K G 8B+K | 82 | NC | (vortex)
 near wall behind SC 22BBB BT K G 46:BB TS1 4B+K BT [B+K] | 120 | NC
 
-3B/22B 46B 8B+K	| 56 |	[Vortex]
-3B/22B B:K 46B/:B 66B	| 60	| Forward RO
-3B/22B B:K 8B+K	| 54 |	Vortex
-3B/22B 46BB TS2 2A+B 66A+B / 8B+K	| 91	| /Vortex
-
 #66B
 66B 8A+B 66A+B | 71 | LH
 66B 8A+B 8B+K | 66 | LH
@@ -159,21 +156,25 @@ near wall behind SC 22BBB BT K G 46:BB TS1 4B+K BT [B+K] | 120 | NC
 66B 8A+B 66A+BB TS3 G 2A+B 66A+B | 102 | LH
 
 #44B
-44B 2K | | | (there's gotta be something better)
+44B 6BB | 59 | NC | (there's gotta be something better)
+44B 46BB TS1 66A+B | 84 | NC
+44B 46BB TS2 2A+B 66A+B | 108 | NC
 44B 4B+K BT K BT BB | 96 | LH
 
 #44[B]
-44[B] 4B:B BT K BT BB | 82 | 
-44[B] 6A+BB | 76 | 
+44[B] 4B:B BT K BT BB | 82 | NC
+44[B] 6A+BB | 76 | NC
 
 #66kB
 66kB | 35 | NC
 
 #22_88K
-22_88KK | 28 | NC
+22_88KK 8B+K | 53 | NC
+22_88KK 6BB | 53 | NC
 
 #44K
- | | 
+44K 8B+K | 53 | NC
+44K 66A+B | 59 | NC
 44K 2A+B 66A+B | 89 | LH
 44K 2A+B 66A+BB TS1 BT B+K | 102 | LH
 44K 2A+B 66A+BB TS2 BT BB | 110 | LH
@@ -187,11 +188,6 @@ near wall behind SC 22BBB BT K G 46:BB TS1 4B+K BT [B+K] | 120 | NC
 66A+BB TS2 BT BB | 77 | NC
 66A+BB TS3 G 2A+B 66A+B | 107 | NC
 66A+BB TS3 G 2A+B 8B+K | 98 | NC | (vortex)
-44A+B RE 8A+B 66A+B | 107 | LH
-44A+B RE 8A+B 8B+K | 102 | LH
-44A+B RE 8A+B 66A+BB TS1 BT [B+K] | 118 | LH
-44A+B RE 8A+B 66A+BB TS2 BT BB | 124 | LH
-44A+B RE 8A+B 66A+BB TS3 G 2A+B 66A+B | 146 | LH
 
 #33_66_99B
 33_66_99B something
@@ -199,12 +195,17 @@ near wall behind SC 22BBB BT K G 46:BB TS1 4B+K BT [B+K] | 120 | NC
 #44A+B
 44A+B BT [B+K] | 57 | NC | (hold almost full time)
 44A+B BT [B+K] | 61 | NC | (hold almost full time but more than other combo)
-tip range hit 44A+B BT K BT BB | 72 | NC
+44A+B BT K BT BB | 72 | NC | (tip range hit)
+44A+B RE 8A+B 66A+B | 107 | LH
+44A+B RE 8A+B 8B+K | 102 | LH
+44A+B RE 8A+B 66A+BB TS1 BT [B+K] | 118 | LH
+44A+B RE 8A+B 66A+BB TS2 BT BB | 124 | LH
+44A+B RE 8A+B 66A+BB TS3 G 2A+B 66A+B | 146 | LH
 
 #66B+K
 66B+K b:K 46B 66B | 65 | NC
 66B+K b:K 8B+K | 63 | NC | (vortex)
-66B+K 46B 66B | 62 | NC |(no JF)
+66B+K 46B 66B | 62 | NC | (no JF)
 66B+K 46BB TS1 66A+B | 71 | NC
 near wall 66B+K 46BB TS1 4B+K BT [B+K] | 102 | NC
 66B+K 46BB TS3 2A+B 66A+B | 100 | NC
@@ -214,7 +215,7 @@ near wall 66B+K 46BB TS1 4B+K BT [B+K] | 102 | NC
 66B+K 8A+B 66A+BB TS3 G 2A+B 66A+B | 79 | LH
 
 #44B+K
-||
+44B+K 8B+K | 99 | NC
 
 -------------- RE -----------------
  
@@ -229,12 +230,12 @@ RE BB TS1 : 6B+KA - 6K | 81 | NC
 RE BB TS2 : CE | 101 | NC
 RE BB TS3 : A+B 6BK 4B:B BT K BT BB | 101 | NC
 
-RE B LH : 44A+B BT B+K | 63 |
-RE BB TS1 LH : 6BK 4B:B BT B+K | 80 |
-RE BB TS2 : CE | 81 | 
-RE BB TS3 : A+B 6BK 4B:B BT B BT BB | 88 |
+RE B 44A+B BT B+K | 63 | LH
+RE BB TS1 6BK 4B:B BT B+K | 80 | LH
+RE BB TS2 CE | 81 | NC
+RE BB TS3 A+B 6BK 4B:B BT B BT BB | 88 | NC
 
-RE B guard break: 44B LH 4B+K BT B+K | 70 | 
+RE B 44B LH 4B+K BT B+K | 70 | B | (guard break)
 RE B 3B b:K 46B 66B | 62 | LH
 
 #RE K
