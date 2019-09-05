@@ -23,6 +23,42 @@ JS [A] | 28 | NC | (second hit)
 3AA | 42 | NC
 3A A+B | 64 | NC
 
+#JS 1A
+3A 3B |  | NCC
+3A 4K ~ GS extensions |  | NCC
+1A 4K GS+! 6BB | | NCC | (requires mood change)
+1A 4K GS! 66A+B | | NCC | (requires mood change)
+1A 4K GS! 6B | | NCC | (requires mood change)
+
+#GS 1A
+1A ~ extensions | | NCC
+1A 6BB | | NCC (SC)
+1A 66A+B (4K 66A+B infinite) | | NCC (SC)
+1A 66A+B | | NCC
+
+#JS 4A
+4A 4K GS+! 236kA 3BB 6B 4K 66A+B (4K 66A+B infinite) | | NC | (requires mood change)
+4A 4K GS+! 236kA 3BB 6B 66A+B (4K 66A+B infinite) | | NC | (requires mood change)
+4A 4K GS+! 236kA 3BB 2A+B 6BB | | NC | (requires mood change)
+4A 4K GS! 236kA CE | | NC | (requires mood change)
+4A 4K GS! 236kA 3B 4A 4K 66A+B | | NC | (requires mood change)
+4A 4K GS! 236kA 3B 4A 66A+B | | NC | (requires mood change)
+4A 4K GS! 236kA 3B 4A 4K JS! 2A+B | | NC | (requires mood change)
+4A 4K GS! 4B:B:B 2A+B 11_44_77(B) | | NC | (requires mood change)
+4A 4K GS! 4B:B:B 2A+B 4K 66A+B | | NC | (requires mood change)
+4A 4K GS! 4B:B:B 2A+B 66A+B | | NC | (requires mood change)
+4A 4K GS! 4B:B:B 2A+B 4K JS! 2A+B | | NC | (requires mood change)
+
+#GS 4A
+4A ~ extensions
+4A, CE
+4A, 4A, 4K, 6BB SC
+4A, 4A, 4K, 66A+B
+4A, 4A, 4K, 6B
+4A, 6BB SC
+4A, 44(B)
+4A, 66A+B
+
 #JS B
 BB | 26 | NC
 
@@ -35,18 +71,98 @@ BB | 32 | NC
 #JS 6B
 6BB | 40 | NC
 6BK | 40 | NC
+6BB 4K GS+! 6BB | | NCC | (requires mood change)
+6BB 4K GS! 66A+B | | NCC | (requires mood change)
+6BB 4K GS! 6B | | NCC | (requires mood change)
 
 #GS 6B
 ||
 
 #JS 3B
-||
+3B 6BB | | NC
+3B CE | | NC
+3B 44K CE | | NC
+3B 4A 4K ~ extensions on GS! | | NC
 
 #GS 3B
+3B ~ extensions! | | NC
+3B, CE! | | NC
+3BB, 6B, 4K, 66A+B (4K, 66A+B infinite) (SC)! | | NC
+3BB, 6B, 2A+B, 6BB (SC)! | | NC
+3B (tip range), 6B, 4K, 66A+B! | | NC
+3B, 4A, 4K, 66A+B! | | NC
+3B, 4A, 66A+B! | | NC
 
 #JS 4B
 4BB | 26 | NC
 
+#GS 4B
+4B:B:B ~ extensions | | NC
+4B:B:B, 2A+B, 11_44_77(B) | | NC
+4B:B:B, 2A+B, 4K, 66A+B | | NC
+4B:B:B, 2A+B, 66A+B | | NC
+4B:B:B, 2A+B, 4K, JS!, 2A+B | | NC
+
 #WR B
 WR B K UD K | 51 | NC
+
+#6K
+6K something | | NC
+6K 11_44_77B Taunt
+6K 11_44_77B B+K
+
+#1K
+1K 4K ~ extensions on GS~ | | NCC
+1K 4K GS+! 6BB | | NC | (requires mood change)
+1K 4K GS! 66A+B | | NC | (requires mood change)
+1K 4K GS! 6B | | NC | (requires mood change)
+
+#4K
+4K GS! CE | | NC | (requires mood change)
+4K GS+! AKA 6BB | | NC | (requires mood change)
+4K GS+! AKA 66K | | NC | (requires mood change)
+4K GS! 3A A+B | | NC | (requires mood change)
+4K GS+! 4K 66A+B (4K 66A+B infinite) | | NC | (requires mood change)
+4K GS! BB | | NC | (requires mood change)
+4K GS+! 236kA 3BB 6B, 4K, 66A+B (4K, 66A+B infinite) | | NCC | (requires mood change)
+4K GS+! 236kA 3BB 6B, 66A+B (4K, 66A+B infinite) | | NCC | (requires mood change)
+4K GS+! 236kA 3BB 2A+B, 6BB | | NCC | (requires mood change)
+4K GS! 236kA CE | | NCC | (requires mood change)
+4K GS! 236kA 3B 4A 4K 66A+B | | NCC | (requires mood change)
+4K GS! 236kA 3B 4A 66A+B | | NCC | (requires mood change)
+4K GS! 236kA 3B 4A 4K JS! 2A+B | | NCC | (requires mood change)
+4K GS! 4B:B:B 2A+B 11_44_77(B) | | NCC | (requires mood change)
+4K GS! 4B:B:B 2A+B 4K 66A+B | | NCC | (requires mood change)
+4K GS! 4B:B:B 2A+B 66A+B | | NCC | (requires mood change)
+4K GS! 4B:B:B 2A+B 4K JS! 2A+B | | NCC | (requires mood change)
+GS 4K ~ extensions / ~ JS! ||
+GS 4K 6BB (requires soul charge???) ||
+GS 4K 66A+B ||
+
+#JS 236K
+maybe
+
+#GS 236K
+236K ~ extensions | | NCC
+236K 4K 6BB | | NCC (SC)
+236K 4K 66A+B (4K 66A+B infinite) | | NCC (SC)
+236K 4K 66A+B | | NCC
+
+#GS WR K
+GS WR K UD K something | | | NC
+WR BKA
+WR BKB
+WR BKK ~ extensions
+WR BKK, 66A+B
+
+#7_8_9 K
+7_8_9 K A | | NCC
+7_8_9 K B | | NCC
+7_8_9 K UD K Something | | NCC
+7_8_9 KK 2B | | NCC
+7_8_9 KK 1B | | NCC
+7_8_9 KK 2K | | NCC
+
+
+
 
