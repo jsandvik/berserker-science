@@ -163,6 +163,58 @@ WR BKK, 66A+B
 7_8_9 KK 1B | | NCC
 7_8_9 KK 2K | | NCC
 
+----------------------------- Dual Button ----------------------------
+
+#GS 2A+B
+2A+B ~ extensions | | NC
+2A+B, 6BB (SC) | | NC
+2A+B, 66A+B | | NC
+2A+B ~ extensions | | NCC
+2A+B, 4A, 4K, 6BB | | NCC
+2A+B, 4A, 4K, 66A+B (4K, 66A+B infinite) | | NCC
+2A+B, 4A, 4K, 66A+B | | NCC
+2A+B, 44(B) | | NCC
+
+
+#JS BT B+K
+BT B+KB | | NC
+
+#GS BT B+K
+BT B+K ~ extensions | | NCC
+BT B+K, 236kA, 3BB, 6B, 4K, 66A+B (4K, 66A+B infinite) | | NCC (SC)
+BT B+K, 236kA, 3BB, 6B, 66A+B (4K, 66A+B infinite) | | NCC (SC)
+BT B+K, 236kA, 3BB, 2A+B, 6BB | | NCC (SC)
+BT B+K, 236kA, CE | | NCC
+BT B+K, 236kA, 3B, 4A, 4K, 66A+B | | NCC
+BT B+K, 236kA, 3B, 4A, 66A+B | | NCC
+BT B+K, 236kA, 3A A+B | | NCC
+BT B+K, 4B:B:B, 2A+B, 11_44_77(B) | | NCC
+BT B+K, 4B:B:B, 2A+B, 4K, 66A+B | | NCC
+BT B+K, 4B:B:B, 2A+B, 66A+B | | NCC
+BT B+K, JS! ~ | | NCC
+
+#JS 4B+K
+4B+KB ~ extensions | | NC
+4B+KB, 2A+B | | NC
+4B+KB, 66B | | NC
+4B+K(B) ~ extensions | | NCC
+4B+K(B), 2A+B | | NCC
+4B+K(B), 66B | | NCC
+
+#GS 4B+K
+4B+KB ~ extensions | | NC
+4B+KB, 6BB | | NC (SC)
+4B+KB, 66A+B | | NC
+4B+KB, 6B | | NC
+4B+K(B) ~ extensions | | NCC
+4B+K(B), 6BB | | NCC SC
+4B+K(B), 66A+B (4K, 66A+B infinite) | | NCC SC
+4B+K(B), 66A+B | | NCC
+4B+K(B), 6B | | NCC
 
 
 
+-------------------------- 8 Way Run ---------------------------------
+
+#JS 11_44_77A+B
+11_44_77A+B AA | | NCC
