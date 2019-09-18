@@ -14,22 +14,17 @@
 272|SC 4AAAB|N|N|Mashing OK||Serpent's Bane||16|mid_4b|5|STN +0 |       |20|[gd]|2|45|29|0|TC[5-16]
 273|  4AB  |N|LO; 390/FS (Eventually LI)|Hold 4 to go to 390.||Nunchaku Slap||18|high_49|-2|KND -8 |       |42|[gd]|2|55|37|0|GRND
 274| 4AB|273|LO|Only reached when not holding back after 273||Nunchaku Slap to Steel Dragon||18|high_49|-13|KND -19|       |42|[gd]|2|66|48|0|GRND
-275|SC 236A|N|BL|||||28|low_37|-83|-71|       |8|[gd]|2|130|102|0|TJ[6-20] TC[24-67] GRND
-276| 6A*?. |||Second hit of 275.||||33|low_37|-78|-66|       |8|[gd]|2|130|97|0|TJ[6-20] TC[24-67] GRND
-277|6A*?.. |||Third hit of 275.||||38|low_37|-73|-61|       |8|[gd]|2|130|92|0|TJ[6-20] TC[24-67] GRND
-278|6A*?...|||Fourth hit of 275.||||43|low_37|-68|-56|       |8|[gd]|2|130|87|0|TJ[6-20] TC[24-67] GRND
-279|A*?....|||Fifth  hit of 275.||||48|low_37|-45|-35|       |8|[gd]|2|130|82|0|TJ[6-20] TC[24-67] GRND
+275|SC 236A|N|BL|||||28|low_37|-83, -78, -73, -68, -45|-71, -66, -61, -56, -35|       |8|[gd]|2|130|102, 97, 92, 87, 82|0|TJ[6-20] TC[24-67] GRND
 280|  5B   |N|RO|||Snake Bite||16|mid_4b|4|12|       |10|[gd]|2|30|14|0|
 282|  6B   |N|N; 283|It looks like he goes into RO if he does not do 283, but he does not.||Dragon Backfist||18|mid_4b|-16|-6|       |16|[gd]|3|55|37|0|
-282|  6B   |||||Dragon Backfist||18|mid_4b|-16|-6|       |16|[gd]|3|55|37|0|
-283|  6BB  |282|RO; 284|It looks like he goes into BL if he does not do 284, but he does not. He then goes to RO.||Dragon Backfist||15|mid_4b|-31|-23|       |12|[gd]|3|76|61|0|
-284| 6BBB  |283|N;|This move has insane lag. If you're guard is low, opt to guard this to get broken every time. Maxi cannot follow up off of a guard crush here.||Dragon Backfist||11|high_49|-28|KND -4 |       |30|[gd]|3|74|63|0|TC[4-14]
+283|  6BB  |N|RO; 284|It looks like he goes into BL if he does not do 284, but he does not. He then goes to RO.||Dragon Backfist||15|mid_4b|-31|-23|       |12|[gd]|3|76|61|0|
+284| 6BBB  |N|N;|This move has insane lag. If you're guard is low, opt to guard this to get broken every time. Maxi cannot follow up off of a guard crush here.||Dragon Backfist||11|high_49|-28|KND -4 |       |30|[gd]|3|74|63|0|TC[4-14]
 285|  3B   |N|RO|||Illusion Serpent||20|mid_6f|-19|LNC -12|       |22|[gd]|4|61|41|0|TC[11-19] GRND
 286|  2B   |N|C|||Falling Fang||14|mid_4b|-8|2|       |16|[gd]|2|43|29|0|TC[10-]
 287|  1B   |N|RO|||Nuchaku Lick||16|low_37|-25|-17|       |20|[gd]|2|65|49|0|TC[16-] GRND
 289|  4B   |N|LO|||Snake Kiss||18|mid_4b|-52|-42|       |16|[gd]|3|91|73|0|TC[10-13]
 290| 236B  |N|291 (Eventually LI)|||Mantis Lunge||24|mid_4b|-27|-17|       |10|[gd]|4|70|46|0|TJ[12-34]
-291||209|292 (Eventually LI)|||||24|mid_4b|-27|-17|       |10|[gd]|6|70|46|0|TJ[12-34]
+291||290|292 (Eventually LI)|||||24|mid_4b|-27|-17|       |10|[gd]|6|70|46|0|TJ[12-34]
 292||291|LI|||||31|mid_4b|-14|-4|       |10|[gd]|3|70|39|0|TJ[12-34]
 293|  5K   |N|N|||Fang Scratch||12|high_49|-6|2|       |14|[gd]|2|41|29|0|
 295|  6K   |||P1 side: kicks from background to foreground (Maxi's left to his right). P2 side (forward + K): kicks from foreground to background (Maxi's left to his right).||Left Roundhouse||20|high_49|-8|KND -4 |       |28|[gd]|4|53|33|0|
@@ -41,13 +36,8 @@
 301|  1KB  |298|RO|||Illusion Kick||35|mid_6f|-12|LNC -2 |       |20|[gd]|3|66|31|0|TC[10-18] GRND
 302|  1KK  |298|C|||Illusion Low Kicks||25|low_37|-12|2|       |16|[gd]|3|59|34|0|TC[11-] GRND
 303|  4K   |||P1 side: kicks from foreground to background (Maxi's right to his left. P2 side (back + K): kicks from background to foreground.||Right Roundhous||20|high_49|-8|KND -4 |       |28|[gd]|4|53|33|0|
-304|236K|N|305 (Eventually N)|Quarter Circle Forward K. Does a lot of guard damage. Also crushes some mids.||Hurricane||26|mid_4b|-53|STN -45|       |16|[gd]|2|100|74|0|TC[6-83]
-305||304|306 (Eventually N)|||||31|mid_4b|-48|STN -40|       |6|[gd]|2|100|69|0|TC[0-83]
-306||305|307 (Eventually N)|||||36|mid_4b|-43|STN -35|       |6|[gd]|2|100|64|0|TC[0-83]
-307||306|308 (Eventually N)|||||41|mid_4b|-38|STN -30|       |6|[gd]|2|100|59|0|TC[0-83]
-308||307|309 (Eventually N)|||||46|mid_4b|-33|STN -25|       |6|[gd]|2|100|54|0|TC[0-83]
-309||308|310 (Eventually N)|||||51|mid_4b|-28|STN -20|       |6|[gd]|2|100|49|0|TC[0-83]
-310||309|N|||||56|mid_4b|-14|STN -6 |       |8|[gd]|4|91|35|0|TC[0-83]
+304|236K|N|305 (Eventually N)|Quarter Circle Forward K. Does a lot of guard damage. Also crushes some mids.||Hurricane||26, 31, 36,41,46,51,56|mid_4b|-53, -48, -43, -38, -33, -28, -14|STN -45, STN -40, STN -35, STN -30, STN -25, STN -20, STN -6 |       |16, 6, 6,6, 6, 6,8|[gd]|2,2,2,2,2,2,4|100,100,100,100,100,100,91|74, 69, 64, 59, 54, 49, 35|0|TC[6-83], TC[0-83], TC[0-83], TC[0-83], TC[0-83], TC[0-83], TC[0-83]
+311|G|[305,309] canceled|N|Canceled any of [305,309]||||26|mid_4b|0|0|||||32|-1||TC[0-24]
 312| 5A+B  |N|N|It looks like he goes into RO, but he does not.|Stand aside!|Vegabond||36|mid_4b|0|LNC -17|       |30|[gd]|2|82|46|0|
 313| 6A+B  |N|N||Try this!|Dragon's Brand||16|mid_4b|-8|STN -8 |       |35|[gd]|2|53|37|0|TC[4-16]
 314|SC 6A+B|N|LI|Pretty fast, long range guard break. Note that this only transitions to LI in .|Whatcha!|||16|mid_4b|5|STN +0 |       |30|[gd]|2|45|29|0|TC[4-16]
