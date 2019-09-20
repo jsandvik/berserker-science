@@ -53,15 +53,13 @@
 322| 9A+B  |||||||42|mid_4b|-8|KND -13|       |52|[gd]|2|84|42|0|TJ[12-47]
 323|  7AU  |||||||41|mid_4b|-9|KND -14|       |52|[gd]|3|84|43|0|TJ[12-47]
 323|  7AU  |||||||42|mid_4b|-8|KND -13|       |52|[gd]|2|84|42|0|TJ[12-47]
-324| 5B+K  |N|325; 333 (During Seven Stars Severance)|Time precisely for increased damage.||Fury||20|mid_4b|-38|-28|       |3|[gd]|3|77|57|0|
-325||324|326|||^||28|mid_4b|-10|-2|       |3|[gd]|3|59|31|0|
-326|B|325|327|||^||6|mid_4b|-47|-37|       |4|[gd]|3|72|66|0|
-327||326|328|||Second hit of ^||20|mid_4b|-16|-6|       |4|[gd]|3|55|35|0|
-328|B|327|329|||||6|mid_4b|-38|-28|       |5|[gd]|3|63|57|0|
-329||328|330|||Second hit of ^||15|mid_4b|-20|-10|       |5|[gd]|3|52|37|0|
-330|A|329|331|||||4|mid_4b|-36|-26|       |6|[gd]|3|59|55|0|
-331||330|332|||Second hit of ^||11|mid_4b|-18|-8|       |6|[gd]|3|48|37|0|
-332||331|N|||||18|mid_4b|-84|KND -74|       |22|[gd]|4|122|104|0|
+324| 5B+K  |N|N|Time precisely for increased damage.||Fury||20, 28|mid_4b, mid_4b|-38, -10|-28, -2|       |3, 3|[gd], [gd]|3, 3|77, 59|57, 31|0, 0|
+326|5B+KB|N|N|Time precisely for increased damage.||Fury||20, 28,6, 20|mid_4b, mid_4b,mid_4b, mid_4b|-38, -10,-47, -16|-28, -2,-37, -6|       |3, 3,4, 4|[gd], [gd],[gd], [gd]|3, 3,3, 3|77, 59,72, 55|57, 31,66, 35|0, 0,0, 0|
+328|5B+KBB|N|N|Time precisely for increased damage.||Fury||20, 28,6, 20,6,15|mid_4b, mid_4b,mid_4b, mid_4b,mid_4b,mid_4b|-38, -10,-47, -16,-38,-20|-28, -2,-37, -6,-28,-10|       |3, 3,4, 4,5,5|[gd], [gd],[gd], [gd],[gd],[gd]|3, 3,3, 3,3,3|77, 59,72, 55,63,52|57, 31,66, 35,57,37|0, 0,0, 0,0,0|
+330|5B+KBBB|N|N|Time precisely for increased damage.||Fury||20, 28,6, 20,6,15,4, 11|mid_4b, mid_4b,mid_4b, mid_4b,mid_4b,mid_4b,mid_4b,mid_4b|"-38, -10,-47, -16,-38,-20,-36,-18
+"|-28, -2,-37, -6,-28,-10,-26, -8|       |3, 3,4, 4,5,5,6,6|[gd], [gd],[gd], [gd],[gd],[gd],[gd],[gd]|3, 3,3, 3,3,3,3,3|77, 59,72, 55,63,52,59,48|"57, 31,66, 35,57,37,55, 37
+"|0, 0,0, 0,0,0,0,0|
+332|5B+KBBBA|N|RO|Time precisely for increased damage.||Fury||20, 28,6, 20,6,15,4, 11,18|mid_4b, mid_4b,mid_4b, mid_4b,mid_4b,mid_4b,mid_4b,mid_4b,mid_4b|-38, -10,-47, -16,-38,-20,-36,-18,-84|-28, -2,-37, -6,-28,-10,-26, -8,KND -74|       |3, 3,4, 4,5,5,6,6,22|[gd], [gd],[gd], [gd],[gd],[gd],[gd],[gd],[gd]|3, 3,3, 3,3,3,3,3,4|77, 59,72, 55,63,52,59,48,122|57, 31,66, 35,57,37,55, 37,104|0, 0,0, 0,0,0,0,0,0|
 333| SSS 5B+K|324|334|Reached when using 324 with Seven Stars Severance triggered. Time precisely for increased damage.|Time to see stars!|Seven Stars Fury ~ RO||20|mid_4b|-38|-28|       |3|[gd]|3|77|57|0|
 334||333|335|||Second hit of ^||28|mid_4b|-10|-2|       |3|[gd]|3|59|31|0|
 335|B|334|336|||||6|mid_4b|-47|-37|       |4|[gd]|3|72|66|0|
@@ -243,7 +241,7 @@
 512|Back|LI|BL|Transition. Seven Stars Rebirth/Guard impact vs. high, middle horizontal attacks||True Seven|||||||||||||
 513|Back|BL|RO|Transition. Seven Stars Rebirth/Guard impact vs. high, middle horizontal attacks||True Seven|||||||||||||
 514|G+K|N (against most characters)|N|Taunt. Maxi steps back slightly, runs his fingers through his luscious hair, and asks his opponent if he or she is scared.|What? Ya scared?|Appeal|||||||||||||
-514|G+K|N (against Xianghua)|N|"Taunt. Maxi chuckles to himself. Then says ""Come on!"""|Hehehe. Come on!||||||||||||||
+514|G+K|N (against Xianghua)|N|"""Taunt. Maxi chuckles to himself. Then says """"Come on!"""""""|Hehehe. Come on!||||||||||||||
 515|G+K|N (against Astaroth)|N|Taunt. Maxi tenses up while holding his Nunchaku in front of himself. His body lowers during this move (515), but he does not crush highs.|You freak!|||36|high_49|-65471|-65452|       |18|[gd]|3|65534|65498|0|
 516|A|RE|479|||||34|mid_4b|23|LNC +23|       |24|[gd]|2|70|36|0|
 517|B|RE|479||||||||||||||||
