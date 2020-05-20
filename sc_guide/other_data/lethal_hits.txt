@@ -223,7 +223,11 @@ SC 6ABB, 4B, 4KK Quen B, 6A+B Quen B, 33_66_99AB Quen B, 66BA, 11_44_77KK Quen B
 
 1AB | Triggers upon hitting an opponent with a full soul gauge
 
-1B | Triggers after hitting an opponent with all five signs
+66BB | Triggers after hitting an opponent with three signs
+
+1B | Triggers after hitting an opponent with four signs
+
+3B | Triggers after hitting an opponent with all five signs
 
 A+B | Triggers upon impact counter
 
